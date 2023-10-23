@@ -1,0 +1,1365 @@
+﻿"VattenID","Vattenkategori","VariabelID","Trendens signifikans","p-värde","Medianförändring per år","Andel regionala data"
+"SE619626-135565","Station","Klorofyll a",-1,5e-4,-0.9462,1
+"SE619810-135900","Station","Klorofyll a",-1,0,-1,1
+"SE619810-135450","Station","Klorofyll a",-1,0.0042,-0.7862,1
+"SE664485-150918","Station","Klorofyll a",0,0.2868,-0.052,1
+"SE666429-146783","Station","Klorofyll a",0,0.1949,0.0259,1
+"SE666743-148287","Station","Klorofyll a",-1,4e-4,-0.15,1
+"SE662002-152205","Station","Klorofyll a",0,0.8845,-0.0133,1
+"SE667245-146795","Station","Klorofyll a",0,0.0709,-0.0775,1
+"SE665524-149173","Station","Klorofyll a",0,0.0943,-0.1,1
+"SE665078-150205","Station","Klorofyll a",0,0.2214,-0.1176,1
+"SE623865-141777","Station","Total biovolym växtplankton",1,0,0.0212,1
+"SE623865-141777","Station","Klorofyll a",0,0.0828,0.0458,1
+"SE623875-140890","Station","Total biovolym växtplankton",1,0,0.0127,1
+"SE623875-140890","Station","Klorofyll a",0,0.1023,0.025,1
+"SE622080-141495","Station","Total biovolym växtplankton",1,0,0.0191,1
+"SE622080-141495","Station","Klorofyll a",0,0.8868,-0,1
+"SE622030-141820","Station","Total biovolym växtplankton",1,0,0.0196,1
+"SE622030-141820","Station","Klorofyll a",0,0.1371,-0.0333,1
+"SE621920-140815","Station","Total biovolym växtplankton",1,0,0.2029,1
+"SE621920-140815","Station","Klorofyll a",0,0.0856,0.1591,1
+"SE625110-138830","Station","Klorofyll a",1,1e-4,0.4606,1
+"SE623720-141480","Station","Total biovolym växtplankton",1,0,0.015,1
+"SE651196-137852","Station","Klorofyll a",1,2e-4,0.05,1
+"SE651817-138798","Station","Klorofyll a",0,0.1366,0.0278,1
+"SE633989-140731","Station","Total biovolym växtplankton",0,0.7982,0.0034,0
+"SE633989-140731","Station","Bentiskt kvalitetsindex",-1,0,-0.0484,0
+"SE633989-140731","Station","Total biovolym cyanobakterier",0,0.0786,-1e-4,0
+"SE642489-151724","Station","Total biovolym växtplankton",1,0.0178,0.0038,0
+"SE642489-151724","Station","Bentiskt kvalitetsindex",-1,0.0128,-0.0098,0
+"SE642489-151724","Station","Total biovolym cyanobakterier",1,0,0.0011,0
+"SE728095-175926","Station","Total biovolym växtplankton",1,9e-4,0.0097,0
+"SE728095-175926","Station","Total biovolym cyanobakterier",0,1,-0,0
+"NW627437-149509","Station","Total biovolym växtplankton",1,0.0336,0.0037,0
+"NW627437-149509","Station","Bentiskt kvalitetsindex",0,0.1067,-0,0
+"NW627437-149509","Station","Total biovolym cyanobakterier",1,0.025,5e-4,0
+"SE658086-130264","Station","Total biovolym växtplankton",1,1e-4,0.033,0
+"SE658086-130264","Station","Bentiskt kvalitetsindex",-1,0,-0.0139,0
+"SE658086-130264","Station","Total biovolym cyanobakterier",0,0.6928,0,0
+"NW645343-128665","Station","Total biovolym växtplankton",1,0.0073,0.0186,0
+"NW645343-128665","Station","Bentiskt kvalitetsindex",0,0.0925,-0.0011,0
+"NW645343-128665","Station","Total biovolym cyanobakterier",0,0.2152,-0.001,0
+"SE651578-146163","Station","Total biovolym växtplankton",0,0.1061,0.0108,0
+"SE651578-146163","Station","Bentiskt kvalitetsindex",-1,0.0013,-0.0048,0
+"SE651578-146163","Station","Total biovolym cyanobakterier",0,0.1231,-0.0019,0
+"SE635878-137392","Station","Total biovolym växtplankton",1,0.0293,0.0093,0
+"SE635878-137392","Station","Bentiskt kvalitetsindex",-1,0.0192,,0
+"SE635878-137392","Station","Total biovolym cyanobakterier",0,0.4064,-1e-4,0
+"SE632231-136476","Station","Total biovolym växtplankton",-1,0.0364,-0.0263,0
+"SE632231-136476","Station","Bentiskt kvalitetsindex",-1,0.0089,-0.0336,0
+"SE632231-136476","Station","Total biovolym cyanobakterier",0,0.6407,0,0
+"SE650061-142276","Station","Total biovolym växtplankton",1,1e-4,0.0221,0
+"SE650061-142276","Station","Bentiskt kvalitetsindex",-1,0.0014,-0.0128,0
+"SE650061-142276","Station","Total biovolym cyanobakterier",1,3e-4,0.0021,0
+"SE665654-149206","Station","Total biovolym växtplankton",0,0.1475,0.0075,0
+"SE665654-149206","Station","Bentiskt kvalitetsindex",-1,0.014,,0
+"SE665654-149206","Station","Total biovolym cyanobakterier",1,0.0437,0.0011,0
+"SE663532-148571","Station","Total biovolym växtplankton",1,1e-4,0.0075,0
+"SE663532-148571","Station","Bentiskt kvalitetsindex",0,0.4284,-4e-4,0
+"SE663532-148571","Station","Total biovolym cyanobakterier",1,0.0092,3e-4,0
+"SE708619-162132","Station","Total biovolym växtplankton",1,1e-4,0.0052,0
+"SE708619-162132","Station","Bentiskt kvalitetsindex",0,0.1822,-0,0
+"SE708619-162132","Station","Total biovolym cyanobakterier",1,0.0048,1e-4,0
+"NW652888-125811","Station","Total biovolym växtplankton",-1,0.0158,-0.0274,0
+"NW652888-125811","Station","Bentiskt kvalitetsindex",0,0.2581,-0.0044,0
+"NW652888-125811","Station","Total biovolym cyanobakterier",1,0.004,1e-4,0
+"SE624421-147234","Station","Total biovolym växtplankton",0,0.0534,-0.0247,0
+"SE624421-147234","Station","Total biovolym cyanobakterier",1,0.0394,4e-4,0
+"SE651573-152481","Station","Total biovolym växtplankton",0,0.2355,0.0039,0
+"SE651573-152481","Station","Bentiskt kvalitetsindex",0,0.091,-0,0
+"SE651573-152481","Station","Total biovolym cyanobakterier",1,0,3e-4,0
+"SE628606-133205","Station","Total biovolym växtplankton",1,0.002,0.0113,0
+"SE628606-133205","Station","Bentiskt kvalitetsindex",1,0.009,0.0031,0
+"SE628606-133205","Station","Total biovolym cyanobakterier",1,1e-4,0.0012,0
+"SE683673-154083","Station","Total biovolym växtplankton",0,0.2942,0.0018,0
+"SE683673-154083","Station","Bentiskt kvalitetsindex",0,0.5642,4e-4,0
+"SE683673-154083","Station","Total biovolym cyanobakterier",1,1e-4,0.001,0
+"SE655605-158820","Station","Total biovolym växtplankton",1,0,0.0147,0
+"SE655605-158820","Station","Bentiskt kvalitetsindex",-1,0.0037,-0.0341,0
+"SE655605-158820","Station","Total biovolym cyanobakterier",1,1e-4,0.0027,0
+"SE631360-146750","Station","Total biovolym växtplankton",0,0.0608,-0.0396,0
+"SE631360-146750","Station","Bentiskt kvalitetsindex",-1,0.0033,-0.0444,0
+"SE631360-146750","Station","Total biovolym cyanobakterier",1,0,1e-4,0
+"SE633025-142267","Station","Total biovolym växtplankton",1,0,0.0185,0
+"SE633025-142267","Station","Total biovolym cyanobakterier",1,0,0.0018,0
+"NW643960-127717","Station","Total biovolym växtplankton",1,0.009,0.005,0
+"NW643960-127717","Station","Total biovolym cyanobakterier",1,0.0363,,0
+"SE628535-140170","Station","Klorofyll a",0,1,0,1
+"SE622130-134385","Station","Klorofyll a",0,0.094,-0.3674,1
+"SE624660-133280","Station","Klorofyll a",0,0.0658,0.0875,1
+"SE624740-132930","Station","Klorofyll a",1,0.0155,0.3536,1
+"SE758208-161749","Station","Total biovolym växtplankton",1,0.0014,0.0013,0
+"SE758208-161749","Station","Total biovolym cyanobakterier",0,0.2701,0,0
+"SE633025-142267","Station","Bentiskt kvalitetsindex",0,0.4384,-0.0059,0
+"NW643960-127717","Station","Bentiskt kvalitetsindex",0,0.213,-0.0304,0
+"SE744629-167999","Station","Total biovolym växtplankton",1,2e-4,0.0072,0
+"SE744629-167999","Station","Total biovolym cyanobakterier",0,0.5485,1e-4,0
+"SE624421-147234","Station","Bentiskt kvalitetsindex",-1,0.0049,-0.0279,0
+"SE685680-154705","Station","Klorofyll a",0,0.2236,0.0307,1
+"SE731799-151196","Station","Total biovolym växtplankton",1,0.0018,0.0031,0
+"SE731799-151196","Station","Bentiskt kvalitetsindex",0,0.1037,0.0049,0
+"SE731799-151196","Station","Total biovolym cyanobakterier",0,0.8344,-0,0
+"SE690345-149315","Station","Total biovolym växtplankton",1,7e-4,0.004,0
+"SE690345-149315","Station","Total biovolym cyanobakterier",0,0.8647,-0,0
+"SE688755-154770","Station","Klorofyll a",1,0.0349,0.1367,1
+"SE688445-155275","Station","Klorofyll a",0,0.078,0.0845,1
+"SE633790-147515","Station","Klorofyll a",0,0.2385,-0.3261,1
+"SE652412-143738","Station","Bentiskt kvalitetsindex",0,0.4136,0.001,0
+"SE656515-164330","Station","Bentiskt kvalitetsindex",0,0.5981,5e-4,0
+"SE690345-149315","Station","Bentiskt kvalitetsindex",0,1,0,0
+"SE670225-150958","Station","Total biovolym växtplankton",0,0.6833,-0.0193,1
+"SE670225-150958","Station","Total biovolym cyanobakterier",0,0.3954,-0.0024,1
+"SE630250-143760","Station","Klorofyll a",0,0.4644,-0.3836,1
+"SE667900-152610","Station","Total biovolym växtplankton",0,0.083,-0.1125,1
+"SE667900-152610","Station","Total biovolym cyanobakterier",0,0.7725,-7e-4,1
+"SE667072-153125","Station","Total biovolym växtplankton",0,0.622,0.006,1
+"SE667072-153125","Station","Total biovolym cyanobakterier",0,0.1139,4e-4,1
+"SE667285-152820","Station","Total biovolym växtplankton",0,0.7339,-0.0182,1
+"SE667285-152820","Station","Total biovolym cyanobakterier",0,0.0716,0.0364,1
+"SE680235-141799","Station","Bentiskt kvalitetsindex",0,1,-0,0
+"SE728095-175926","Station","Bentiskt kvalitetsindex",-1,0.0038,-0.0015,0
+"SE668410-150850","Station","Total biovolym växtplankton",0,0.1634,-0.623,1
+"SE668410-150850","Station","Total biovolym cyanobakterier",0,0.2478,-0.6823,1
+"NW653647-125036","Station","Bentiskt kvalitetsindex",1,0.0284,0.0129,0
+"SE667617-152835","Station","Total biovolym växtplankton",-1,0.0025,-0.2505,1
+"SE667617-152835","Station","Total biovolym cyanobakterier",0,0.5633,-0.0092,1
+"NW633246-141963","Station","Bentiskt kvalitetsindex",-1,0.0366,-0.0455,0
+"SE744629-167999","Station","Bentiskt kvalitetsindex",0,0.0568,-0.0023,0
+"NW683582-154935","Station","Bentiskt kvalitetsindex",0,0.4866,-0,0
+"SE673800-147327","Station","Total biovolym växtplankton",0,0.86,0.0021,1
+"SE673800-147327","Station","Total biovolym cyanobakterier",0,0.5085,-2e-4,1
+"SE671610-149518","Station","Total biovolym växtplankton",0,0.8384,0.0077,1
+"SE671610-149518","Station","Total biovolym cyanobakterier",1,5e-4,7e-4,1
+"SE677240-143250","Station","Total biovolym växtplankton",0,0.4049,0.002,1
+"SE677240-143250","Station","Total biovolym cyanobakterier",1,0.0137,2e-4,1
+"SE669970-148384","Station","Total biovolym växtplankton",0,0.8918,0.0018,1
+"SE669970-148384","Station","Total biovolym cyanobakterier",0,0.9188,1e-4,1
+"SE674800-144770","Station","Total biovolym växtplankton",0,0.7085,6e-4,1
+"SE674800-144770","Station","Total biovolym cyanobakterier",0,0.386,1e-4,1
+"SE638317-138010","Station","Bentiskt kvalitetsindex",0,0.383,9e-4,0
+"SE640364-129240","Station","Bentiskt kvalitetsindex",0,0.6202,0.0043,0
+"SE670275-146052","Station","Bentiskt kvalitetsindex",0,0.4555,-0,0
+"SE666167-138016","Station","Klorofyll a",0,0.0772,0.1778,1
+"NW664611-148550","Station","Bentiskt kvalitetsindex",0,0.72,6e-4,0
+"SE758208-161749","Station","Bentiskt kvalitetsindex",0,0.1666,-0.016,0
+"SE632080-151245","Station","Klorofyll a",0,0.8348,0.0062,1
+"SE634360-142750","Station","Klorofyll a",0,0.0735,0.1333,1
+"SE686115-155095","Station","Klorofyll a",0,0.4975,0.023,1
+"SE685335-154605","Station","Klorofyll a",0,0.1056,0.0375,1
+"SE631430-136160","Station","Klorofyll a",0,0.2166,-0.05,1
+"SE615807-134835","Station","Klorofyll a",0,0.9551,-0.0065,1
+"SE664790-141285","Station","Klorofyll a",-1,0.0193,-0.33,1
+"SE661610-140970","Station","Klorofyll a",0,0.1768,-0.1269,1
+"SE667288-138583","Station","Klorofyll a",0,0.3107,0.0742,1
+"SE616397-135001","Station","Klorofyll a",0,0.3386,0.7389,1
+"SE662475-140655","Station","Klorofyll a",-1,0.0369,-0.1453,1
+"SE658545-142370","Station","Klorofyll a",0,0.6068,-0.1366,1
+"SE657730-142850","Station","Klorofyll a",0,0.661,0.0381,1
+"SE659925-141065","Station","Klorofyll a",0,0.4523,-0.2,1
+"SE658915-129015","Station","Klorofyll a",0,0.9472,-0,1
+"SE646539-150099","Station","Klorofyll a",0,0.0851,0.1566,1
+"SE643072-149923","Station","Klorofyll a",0,0.4176,0.0468,1
+"SE653017-148572","Station","Klorofyll a",0,0.843,0.0128,1
+"SE644992-151974","Station","Klorofyll a",0,0.0752,1.5278,1
+"SE651060-149500","Station","Klorofyll a",0,0.937,0.0175,1
+"SE659300-127600","Station","Klorofyll a",0,0.0967,0.05,1
+"SE650043-150589","Station","Klorofyll a",0,0.0576,-0.2857,1
+"SE644725-150620","Station","Klorofyll a",0,0.2257,0.0214,1
+"SE658620-129660","Station","Klorofyll a",0,0.9205,0,1
+"SE654430-129635","Station","Klorofyll a",-1,0.0353,-0.0744,1
+"SE656470-128975","Station","Klorofyll a",0,0.8229,-0.005,1
+"SE651275-150350","Station","Klorofyll a",0,0.0892,0.3065,1
+"SE622690-140515","Station","Klorofyll a",0,0.0538,1.86,1
+"SE641163-146402","Station","Klorofyll a",0,0.1723,0.0583,1
+"SE653370-130195","Station","Klorofyll a",0,0.0598,-0.0636,1
+"SE648790-149035","Station","Klorofyll a",0,0.9055,-0.0031,1
+"SE643293-146870","Station","Klorofyll a",0,0.2585,0.0286,1
+"SE649975-146250","Station","Klorofyll a",0,0.0968,0.0935,1
+"SE657900-129060","Station","Klorofyll a",0,0.3553,-0.0195,1
+"SE646062-153130","Station","Klorofyll a",1,0.0469,0.0389,1
+"SE673476-148942","Station","Total biovolym växtplankton",0,0.6519,0.0042,1
+"SE673476-148942","Station","Total biovolym cyanobakterier",0,0.396,-0,1
+"SE630475-143615","Station","Klorofyll a",,0.05,-2,1
+"SE677800-149235","Station","Total biovolym växtplankton",0,0.6315,0.0035,1
+"SE677800-149235","Station","Total biovolym cyanobakterier",0,0.2839,4e-4,1
+"SE660550-144850","Station","Klorofyll a",0,0.9813,0,1
+"SE664550-145255","Station","Klorofyll a",0,0.3265,-0.119,1
+"SE668095-145360","Station","Klorofyll a",0,0.3826,-0.0333,1
+"SE668930-152278","Station","Total biovolym växtplankton",0,0.317,-0.003,1
+"SE668930-152278","Station","Total biovolym cyanobakterier",1,0.0322,,1
+"SE673325-147583","Station","Total biovolym växtplankton",0,0.3699,-0.0088,1
+"SE673325-147583","Station","Total biovolym cyanobakterier",0,0.0763,6e-4,1
+"SE668662-152168","Station","Total biovolym växtplankton",0,0.3813,-0.0036,1
+"SE668662-152168","Station","Total biovolym cyanobakterier",-1,0.0254,,1
+"SE672775-148457","Station","Total biovolym växtplankton",-1,0.0035,-0.0324,1
+"SE672775-148457","Station","Total biovolym cyanobakterier",1,0.0031,0.0035,1
+"SE670515-152176","Station","Total biovolym växtplankton",0,0.955,-0.0011,1
+"SE670515-152176","Station","Total biovolym cyanobakterier",1,0.0019,0.0017,1
+"SE686325-133875","Station","Total biovolym växtplankton",0,0.5734,5e-4,1
+"SE686325-133875","Station","Total biovolym cyanobakterier",0,0.0993,1e-4,1
+"SE648950-137940","Station","Klorofyll a",0,0.4017,0.1364,1
+"SE663590-145380","Station","Klorofyll a",0,0.5905,0.0108,1
+"SE669050-149515","Station","Total biovolym växtplankton",-1,0.0023,-0.0301,1
+"SE669050-149515","Station","Total biovolym cyanobakterier",0,0.6767,3e-4,1
+"SE660148-145753","Station","Klorofyll a",0,0.1858,0.1684,1
+"SE665945-145035","Station","Klorofyll a",0,0.2048,0.0372,1
+"SE663250-146150","Station","Klorofyll a",0,0.1678,-0.3485,1
+"SE653060-143655","Station","Klorofyll a",0,0.3311,0.0167,1
+"SE656535-142575","Station","Klorofyll a",0,0.2898,-0.0571,1
+"SE649570-139120","Station","Klorofyll a",0,0.2704,0.1,1
+"SE669042-153510","Station","Total biovolym växtplankton",0,0.6118,0.006,1
+"SE669042-153510","Station","Total biovolym cyanobakterier",0,0.1143,3e-4,1
+"SE675320-140370","Station","Total biovolym växtplankton",,0.05,0.0177,1
+"SE675320-140370","Station","Total biovolym cyanobakterier",0,0.2783,6e-4,1
+"SE673915-150600","Station","Total biovolym växtplankton",0,0.9667,-1e-4,1
+"SE673915-150600","Station","Total biovolym cyanobakterier",0,0.359,3e-4,1
+"SE630490-142380","Station","Klorofyll a",0,0.3374,0.25,1
+"SE684515-136015","Station","Total biovolym växtplankton",0,0.6753,0.0017,1
+"SE684515-136015","Station","Total biovolym cyanobakterier",0,0.1413,0,1
+"SE667115-145420","Station","Klorofyll a",1,0.006,0.1429,1
+"SE678630-145940","Station","Total biovolym växtplankton",0,0.4986,0.007,1
+"SE678630-145940","Station","Total biovolym cyanobakterier",0,0.2594,-1e-4,1
+"SE662160-147870","Station","Klorofyll a",0,0.2239,-0.0768,1
+"SE669125-148046","Station","Total biovolym växtplankton",0,0.5047,0.0031,1
+"SE669125-148046","Station","Total biovolym cyanobakterier",1,6e-4,0.0017,1
+"SE641650-138495","Station","Klorofyll a",0,0.1453,0.0412,1
+"SE658980-147580","Station","Klorofyll a",1,0.0095,0.3481,1
+"SE670938-149512","Station","Total biovolym växtplankton",0,0.1962,-0.0576,1
+"SE670938-149512","Station","Total biovolym cyanobakterier",0,0.317,0.0027,1
+"SE659728-145030","Station","Klorofyll a",0,0.4401,-0.0207,1
+"SE632680-145380","Station","Klorofyll a",0,0.6335,-0.0556,1
+"SE630428-144034","Station","Klorofyll a",-1,0.0402,-0.95,1
+"SE630500-143950","Station","Klorofyll a",-1,0.0063,-1.1708,1
+"SE758208-161749","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2904,-0.0166,0
+"SE758208-161749","Station","MILA 2018",0,0.4282,-0.2368,0
+"SE633989-140731","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.402,0.005,0
+"SE633989-140731","Station","MILA 2018",0,0.3001,-0.1879,0
+"SE655275-153234","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,1e-4,0.0245,0
+"SE655275-153234","Station","Total biovolym växtplankton",-1,0.0048,-0.1938,0
+"SE655275-153234","Station","Bentiskt kvalitetsindex",0,0.0716,0.0463,0
+"SE655275-153234","Station","Total biovolym cyanobakterier",0,0.1583,-0.0024,0
+"SE655275-153234","Station","MILA 2018",0,0.0524,0.2702,0
+"SE642489-151724","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,1e-4,-0.0519,0
+"SE642489-151724","Station","MILA 2018",0,0.6168,0.1473,0
+"SE647050-130644","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5216,-0.0039,0
+"SE647050-130644","Station","Total biovolym växtplankton",0,0.0606,-0.0261,0
+"SE647050-130644","Station","Bentiskt kvalitetsindex",0,0.2383,-0,0
+"SE647050-130644","Station","Total biovolym cyanobakterier",0,0.6168,-2e-4,0
+"SE647050-130644","Station","MILA 2018",0,0.6277,-0.0679,0
+"SE623624-141149","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3541,-0.0055,0
+"SE623624-141149","Station","Total biovolym växtplankton",-1,0.0175,-0.0696,0
+"SE623624-141149","Station","Bentiskt kvalitetsindex",0,0.5078,-0,0
+"SE623624-141149","Station","Total biovolym cyanobakterier",0,0.2266,3e-4,0
+"SE623624-141149","Station","MILA 2018",0,0.1718,-0.1715,0
+"SE642555-168553","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0221,-0.0197,0
+"SE642555-168553","Station","Total biovolym växtplankton",-1,0.0054,-0.0148,0
+"SE642555-168553","Station","Bentiskt kvalitetsindex",0,0.9738,0,0
+"SE642555-168553","Station","Total biovolym cyanobakterier",0,0.4874,0.0018,0
+"SE642555-168553","Station","MILA 2018",0,0.3092,-0.3966,0
+"SE713404-172465","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9627,0,0
+"SE713404-172465","Station","Total biovolym växtplankton",1,0.0255,0.0078,0
+"SE713404-172465","Station","Bentiskt kvalitetsindex",0,0.6768,0,0
+"SE713404-172465","Station","Total biovolym cyanobakterier",1,0.0106,0.001,0
+"SE713404-172465","Station","MILA 2018",0,0.2723,0.2446,0
+"SE652707-159032","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.7078,0.0028,0
+"SE652707-159032","Station","Total biovolym växtplankton",0,0.4044,0.0022,0
+"SE652707-159032","Station","Bentiskt kvalitetsindex",0,0.7224,2e-4,0
+"SE652707-159032","Station","Total biovolym cyanobakterier",0,0.2266,-6e-4,0
+"SE652707-159032","Station","MILA 2018",0,0.7914,-0.0385,0
+"NW627437-149509","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0446,-0.0113,0
+"NW627437-149509","Station","MILA 2018",0,0.9297,0.0308,0
+"SE658086-130264","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2512,0.0106,0
+"SE658086-130264","Station","MILA 2018",-1,0.0076,-0.4905,0
+"SE664197-149337","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6765,-0.0011,0
+"SE664197-149337","Station","Total biovolym växtplankton",0,0.6315,-0.0028,0
+"SE664197-149337","Station","Bentiskt kvalitetsindex",0,0.3217,-0,0
+"SE664197-149337","Station","Total biovolym cyanobakterier",1,0.0124,9e-4,0
+"SE664197-149337","Station","MILA 2018",0,0.2266,-0.2385,0
+"SE656263-156963","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3772,-0.004,0
+"SE656263-156963","Station","Total biovolym växtplankton",0,1,1e-4,0
+"SE656263-156963","Station","Total biovolym cyanobakterier",0,0.8701,1e-4,0
+"SE656263-156963","Station","MILA 2018",0,0.8948,0.0208,0
+"SE713131-144608","Station","Total biovolym växtplankton",1,0.0194,0.0025,0
+"SE713131-144608","Station","Total biovolym cyanobakterier",1,2e-4,3e-4,0
+"SE638950-140071","Station","Klorofyll a",0,0.7136,0.04,1
+"SE663365-161779","Station","Total biovolym växtplankton",0,0.8349,-0.0116,0
+"SE663365-161779","Station","Total biovolym cyanobakterier",0,0.2973,-0.0249,0
+"SE663907-156927","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5807,-0.0024,0
+"SE663907-156927","Station","Total biovolym växtplankton",0,0.723,0.0042,0
+"SE663907-156927","Station","Bentiskt kvalitetsindex",-1,0.0345,,0
+"SE663907-156927","Station","Total biovolym cyanobakterier",0,0.2603,7e-4,0
+"SE663907-156927","Station","MILA 2018",0,0.7243,0.0405,0
+"SE651558-143620","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4147,-0.006,0
+"SE651558-143620","Station","Total biovolym växtplankton",0,0.0551,-0.0543,0
+"SE651558-143620","Station","Bentiskt kvalitetsindex",-1,0.019,,0
+"SE651558-143620","Station","Total biovolym cyanobakterier",0,0.8025,0,0
+"SE651558-143620","Station","MILA 2018",0,0.2901,0.1454,0
+"SE633025-142267","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2515,-0.0076,0
+"SE633025-142267","Station","MILA 2018",0,0.2704,-0.1411,0
+"SE638725-146677","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.184,-0.0119,0
+"SE638725-146677","Station","Total biovolym växtplankton",0,0.9667,-2e-4,0
+"SE638725-146677","Station","Bentiskt kvalitetsindex",0,0.2023,-0.0178,0
+"SE638725-146677","Station","Total biovolym cyanobakterier",0,0.9667,-0,0
+"SE638725-146677","Station","MILA 2018",0,0.2704,0.2581,0
+"NW645343-128665","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.86,-0.001,0
+"NW645343-128665","Station","MILA 2018",1,0.0246,0.3162,0
+"SE660749-161885","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1396,-0.0098,0
+"SE660749-161885","Station","Total biovolym växtplankton",0,0.3813,-0.0094,0
+"SE660749-161885","Station","Bentiskt kvalitetsindex",-1,0.0033,-0.05,0
+"SE660749-161885","Station","Total biovolym cyanobakterier",0,0.5878,-0.0012,0
+"SE660749-161885","Station","MILA 2018",0,0.5968,0.0799,0
+"SE672729-138082","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5813,-0.005,0
+"SE672729-138082","Station","Total biovolym växtplankton",0,0.2266,-0.0058,0
+"SE672729-138082","Station","Bentiskt kvalitetsindex",0,0.6835,0,0
+"SE672729-138082","Station","Total biovolym cyanobakterier",1,0.003,,0
+"SE672729-138082","Station","MILA 2018",0,0.1718,-0.2286,0
+"SE677506-156174","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1346,-0.0153,0
+"SE677506-156174","Station","Total biovolym växtplankton",-1,0.0086,-0.105,0
+"SE677506-156174","Station","Bentiskt kvalitetsindex",0,0.1016,0.0351,0
+"SE677506-156174","Station","Total biovolym cyanobakterier",0,0.0799,4e-4,0
+"SE677506-156174","Station","MILA 2018",0,0.2525,-0.512,0
+"SE646293-126302","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9578,-9e-4,0
+"SE646293-126302","Station","Total biovolym växtplankton",0,0.7098,-0.0143,0
+"SE646293-126302","Station","Bentiskt kvalitetsindex",0,0.8519,-0,0
+"SE646293-126302","Station","Total biovolym cyanobakterier",0,0.785,-4e-4,0
+"SE646293-126302","Station","MILA 2018",-1,0.0071,-0.493,0
+"SE651578-146163","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2991,-0.008,0
+"SE651578-146163","Station","MILA 2018",0,0.378,0.1205,0
+"SE635878-137392","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1858,-0.0149,0
+"SE635878-137392","Station","MILA 2018",0,0.1339,0.2995,0
+"SE667151-149602","Station","Total biovolym växtplankton",0,0.3813,0.0025,0
+"SE667151-149602","Station","Bentiskt kvalitetsindex",0,0.0525,-0,0
+"SE667151-149602","Station","Total biovolym cyanobakterier",0,0.2034,3e-4,0
+"SE704955-159090","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0775,0.0167,0
+"SE704955-159090","Station","Total biovolym växtplankton",0,0.1231,-0.0026,0
+"SE704955-159090","Station","Bentiskt kvalitetsindex",1,0.0483,0.0345,0
+"SE704955-159090","Station","Total biovolym cyanobakterier",0,0.7973,-1e-4,0
+"SE704955-159090","Station","MILA 2018",0,0.3546,0.1587,0
+"SE632231-136476","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,4e-4,-0.0357,0
+"SE632231-136476","Station","MILA 2018",0,0.2901,0.2125,0
+"SE615365-134524","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0011,-0.0245,0
+"SE615365-134524","Station","Total biovolym växtplankton",0,0.1176,-0.1562,0
+"SE615365-134524","Station","Bentiskt kvalitetsindex",0,1,-0,0
+"SE615365-134524","Station","Total biovolym cyanobakterier",0,0.3875,-0.0347,0
+"SE615365-134524","Station","MILA 2018",0,0.0856,0.5434,0
+"SE630605-144655","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0172,0.015,0
+"SE630605-144655","Station","Total biovolym växtplankton",0,0.6168,0.006,0
+"SE630605-144655","Station","Bentiskt kvalitetsindex",-1,0.0223,-0.0021,0
+"SE630605-144655","Station","Total biovolym cyanobakterier",0,0.7075,1e-4,0
+"SE630605-144655","Station","MILA 2018",0,0.2704,-0.3863,0
+"SE632515-146675","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,9e-4,0.0333,0
+"SE632515-146675","Station","Total biovolym växtplankton",0,0.8675,9e-4,0
+"SE632515-146675","Station","Bentiskt kvalitetsindex",1,0.0243,,0
+"SE632515-146675","Station","Total biovolym cyanobakterier",1,8e-4,,0
+"SE632515-146675","Station","MILA 2018",1,0,0.8768,0
+"SE639047-149701","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8334,0.0027,0
+"SE639047-149701","Station","Total biovolym växtplankton",0,0.7913,6e-4,0
+"SE639047-149701","Station","Bentiskt kvalitetsindex",0,0.2424,-0,0
+"SE639047-149701","Station","Total biovolym cyanobakterier",1,0.0173,3e-4,0
+"SE639047-149701","Station","MILA 2018",0,0.907,-0.0268,0
+"SE650061-142276","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6898,0.0018,0
+"SE650061-142276","Station","MILA 2018",0,0.6238,-0.1584,0
+"SE744629-167999","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.002,0.0296,0
+"SE744629-167999","Station","MILA 2018",0,0.3321,-0.2185,0
+"SE615375-137087","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0123,-0.0184,0
+"SE615375-137087","Station","Bentiskt kvalitetsindex",0,0.2372,7e-4,0
+"SE615375-137087","Station","MILA 2018",0,0.3153,0.2444,0
+"SE617797-135339","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1858,-0.0091,0
+"SE617797-135339","Station","Total biovolym växtplankton",0,0.189,0.0175,0
+"SE617797-135339","Station","Bentiskt kvalitetsindex",-1,0.0275,-0.053,0
+"SE617797-135339","Station","Total biovolym cyanobakterier",1,0.0244,0.0181,0
+"SE617797-135339","Station","MILA 2018",0,0.6593,-0.0742,0
+"SE673534-153381","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8739,0.0012,0
+"SE673534-153381","Station","Total biovolym växtplankton",0,0.6277,0.0055,0
+"SE673534-153381","Station","Bentiskt kvalitetsindex",0,0.8183,-0,0
+"SE673534-153381","Station","Total biovolym cyanobakterier",0,0.6593,-1e-4,0
+"SE673534-153381","Station","MILA 2018",0,1,0.0011,0
+"SE684386-156156","Station","Klorofyll a",1,0.0067,0.1222,1
+"SE758677-161050","Station","Total biovolym växtplankton",0,0.5513,-5e-4,0
+"SE758677-161050","Station","Total biovolym cyanobakterier",0,1,0,0
+"SE638665-129243","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.297,0.0115,0
+"SE638665-129243","Station","Total biovolym växtplankton",1,0.0302,0.0245,0
+"SE638665-129243","Station","Bentiskt kvalitetsindex",0,0.6517,-0,0
+"SE638665-129243","Station","Total biovolym cyanobakterier",1,0.0031,6e-4,0
+"SE638665-129243","Station","MILA 2018",1,3e-4,0.9496,0
+"SE623161-142148","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9648,7e-4,0
+"SE623161-142148","Station","Total biovolym växtplankton",0,0.7704,0.004,0
+"SE623161-142148","Station","Bentiskt kvalitetsindex",0,0.8883,0.0014,0
+"SE623161-142148","Station","Total biovolym cyanobakterier",0,0.4198,-0,0
+"SE623161-142148","Station","MILA 2018",1,0.0106,0.3548,0
+"SE655380-155738","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6274,0.0033,0
+"SE655380-155738","Station","Total biovolym växtplankton",-1,0.0335,-0.3138,0
+"SE655380-155738","Station","Bentiskt kvalitetsindex",0,0.8201,-0,0
+"SE655380-155738","Station","Total biovolym cyanobakterier",0,0.0551,-0.2122,0
+"SE655380-155738","Station","MILA 2018",0,0.378,0.2811,0
+"SE660804-142742","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0982,0.0143,0
+"SE660804-142742","Station","Total biovolym växtplankton",0,0.4655,-0.0045,0
+"SE660804-142742","Station","Bentiskt kvalitetsindex",1,0.0315,0.0148,0
+"SE660804-142742","Station","Total biovolym cyanobakterier",,0.05,4e-4,0
+"SE660804-142742","Station","MILA 2018",0,0.1583,-0.21560000000000001,0
+"SE656206-159170","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0031,0.0206,0
+"SE656206-159170","Station","Total biovolym växtplankton",0,0.3383,0.0039,0
+"SE656206-159170","Station","Bentiskt kvalitetsindex",0,0.4054,-0,0
+"SE656206-159170","Station","Total biovolym cyanobakterier",0,0.7614,-5e-4,0
+"SE656206-159170","Station","MILA 2018",0,0.9005,-0.0309,0
+"SE644987-152393","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6969,0.0041,0
+"SE644987-152393","Station","MILA 2018",-1,7e-4,-0.7008,0
+"SE624038-143063","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8674,-0.001,0
+"SE624038-143063","Station","Total biovolym växtplankton",-1,0.0371,-0.0504,0
+"SE624038-143063","Station","Bentiskt kvalitetsindex",0,0.7878,-0,0
+"SE624038-143063","Station","Total biovolym cyanobakterier",0,0.917,0,0
+"SE624038-143063","Station","MILA 2018",1,0,1.7075,0
+"SE656590-164240","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.055,0.0165,0
+"SE656590-164240","Station","Bentiskt kvalitetsindex",1,4e-4,0.0351,0
+"SE656590-164240","Station","MILA 2018",1,0.0063,0.5436,0
+"SE664410-136192","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5041,0.0105,0
+"SE664410-136192","Station","Total biovolym växtplankton",1,0.0325,0.0077,0
+"SE664410-136192","Station","Bentiskt kvalitetsindex",0,0.0753,0.0253,0
+"SE664410-136192","Station","Total biovolym cyanobakterier",0,0.3947,-0,0
+"SE664410-136192","Station","MILA 2018",0,0.8349,-0.0685,0
+"SE659105-133982","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8837,-0.001,0
+"SE659105-133982","Station","Total biovolym växtplankton",0,0.0874,-0.1773,0
+"SE659105-133982","Station","Bentiskt kvalitetsindex",0,0.0567,-0,0
+"SE659105-133982","Station","Total biovolym cyanobakterier",0,0.2603,-0.079,0
+"SE659105-133982","Station","MILA 2018",0,0.0799,0.5281,0
+"SE663532-148571","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5446,0.0043,0
+"SE663532-148571","Station","MILA 2018",0,0.3376,-0.2523,0
+"SE742829-183168","Station","Total biovolym växtplankton",1,1e-4,0.0424,0
+"SE742829-183168","Station","Total biovolym cyanobakterier",1,6e-4,0.0127,0
+"SE629570-135470","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0247,0.0261,0
+"SE629570-135470","Station","Total biovolym växtplankton",-1,1e-4,-0.4148,0
+"SE629570-135470","Station","Bentiskt kvalitetsindex",0,0.8825,-0,0
+"SE629570-135470","Station","Total biovolym cyanobakterier",0,0.5087,-0,0
+"SE629570-135470","Station","MILA 2018",1,7e-4,0.6218,0
+"SE708619-162132","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0109,0.0133,0
+"SE708619-162132","Station","MILA 2018",0,0.4137,-0.2743,0
+"SE652177-159038","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3536,-0.0037,0
+"SE652177-159038","Station","Total biovolym växtplankton",-1,3e-4,-0.0961,0
+"SE652177-159038","Station","Bentiskt kvalitetsindex",-1,0.0012,-0.0051,0
+"SE652177-159038","Station","Total biovolym cyanobakterier",-1,0.0031,-0.029,0
+"SE652177-159038","Station","MILA 2018",0,0.0778,0.4358,0
+"SE686849-145214","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.304,-0.0122,0
+"SE686849-145214","Station","Bentiskt kvalitetsindex",0,0.6874,-0,0
+"SE686849-145214","Station","MILA 2018",0,0.0973,0.5149,0
+"SE624421-147234","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0638,0.0112,0
+"SE624421-147234","Station","MILA 2018",0,0.2171,0.3938,0
+"SE665175-157559","Station","Total biovolym växtplankton",1,0.0122,0.0107,0
+"SE665175-157559","Station","Total biovolym cyanobakterier",0,0.0561,7e-4,0
+"SE651573-152481","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.7912,0.0035,0
+"SE651573-152481","Station","MILA 2018",-1,0.0063,-0.4535,0
+"SE633344-130068","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2723,0.0093,0
+"SE633344-130068","Station","Bentiskt kvalitetsindex",0,0.9623,-0,0
+"SE633344-130068","Station","MILA 2018",0,0.6913,0.0595,0
+"SE672467-148031","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3897,-0.006,0
+"SE672467-148031","Station","Total biovolym växtplankton",1,0.0271,0.0052,0
+"SE672467-148031","Station","Bentiskt kvalitetsindex",0,0.1188,1e-4,0
+"SE672467-148031","Station","Total biovolym cyanobakterier",1,0.0335,3e-4,0
+"SE672467-148031","Station","MILA 2018",1,0.0173,0.6271,0
+"SE628606-133205","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6432,0.0036,0
+"SE628606-133205","Station","MILA 2018",0,0.234,-0.2619,0
+"SE644463-139986","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1754,0.0123,0
+"SE644463-139986","Station","Total biovolym växtplankton",0,0.0585,-0.0075,0
+"SE644463-139986","Station","Total biovolym cyanobakterier",0,0.0913,0,0
+"SE644463-139986","Station","MILA 2018",0,0.5283,0.2348,0
+"SE683673-154083","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0081,-0.0183,0
+"SE683673-154083","Station","MILA 2018",0,0.2704,0.1967,0
+"SE716717-158596","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2099,0.0083,0
+"SE716717-158596","Station","Total biovolym växtplankton",0,0.7436,0.0013,0
+"SE716717-158596","Station","Bentiskt kvalitetsindex",0,0.8673,-6e-4,0
+"SE716717-158596","Station","Total biovolym cyanobakterier",0,0.427,-2e-4,0
+"SE716717-158596","Station","MILA 2018",1,0.0052,0.9052,0
+"SE731799-151196","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3989,0.0098,0
+"SE731799-151196","Station","MILA 2018",1,0.0106,0.4655,0
+"SE655605-158820","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8426,0.0014,0
+"SE655605-158820","Station","MILA 2018",0,0.1029,0.277,0
+"SE655209-126937","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2615,0.0145,0
+"SE655209-126937","Station","Total biovolym växtplankton",0,0.0627,-0.0017,0
+"SE655209-126937","Station","Bentiskt kvalitetsindex",0,0.5307,0,0
+"SE655209-126937","Station","Total biovolym cyanobakterier",0,0.4597,0,0
+"SE655209-126937","Station","MILA 2018",0,0.0655,0.5292,0
+"SE631360-146750","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4273,0.0045,0
+"SE631360-146750","Station","MILA 2018",0,0.6593,0.0765,0
+"SE656850-143696","Station","Klorofyll a",0,0.8202,0.0299,1
+"SE630558-134327","Station","Total biovolym växtplankton",-1,1e-4,-0.1203,0
+"SE630558-134327","Station","Bentiskt kvalitetsindex",0,0.6884,0,0
+"SE630558-134327","Station","Total biovolym cyanobakterier",0,0.089,0,0
+"SE622803-144609","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0012,0.0227,0
+"SE622803-144609","Station","Total biovolym växtplankton",0,0.0666,0.0213,0
+"SE622803-144609","Station","Bentiskt kvalitetsindex",1,5e-4,0.0192,0
+"SE622803-144609","Station","Total biovolym cyanobakterier",1,0.0025,1e-4,0
+"SE622803-144609","Station","MILA 2018",1,0,1.2885,0
+"SE711365-171748","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1518,0.0095,0
+"SE711365-171748","Station","Total biovolym växtplankton",0,1,8e-4,0
+"SE711365-171748","Station","Bentiskt kvalitetsindex",0,0.3001,0.0027,0
+"SE711365-171748","Station","Total biovolym cyanobakterier",0,0.0628,9e-4,0
+"SE711365-171748","Station","MILA 2018",0,0.2901,-0.1751,0
+"SE637120-145525","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3893,0.0083,0
+"SE637120-145525","Station","Total biovolym växtplankton",-1,0.0042,-0.2033,0
+"SE637120-145525","Station","Bentiskt kvalitetsindex",1,0.0018,0.035,0
+"SE637120-145525","Station","Total biovolym cyanobakterier",-1,0.0055,-0.0852,0
+"SE637120-145525","Station","MILA 2018",0,0.1457,0.3551,0
+"SE637121-151366","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9472,-0,0
+"SE637121-151366","Station","Total biovolym växtplankton",0,0.3428,-0.0047,0
+"SE637121-151366","Station","Bentiskt kvalitetsindex",0,0.2898,0.0058,0
+"SE637121-151366","Station","Total biovolym cyanobakterier",0,0.5666,6e-4,0
+"SE637121-151366","Station","MILA 2018",0,0.4806,-0.3106,0
+"SE660688-164478","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0523,0.0091,0
+"SE660688-164478","Station","Total biovolym växtplankton",0,0.0912,0.012,0
+"SE660688-164478","Station","Bentiskt kvalitetsindex",-1,0.0426,-0.0375,0
+"SE660688-164478","Station","Total biovolym cyanobakterier",0,0.1445,0.002,0
+"SE660688-164478","Station","MILA 2018",0,0.9297,-0.0014,0
+"SE629026-147562","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.264,-0.0065,0
+"SE629026-147562","Station","Total biovolym växtplankton",-1,6e-4,-0.2238,0
+"SE629026-147562","Station","Bentiskt kvalitetsindex",0,0.7563,0,0
+"SE629026-147562","Station","Total biovolym cyanobakterier",0,0.1681,-0,0
+"SE629026-147562","Station","MILA 2018",0,0.6374,0.0893,0
+"SE690345-149315","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1278,-0.0087,0
+"SE690345-149315","Station","MILA 2018",0,1,0.0042,0
+"SE661521-130182","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4041,0.011,0
+"SE661521-130182","Station","Total biovolym växtplankton",0,0.4161,-0.0052,0
+"SE661521-130182","Station","Bentiskt kvalitetsindex",0,0.1076,0,0
+"SE661521-130182","Station","Total biovolym cyanobakterier",0,0.243,2e-4,0
+"SE661521-130182","Station","MILA 2018",0,0.8025,0.117,0
+"SE691365-156127","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3897,0.0048,0
+"SE691365-156127","Station","Total biovolym växtplankton",0,0.4982,0.008,0
+"SE691365-156127","Station","Total biovolym cyanobakterier",1,0.0471,0.0032,0
+"SE691365-156127","Station","MILA 2018",0,0.0641,-0.4231,0
+"SE698918-158665","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2186,-0.0078,0
+"SE698918-158665","Station","Total biovolym växtplankton",0,0.4419,-0.0025,0
+"SE698918-158665","Station","Bentiskt kvalitetsindex",-1,0.0101,,0
+"SE698918-158665","Station","Total biovolym cyanobakterier",1,0.024,6e-4,0
+"SE698918-158665","Station","MILA 2018",0,0.0799,-0.4683,0
+"SE655863-129783","Station","Total biovolym växtplankton",0,0.6572,-0.0014,0
+"SE655863-129783","Station","Bentiskt kvalitetsindex",0,0.2714,0,0
+"SE655863-129783","Station","Total biovolym cyanobakterier",0,0.6572,1e-4,0
+"SE728744-162653","Station","Total biovolym växtplankton",0,0.3321,0.0018,0
+"SE728744-162653","Station","Total biovolym cyanobakterier",0,0.7576,0,0
+"SE650398-139136","Station","Total biovolym växtplankton",0,0.1303,-0.2626,0
+"SE650398-139136","Station","Bentiskt kvalitetsindex",0,0.8138,0,0
+"SE650398-139136","Station","Total biovolym cyanobakterier",0,0.1886,-0.0843,0
+"SE758208-161749","Station","Klorofyll a",0,0.4125,-0.0036,0
+"SE633989-140731","Station","Klorofyll a",0,0.4534,-0.1889,0
+"SE655275-153234","Station","Klorofyll a",0,0.1027,0.8769,0
+"SE642489-151724","Station","Klorofyll a",0,0.4391,-0.01,0
+"SE647050-130644","Station","Klorofyll a",0,0.3543,0.1375,0
+"SE658485-138380","Station","Klorofyll a",0,0.9802,0,1
+"SE657905-134965","Station","Klorofyll a",0,0.5788,-0.0333,1
+"SE623624-141149","Station","Klorofyll a",0,0.5962,0.125,0
+"SE642555-168553","Station","Klorofyll a",-1,0.0166,-0.04,0
+"SE733110-182955","Station","Klorofyll a",0,0.2334,0.4385,0
+"SE713404-172465","Station","Klorofyll a",0,0.512,0.0188,0
+"SE652707-159032","Station","Klorofyll a",0,0.2161,0.05,0
+"SE680235-141799","Station","Klorofyll a",0,0.7742,-0.0038,0
+"SE728095-175926","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0497,-0.013,0
+"SE728095-175926","Station","Klorofyll a",0,0.1171,0.04,0
+"SE728095-175926","Station","MILA 2018",0,0.3624,-0.1912,0
+"NW627437-149509","Station","Klorofyll a",0,0.4943,-0.026,0
+"SE658086-130264","Station","Klorofyll a",0,0.3106,0.15,0
+"SE664197-149337","Station","Klorofyll a",0,0.2239,-0.02,0
+"SE662050-140875","Station","Klorofyll a",0,0.0955,0.2917,1
+"SE708512-152086","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8885,-0.002,0
+"SE708512-152086","Station","Total biovolym växtplankton",0,0.2337,0.0036,0
+"SE708512-152086","Station","Bentiskt kvalitetsindex",0,0.2991,0,0
+"SE708512-152086","Station","Total biovolym cyanobakterier",0,0.1574,2e-4,0
+"SE708512-152086","Station","Klorofyll a",0,0.2912,0.02,0
+"SE708512-152086","Station","MILA 2018",0,0.4137,0.2178,0
+"SE656263-156963","Station","Klorofyll a",0,0.3615,0.0333,0
+"SE713131-144608","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,1,0,0
+"SE713131-144608","Station","Bentiskt kvalitetsindex",0,0.5415,-0.0063,0
+"SE713131-144608","Station","Klorofyll a",0,0.2207,-0.0133,0
+"SE713131-144608","Station","MILA 2018",0,0.4137,0.3196,0
+"SE663365-161779","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0055,-0.0256,0
+"SE663365-161779","Station","Bentiskt kvalitetsindex",0,0.3257,0,0
+"SE663365-161779","Station","Klorofyll a",0,1,0.0167,0
+"SE663365-161779","Station","MILA 2018",,0.05,-0.2303,0
+"NW653647-125036","Station","Klorofyll a",0,0.5511,0.0042,0
+"SE663907-156927","Station","Klorofyll a",0,0.3319,0.0857,0
+"SE663907-156927","Station","Klorofyll a",,,,1
+"SE651558-143620","Station","Klorofyll a",0,0.4273,-0.1125,0
+"SE633025-142267","Station","Klorofyll a",0,0.9824,-0,0
+"SE638725-146677","Station","Klorofyll a",0,0.6909,0.0176,0
+"NW645343-128665","Station","Klorofyll a",-1,1e-4,-0.1905,0
+"SE704082-148125","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1015,-0.0135,0
+"SE704082-148125","Station","Total biovolym växtplankton",1,0.0035,0.0046,0
+"SE704082-148125","Station","Bentiskt kvalitetsindex",0,0.3414,0.0046,0
+"SE704082-148125","Station","Total biovolym cyanobakterier",0,0.1472,2e-4,0
+"SE704082-148125","Station","Klorofyll a",0,0.1395,-0.0275,0
+"SE704082-148125","Station","MILA 2018",0,0.7098,0.2587,0
+"SE660749-161885","Station","Klorofyll a",0,0.1407,0.0821,0
+"SE672729-138082","Station","Klorofyll a",0,0.1396,0.18,0
+"SE642122-148744","Station","Klorofyll a",0,0.1958,0.042,0
+"SE677506-156174","Station","Klorofyll a",0,0.3146,0.3016,0
+"SE651578-146163","Station","Klorofyll a",0,0.7083,0.0186,0
+"NW633246-141963","Station","Klorofyll a",0,0.5369,-0.05,0
+"SE635878-137392","Station","Klorofyll a",0,1,0,0
+"SE667151-149602","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2525,0.0064,0
+"SE667151-149602","Station","Klorofyll a",0,0.2507,0.0333,0
+"SE667151-149602","Station","MILA 2018",0,0.5283,0.1842,0
+"SE704955-159090","Station","Klorofyll a",-1,0.008,-0.0625,0
+"SE658444-137449","Station","Klorofyll a",0,0.7848,-0.0183,1
+"SE632231-136476","Station","Klorofyll a",0,0.3458,-0.2619,0
+"NW643960-127717","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0398,0.0271,0
+"NW643960-127717","Station","Klorofyll a",1,0.0014,0.0667,0
+"NW643960-127717","Station","MILA 2018",0,0.0585,0.3276,0
+"SE615365-134524","Station","Klorofyll a",0,0.07,-1.0028,0
+"SE630605-144655","Station","Klorofyll a",0,1,-0,0
+"SE632515-146675","Station","Klorofyll a",0,0.1841,-0.0286,0
+"SE639047-149701","Station","Klorofyll a",0,0.2418,0.025,0
+"SE650061-142276","Station","Klorofyll a",0,0.0547,0.0882,0
+"SE744629-167999","Station","Klorofyll a",0,0.5796,0.0028,0
+"NW683582-154935","Station","Klorofyll a",0,0.7742,0.0045,0
+"SE658030-136440","Station","Klorofyll a",0,0.1382,0.055,1
+"SE657929-136370","Station","Klorofyll a",0,0.1453,0.05,1
+"SE658180-135950","Station","Klorofyll a",0,0.2893,0.0425,1
+"SE655080-140160","Station","Klorofyll a",0,0.124,0.1481,1
+"SE655065-140457","Station","Klorofyll a",0,0.4117,0.1658,1
+"SE615375-137087","Station","Total biovolym växtplankton",0,0.503,-0.147,0
+"SE615375-137087","Station","Total biovolym cyanobakterier",0,0.9802,0.0057,0
+"SE615375-137087","Station","Klorofyll a",0,1,0.0692,0
+"SE617797-135339","Station","Klorofyll a",0,0.7792,0.085,0
+"SE657485-134550","Station","Klorofyll a",0,0.0908,-0.1636,1
+"SE673534-153381","Station","Klorofyll a",0,0.4545,0.05,0
+"SE652412-143738","Station","Klorofyll a",0,0.8425,-0.013,0
+"SE638665-129243","Station","Klorofyll a",1,2e-4,0.25,0
+"SE623161-142148","Station","Klorofyll a",0,0.1856,0.0545,0
+"SE655380-155738","Station","Klorofyll a",0,0.4137,-0.4929,0
+"SE660804-142742","Station","Klorofyll a",0,0.8329,0,0
+"SE736804-160569","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2155,-0.0183,0
+"SE736804-160569","Station","Total biovolym växtplankton",1,0.0467,0.0016,0
+"SE736804-160569","Station","Bentiskt kvalitetsindex",0,0.2117,0,0
+"SE736804-160569","Station","Total biovolym cyanobakterier",0,0.4834,-1e-4,0
+"SE736804-160569","Station","Klorofyll a",0,0.2512,-0.0045,0
+"SE736804-160569","Station","MILA 2018",0,0.8701,-0.0155,0
+"SE651196-137852","Station","Bentiskt kvalitetsindex",0,0.1605,0.021,1
+"SE651817-138798","Station","Bentiskt kvalitetsindex",0,0.9063,0,1
+"SE665654-149206","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.112,-0.0099,0
+"SE665654-149206","Station","Klorofyll a",0,0.7566,0.0059,0
+"SE665654-149206","Station","MILA 2018",0,0.3153,-0.2438,0
+"SE656206-159170","Station","Klorofyll a",-1,0.0149,-0.1,0
+"SE741340-153576","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2063,-0.0161,0
+"SE741340-153576","Station","Total biovolym växtplankton",0,0.7468,-2e-4,0
+"SE741340-153576","Station","Bentiskt kvalitetsindex",0,0.6669,0,0
+"SE741340-153576","Station","Total biovolym cyanobakterier",0,0.1285,0,0
+"SE741340-153576","Station","Klorofyll a",0,0.0706,-0.0089,0
+"SE741340-153576","Station","MILA 2018",-1,0.0183,-0.9543,0
+"SE655410-133225","Station","Klorofyll a",0,0.602,-0.0299,1
+"SE658205-134379","Station","Klorofyll a",0,0.7311,-0.04,1
+"SE644987-152393","Station","Klorofyll a",-1,0.0193,-0.058,0
+"SE624038-143063","Station","Klorofyll a",0,0.494,0.1,0
+"SE656590-164240","Station","Total biovolym växtplankton",1,0.0219,0.0048,0
+"SE656590-164240","Station","Total biovolym cyanobakterier",1,0.0013,1e-4,0
+"SE656590-164240","Station","Klorofyll a",1,0.0467,0.0608,0
+"SE664410-136192","Station","Klorofyll a",1,0.0467,0.049,0
+"SE659105-133982","Station","Klorofyll a",0,0.8255,-0.2417,0
+"SE690617-134197","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6912,-0.0028,0
+"SE690617-134197","Station","Total biovolym växtplankton",0,0.0597,0.0027,0
+"SE690617-134197","Station","Bentiskt kvalitetsindex",0,0.8455,0,0
+"SE690617-134197","Station","Total biovolym cyanobakterier",1,0.0194,2e-4,0
+"SE690617-134197","Station","Klorofyll a",0,0.8738,0.0023,0
+"SE690617-134197","Station","MILA 2018",0,0.3587,0.2587,0
+"SE663532-148571","Station","Klorofyll a",0,0.5512,0.0136,0
+"SE742829-183168","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1117,0.0098,0
+"SE742829-183168","Station","Bentiskt kvalitetsindex",-1,0.0081,-0.038,0
+"SE742829-183168","Station","Klorofyll a",1,0.0043,0.125,0
+"SE742829-183168","Station","MILA 2018",0,0.2158,-0.4361,0
+"SE629570-135470","Station","Klorofyll a",0,0.2797,-0.6,0
+"SE708619-162132","Station","Klorofyll a",1,4e-4,0.04,0
+"NW652888-125811","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.002,0.02,0
+"NW652888-125811","Station","Klorofyll a",0,0.6593,-0.1022,0
+"NW652888-125811","Station","MILA 2018",0,0.0798,-0.232,0
+"SE652177-159038","Station","Klorofyll a",-1,1e-4,-0.5333,0
+"SE686849-145214","Station","Total biovolym växtplankton",0,0.7261,-0.0016,0
+"SE686849-145214","Station","Total biovolym cyanobakterier",0,0.1682,6e-4,0
+"SE686849-145214","Station","Klorofyll a",0,0.365,-0.0265,0
+"SE624421-147234","Station","Klorofyll a",0,0.6276,-0.0773,0
+"SE658050-137680","Station","Klorofyll a",0,0.5675,0.0243,1
+"SE665175-157559","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6913,-0.0016,0
+"SE665175-157559","Station","Bentiskt kvalitetsindex",0,0.1003,0,0
+"SE665175-157559","Station","Klorofyll a",1,0.0393,0.0952,0
+"SE665175-157559","Station","MILA 2018",0,0.2158,0.3163,0
+"SE651573-152481","Station","Klorofyll a",0,0.6428,0.0143,0
+"SE633344-130068","Station","Total biovolym växtplankton",0,0.5226,0.0034,0
+"SE633344-130068","Station","Total biovolym cyanobakterier",0,0.0778,0.0012,0
+"SE633344-130068","Station","Klorofyll a",0,0.5748,-0.0326,0
+"SE672467-148031","Station","Klorofyll a",0,0.505,0.0133,0
+"SE628606-133205","Station","Klorofyll a",0,0.7242,-0.0143,0
+"SE644463-139986","Station","Klorofyll a",0,0.9441,0,0
+"SE638317-138010","Station","Klorofyll a",0,0.0706,-0.05,0
+"SE683673-154083","Station","Klorofyll a",0,0.0543,0.0239,0
+"SE656515-164330","Station","Klorofyll a",0,0.643,0.01,0
+"SE716717-158596","Station","Klorofyll a",0,0.3034,0.0375,0
+"SE695220-143383","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0319,0.0416,0
+"SE695220-143383","Station","Total biovolym växtplankton",0,0.2345,-0.0064,0
+"SE695220-143383","Station","Bentiskt kvalitetsindex",0,0.4115,-0.0074,0
+"SE695220-143383","Station","Total biovolym cyanobakterier",0,0.5974,-2e-4,0
+"SE695220-143383","Station","Klorofyll a",0,0.815,0.0054,0
+"SE695220-143383","Station","MILA 2018",0,0.2906,-0.728,0
+"SE706083-132287","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3149,0.0172,0
+"SE706083-132287","Station","Total biovolym växtplankton",0,0.1167,0.001,0
+"SE706083-132287","Station","Bentiskt kvalitetsindex",0,0.0541,-0.0117,0
+"SE706083-132287","Station","Total biovolym cyanobakterier",0,0.2071,0,0
+"SE706083-132287","Station","Klorofyll a",0,0.5726,0.0053,0
+"SE706083-132287","Station","MILA 2018",1,0.0071,1.0356,0
+"SE731799-151196","Station","Klorofyll a",0,0.5692,0,0
+"SE655605-158820","Station","Klorofyll a",0,0.7913,0.0067,0
+"SE640364-129240","Station","Klorofyll a",-1,0.0316,-0.03,0
+"SE631360-146750","Station","Klorofyll a",-1,2e-4,-0.84,0
+"SE630558-134327","Station","Klorofyll a",0,0.8533,-0.0571,0
+"SE622803-144609","Station","Klorofyll a",0,0.3313,0.075,0
+"SE711365-171748","Station","Klorofyll a",0,0.3265,0.0833,0
+"SE637120-145525","Station","Klorofyll a",-1,0.002,-1.8125,0
+"SE637121-151366","Station","Klorofyll a",0,0.7644,0,0
+"SE660688-164478","Station","Klorofyll a",1,0.0014,0.25,0
+"SE629026-147562","Station","Klorofyll a",0,0.3624,-0.3145,0
+"SE670275-146052","Station","Klorofyll a",0,0.9824,-0,0
+"SE690345-149315","Station","Klorofyll a",0,0.2069,0.0273,0
+"SE661521-130182","Station","Klorofyll a",0,0.4929,-0.0375,0
+"SE691365-156127","Station","Klorofyll a",0,0.1347,0.1,0
+"SE698918-158665","Station","Klorofyll a",0,0.659,-0.0143,0
+"SE751252-175433","Station","Klorofyll a",0,0.1876,-0.0138,0
+"NW664611-148550","Station","Klorofyll a",-1,0.0393,-0.0167,0
+"SE655863-129783","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.18,0.0198,0
+"SE655863-129783","Station","Klorofyll a",1,0.0211,0.0333,0
+"SE655863-129783","Station","MILA 2018",-1,0.0122,-1.0389,0
+"SE728744-162653","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5731,-0.004,0
+"SE728744-162653","Station","Bentiskt kvalitetsindex",0,0.3065,0.001,0
+"SE728744-162653","Station","Klorofyll a",0,0.4501,0.0071,0
+"SE728744-162653","Station","MILA 2018",0,0.4137,-0.2271,0
+"SE650398-139136","Station","Klorofyll a",0,0.7283,-0.2375,0
+"SE664485-150918","Station","Total biovolym växtplankton",0,0.7116,-0.0059,1
+"SE664485-150918","Station","Total biovolym cyanobakterier",1,2e-4,0.0132,1
+"SE742442-153530","Station","Klorofyll a",0,0.4714,-0.0045,0
+"SE630550-137050","Station","Klorofyll a",0,0.5917,0.0789,1
+"SE680235-141799","Station","Total biovolym växtplankton",0,0.6913,9e-4,0
+"SE680235-141799","Station","Total biovolym cyanobakterier",1,0.0026,6e-4,0
+"SE668095-145360","Station","Total biovolym växtplankton",0,0.785,-0.0017,1
+"SE668095-145360","Station","Total biovolym cyanobakterier",0,0.9802,-1e-4,1
+"NW653647-125036","Station","Total biovolym växtplankton",0,0.3624,0.002,0
+"NW653647-125036","Station","Total biovolym cyanobakterier",1,0.0336,2e-4,0
+"SE636010-138605","Station","Klorofyll a",0,0.8193,0.0033,1
+"SE660730-132286","Station","Klorofyll a",0,0.3364,-0.0294,1
+"SE661744-131785","Station","Klorofyll a",0,0.4322,-0.084,1
+"SE646293-126302","Station","Klorofyll a",0,0.2139,0.1167,0
+"NW633246-141963","Station","Total biovolym växtplankton",-1,0.0016,-0.0581,0
+"NW633246-141963","Station","Total biovolym cyanobakterier",0,0.1176,-0.001,0
+"SE666429-146783","Station","Total biovolym växtplankton",0,0.4269,-0.0031,1
+"SE666429-146783","Station","Total biovolym cyanobakterier",0,0.2643,5e-4,1
+"SE623865-141777","Station","Total biovolym cyanobakterier",0,0.2787,0.0013,1
+"SE634420-139890","Station","Klorofyll a",0,0.8456,0.0268,1
+"SE642008-168013","Station","Klorofyll a",0,0.2017,-0.0143,0
+"SE623875-140890","Station","Total biovolym cyanobakterier",1,0.0207,0.0017,1
+"SE622080-141495","Station","Total biovolym cyanobakterier",0,0.2559,0.0019,1
+"SE621915-141080","Station","Klorofyll a",0,0.7346,0.0167,1
+"NW683582-154935","Station","Total biovolym växtplankton",0,0.199,0.0035,0
+"NW683582-154935","Station","Total biovolym cyanobakterier",1,0.0183,3e-4,0
+"SE652412-143738","Station","Total biovolym växtplankton",0,0.1176,0.0231,0
+"SE652412-143738","Station","Total biovolym cyanobakterier",1,0.0012,0.0016,0
+"SE758677-161050","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4333,0.018,0
+"SE758677-161050","Station","Bentiskt kvalitetsindex",0,0.3226,0.0096,0
+"SE758677-161050","Station","Klorofyll a",-1,0.0325,-0.0065,0
+"SE758677-161050","Station","MILA 2018",0,0.5813,-0.1122,0
+"SE622030-141820","Station","Total biovolym cyanobakterier",0,0.0621,0.0055,1
+"SE633420-141240","Station","Klorofyll a",0,0.8454,-0.1515,1
+"SE666743-148287","Station","Total biovolym växtplankton",0,0.5352,-0.0049,1
+"SE666743-148287","Station","Total biovolym cyanobakterier",1,0.0037,0.0021,1
+"SE662996-131267","Station","Klorofyll a",0,0.1426,0.1333,1
+"SE621920-140815","Station","Total biovolym cyanobakterier",1,0.013,0.2279,1
+"SE630230-149400","Station","Klorofyll a",0,0.8878,0.025,1
+"SE656581-131504","Station","Klorofyll a",0,0.381,0.0929,1
+"SE662002-152205","Station","Total biovolym växtplankton",0,0.2059,-0.06,1
+"SE662002-152205","Station","Total biovolym cyanobakterier",0,0.1725,0.0016,1
+"SE665218-134998","Station","Klorofyll a",-1,0.0419,-0.1036,1
+"SE667245-146795","Station","Total biovolym växtplankton",0,0.1069,-0.016,1
+"SE667245-146795","Station","Total biovolym cyanobakterier",-1,0.0445,-0.0041,1
+"SE623720-141480","Station","Total biovolym cyanobakterier",0,0.9223,0,1
+"SE634700-141385","Station","Klorofyll a",0,0.5335,-0.0929,1
+"SE665524-149173","Station","Total biovolym växtplankton",0,0.1069,-0.0133,1
+"SE665524-149173","Station","Total biovolym cyanobakterier",0,0.3853,7e-4,1
+"SE632000-138950","Station","Klorofyll a",0,1,-0,1
+"SE667115-145420","Station","Total biovolym växtplankton",0,0.5352,0.0062,1
+"SE667115-145420","Station","Total biovolym cyanobakterier",0,0.8239,0,1
+"SE665078-150205","Station","Total biovolym växtplankton",0,0.4419,-0.0243,1
+"SE665078-150205","Station","Total biovolym cyanobakterier",1,0.0185,0.0067,1
+"SE638317-138010","Station","Total biovolym växtplankton",0,0.8701,-0.0019,0
+"SE638317-138010","Station","Total biovolym cyanobakterier",1,0.0422,0.001,0
+"SE656515-164330","Station","Total biovolym växtplankton",1,0.0072,0.0134,0
+"SE656515-164330","Station","Total biovolym cyanobakterier",0,0.8335,0,0
+"SE640364-129240","Station","Total biovolym växtplankton",0,0.0758,0.0061,0
+"SE640364-129240","Station","Total biovolym cyanobakterier",0,0.4137,3e-4,0
+"SE670275-146052","Station","Total biovolym växtplankton",0,0.6073,0.0011,0
+"SE670275-146052","Station","Total biovolym cyanobakterier",-1,0.0336,-2e-4,0
+"SE691365-156127","Station","Bentiskt kvalitetsindex",0,0.6562,-0,0
+"SE660159-133870","Station","Klorofyll a",0,0.5153,0.0429,1
+"SE667306-146254","Station","Total biovolym växtplankton",0,0.2255,-0.0103,1
+"SE667306-146254","Station","Total biovolym cyanobakterier",0,0.8202,-8e-4,1
+"NW664611-148550","Station","Total biovolym växtplankton",0,0.2933,0.0018,0
+"NW664611-148550","Station","Total biovolym cyanobakterier",0,0.427,1e-4,0
+"SE633400-139260","Station","Klorofyll a",0,0.8966,0.0133,1
+"SE632615-137440","Station","Klorofyll a",1,0.0097,0.4286,1
+"SE680235-141799","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4463,-0.008,0
+"SE680235-141799","Station","MILA 2018",1,0.0013,1.1134,0
+"NW653647-125036","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3629,-0.006,0
+"NW653647-125036","Station","MILA 2018",0,0.3468,0.3348,0
+"SE632390-139625","Station","Klorofyll a",0,0.5053,-0.2222,1
+"NW633246-141963","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0017,-0.0191,0
+"NW633246-141963","Station","MILA 2018",0,0.0804,0.4497,0
+"NW683582-154935","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3235,0.0086,0
+"NW683582-154935","Station","MILA 2018",0,0.3377,-0.2007,0
+"SE652412-143738","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2359,0.0072,0
+"SE652412-143738","Station","MILA 2018",0,0.8215,0.034,0
+"SE642220-138595","Station","Klorofyll a",0,0.4979,0.0538,1
+"SE638317-138010","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3519,0.0071,0
+"SE638317-138010","Station","MILA 2018",0,0.0907,0.3969,0
+"SE656515-164330","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3819,0.0045,0
+"SE656515-164330","Station","MILA 2018",0,0.4986,-0.1436,0
+"SE640364-129240","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8215,0.0018,0
+"SE640364-129240","Station","MILA 2018",0,0.8656,-0.0396,0
+"SE670275-146052","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8432,-0.0015,0
+"SE670275-146052","Station","MILA 2018",0,0.0907,0.429,0
+"SE624613-135635","Station","Klorofyll a",0,0.2778,0.1,1
+"NW664611-148550","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5532,-0.0044,0
+"NW664611-148550","Station","MILA 2018",0,0.693,0.0613,0
+"SE652650-144945","Station","Klorofyll a",0,0.1699,0.24,1
+"SE648688-151884","Station","Klorofyll a",1,0.0111,1.875,1
+"SE642122-148744","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.1393,0.014,0
+"SE642122-148744","Station","MILA 2018",0,0.9396,-0.1087,0
+"SE643170-149085","Station","Klorofyll a",0,0.5343,0.1357,1
+"SE656640-164224","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0252,0.0133,0
+"SE656640-164224","Station","Total biovolym växtplankton",0,0.4436,-0.0043,0
+"SE656640-164224","Station","Bentiskt kvalitetsindex",0,0.1602,0.0186,0
+"SE656640-164224","Station","Total biovolym cyanobakterier",0,0.6345,-2e-4,0
+"SE656640-164224","Station","Klorofyll a",0,0.4593,-0.025,0
+"SE656640-164224","Station","MILA 2018",0,0.3492,-0.2451,0
+"SE642926-143653","Station","Klorofyll a",0,0.7136,-0.0333,1
+"SE641900-144150","Station","Klorofyll a",0,0.6722,-0.345,1
+"SE642960-144842","Station","Klorofyll a",0,0.7138,0.2625,1
+"SE641200-143890","Station","Klorofyll a",0,0.2713,0.1429,1
+"SE644587-145084","Station","Klorofyll a",0,0.8215,-0.0667,1
+"SE643475-145520","Station","Klorofyll a",0,0.592,-0.04,1
+"SE640326-143979","Station","Klorofyll a",0,0.1845,-0.4526,1
+"SE626748-148744","Station","Klorofyll a",0,0.8086,0.0194,1
+"SE626126-148664","Station","Klorofyll a",0,0.3637,-0.233,1
+"SE628250-148550","Station","Klorofyll a",0,0.5661,0.125,1
+"SE643390-130120","Station","Klorofyll a",0,0.2413,-0.4868,1
+"SE644225-130725","Station","Klorofyll a",0,0.9343,0.0207,1
+"SE643606-130290","Station","Klorofyll a",0,0.8368,-0.0562,1
+"SE644163-130456","Station","Klorofyll a",0,0.7104,-0.0896,1
+"SE656574-164098","Station","Klorofyll a",0,0.6925,-0.0083,0
+"SE640930-128645","Station","Klorofyll a",0,0.5689,0.04,1
+"SE640550-135617","Station","Klorofyll a",0,1,-0.0068,1
+"SE635660-130175","Station","Klorofyll a",0,0.1433,0.3267,1
+"SE634820-133920","Station","Klorofyll a",0,0.3808,0.0838,1
+"SE635505-137435","Station","Klorofyll a",0,0.5179,-0.1444,1
+"SE633573-134452","Station","Klorofyll a",0,0.4821,0.5,1
+"SE632630-135950","Station","Klorofyll a",0,0.8365,0.0261,1
+"SE651558-129663","Station","Klorofyll a",0,0.458,-0.1567,1
+"SE652560-145255","Station","Klorofyll a",0,0.3052,-0.1833,1
+"SE638205-136915","Station","Klorofyll a",0,0.6222,0.04,1
+"SE642348-137005","Station","Klorofyll a",0,0.2895,0.2596,1
+"SE635334-135239","Station","Klorofyll a",0,0.7258,-0.0111,1
+"SE642320-130020","Station","Klorofyll a",0,0.433,-0.0587,1
+"SE672813-145280","Station","Total biovolym växtplankton",0,0.207,0.0174,1
+"SE672813-145280","Station","Total biovolym cyanobakterier",0,0.2241,5e-4,1
+"SE648988-134643","Station","Klorofyll a",0,0.7104,-0.1961,1
+"SE637445-137750","Station","Klorofyll a",0,0.3984,0.025,1
+"SE641013-133156","Station","Klorofyll a",0,0.4745,0.0789,1
+"SE648984-129167","Station","Klorofyll a",0,0.3216,0.5658,1
+"SE638565-138630","Station","Klorofyll a",0,0.31,0.05,1
+"SE639350-135475","Station","Klorofyll a",0,0.871,0.0196,1
+"SE636365-136695","Station","Klorofyll a",0,0.8792,0.0077,1
+"SE646900-151250","Station","Klorofyll a",0,0.1705,3.3438,1
+"SE638690-131070","Station","Klorofyll a",0,0.3643,0.05,1
+"SE648633-128693","Station","Klorofyll a",0,0.4323,-0.3133,1
+"SE687177-157115","Station","Klorofyll a",0,0.161,0.1633,1
+"SE633925-132165","Station","Klorofyll a",0,0.7395,-0.0225,1
+"SE636560-130820","Station","Klorofyll a",0,0.3033,0.0667,1
+"SE640855-134800","Station","Klorofyll a",0,0.6503,-0.0433,1
+"SE636945-130710","Station","Klorofyll a",0,0.1558,0.0955,1
+"SE639550-135075","Station","Klorofyll a",0,0.1021,0.1361,1
+"SE627074-148362","Station","Klorofyll a",0,0.7443,-0.0367,1
+"SE642122-148744","Station","Bentiskt kvalitetsindex",0,0.4035,0,0
+"SE644987-152393","Station","Bentiskt kvalitetsindex",0,0.948,-0,0
+"SE651609-140839","Station","Klorofyll a",0,0.2419,-0.2822,0
+"SE665707-150841","Station","Total biovolym växtplankton",0,0.1443,-0.2155,1
+"SE665707-150841","Station","Total biovolym cyanobakterier",0,0.7212,0.0018,1
+"SE656574-164098","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0956,0.0225,0
+"SE656574-164098","Station","Bentiskt kvalitetsindex",1,0.0247,0.0121,0
+"SE656574-164098","Station","MILA 2018",0,0.069,0.5127,0
+"SE615350-134290","Station","Klorofyll a",-1,0.0358,-3.7,1
+"SE615750-134190","Station","Klorofyll a",-1,0.0021,-4.375,1
+"SE660240-127660","Station","Klorofyll a",0,0.6217,0.025,1
+"SE662149-130985","Station","Klorofyll a",0,0.4254,-0.4444,1
+"SE669120-146813","Station","Total biovolym växtplankton",0,0.3601,0.0168,1
+"SE669120-146813","Station","Total biovolym cyanobakterier",0,0.7603,2e-4,1
+"SE619500-135900","Station","Klorofyll a",0,0.2889,-1.22,1
+"SE639950-127740","Station","Klorofyll a",0,0.7727,-0.02,1
+"SE616140-136850","Station","Klorofyll a",0,0.7868,0.3736,1
+"SE616360-136700","Station","Klorofyll a",0,0.0742,1.8357,1
+"SE616340-136490","Station","Klorofyll a",0,0.5289,-0.7333,1
+"SE615500-135310","Station","Klorofyll a",0,0.4709,-0.3187,1
+"SE620062-135224","Station","Klorofyll a",-1,0.0074,-2.9481,1
+"SE617500-136060","Station","Klorofyll a",0,0.363,-0.81,1
+"SE616060-133910","Station","Klorofyll a",0,0.6767,-0.24,1
+"SE658184-134825","Station","Klorofyll a",0,0.9605,0.0308,1
+"SE656842-161442","Station","Klorofyll a",-1,0.0375,-0.4667,1
+"SE655503-133346","Station","Klorofyll a",0,0.1172,-0.3083,1
+"SE662692-166465","Station","Klorofyll a",0,0.2604,-1.4379,1
+"SE742442-153530","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",,,,1
+"SE742442-153530","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3513,-0.0477,0
+"SE742442-153530","Station","Total biovolym växtplankton",0,0.1876,0.0015,0
+"SE742442-153530","Station","Bentiskt kvalitetsindex",,,,1
+"SE742442-153530","Station","Bentiskt kvalitetsindex",0,1,-0.005,0
+"SE742442-153530","Station","Total biovolym cyanobakterier",0,1,-0,0
+"SE742442-153530","Station","MILA 2018",,,,1
+"SE742442-153530","Station","MILA 2018",0,0.3244,-0.4962,0
+"SE733110-182955","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",,,,1
+"SE733110-182955","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2975,0.0136,0
+"SE733110-182955","Station","Total biovolym växtplankton",0,0.9016,0.0089,0
+"SE733110-182955","Station","Bentiskt kvalitetsindex",,,,1
+"SE733110-182955","Station","Bentiskt kvalitetsindex",0,0.0934,0,0
+"SE733110-182955","Station","Total biovolym cyanobakterier",1,0.0074,0.0088,0
+"SE733110-182955","Station","MILA 2018",,,,1
+"SE733110-182955","Station","MILA 2018",0,0.3811,1.058,0
+"SE642140-140640","Station","Total biovolym växtplankton",-1,0.0274,-0.0115,0
+"SE642140-140640","Station","Total biovolym cyanobakterier",0,0.9641,-0,0
+"SE642140-140640","Station","Klorofyll a",-1,0.0284,-0.0103,0
+"SE660189-163937","Station","Klorofyll a",0,0.1546,-0.63,1
+"SE642122-148744","Station","Total biovolym växtplankton",0,0.2241,0.0081,0
+"SE642122-148744","Station","Total biovolym cyanobakterier",0,0.0529,0.0032,0
+"SE648694-143413","Station","Total biovolym växtplankton",-1,3e-4,-0.016,0
+"SE648694-143413","Station","Total biovolym cyanobakterier",0,0.5923,1e-4,0
+"SE648694-143413","Station","Klorofyll a",-1,0.0119,-0.0306,0
+"SE654429-160108","Station","Klorofyll a",-1,0.0101,-4.28,1
+"SE707669-170020","Station","Klorofyll a",0,0.0944,-0.0694,1
+"SE712246-170866","Station","Total biovolym växtplankton",0,0.6505,-0.0096,0
+"SE712246-170866","Station","Total biovolym cyanobakterier",0,0.5609,-0,0
+"SE712246-170866","Station","Klorofyll a",0,0.0912,-0.1038,0
+"SE644987-152393","Station","Total biovolym växtplankton",0,0.2735,0.006,0
+"SE644987-152393","Station","Total biovolym cyanobakterier",1,0.0101,0.0029,0
+"SE624565-141215","Station","Klorofyll a",0,0.8052,0.05,1
+"SE709218-169710","Station","Total biovolym växtplankton",0,0.0912,-0.1428,0
+"SE709218-169710","Station","Total biovolym cyanobakterier",1,0.012,0.004,0
+"SE709218-169710","Station","Klorofyll a",0,0.1871,-0.8038,0
+"SE706672-167201","Station","Total biovolym växtplankton",0,0.5095,0.0036,0
+"SE706672-167201","Station","Total biovolym cyanobakterier",0,0.1367,0,0
+"SE706672-167201","Station","Klorofyll a",0,0.4974,0.0519,0
+"SE751252-175433","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",,,,1
+"SE751252-175433","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5195,-0.0086,0
+"SE751252-175433","Station","Total biovolym växtplankton",0,0.2483,0.0063,0
+"SE751252-175433","Station","Bentiskt kvalitetsindex",,,,1
+"SE751252-175433","Station","Bentiskt kvalitetsindex",0,0.3658,-0,0
+"SE751252-175433","Station","Total biovolym cyanobakterier",0,0.9671,-1e-4,0
+"SE751252-175433","Station","MILA 2018",,,,1
+"SE751252-175433","Station","MILA 2018",0,1,-0.0896,0
+"SE624857-136793","Station","Klorofyll a",0,0.7138,0.3898,1
+"SE639630-150515","Station","Klorofyll a",0,0.6853,0.1258,1
+"SE649260-146815","Station","Klorofyll a",-1,0.034,-0.3348,1
+"SE646103-146637","Station","Klorofyll a",0,0.0533,1.3846,1
+"SE639434-150136","Station","Klorofyll a",0,0.4709,-0.7167,1
+"SE661077-165358","Station","Klorofyll a",0,0.9023,0.0036,1
+"SE641038-149534","Station","Klorofyll a",0,0.1244,-0.6667,1
+"SE660892-165434","Station","Klorofyll a",0,0.0798,-0.4182,1
+"SE650398-139136","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",1,0.0228,0.0615,0
+"SE650398-139136","Station","MILA 2018",1,0.0133,2.1506,0
+"SE634360-142750","Station","Total biovolym växtplankton",0,0.1245,0.0642,1
+"SE634360-142750","Station","Total biovolym cyanobakterier",0,0.4285,-0.0015,1
+"SE652650-144945","Station","Total biovolym växtplankton",0,1,0.0123,1
+"SE652650-144945","Station","Total biovolym cyanobakterier",0,0.4884,0.0177,1
+"SE665768-164748","Station","Klorofyll a",0,0.3513,-0.175,1
+"SE640550-135617","Station","Total biovolym växtplankton",0,1,0.0023,1
+"SE640550-135617","Station","Total biovolym cyanobakterier",0,0.0748,0.0272,1
+"SE632615-137440","Station","Total biovolym växtplankton",1,0.0377,0.2155,1
+"SE632615-137440","Station","Total biovolym cyanobakterier",0,0.4884,-0.0022,1
+"SE630550-137050","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.7138,-0.0084,1
+"SE630550-137050","Station","Total biovolym växtplankton",0,0.0748,0.0299,1
+"SE630550-137050","Station","Total biovolym cyanobakterier",0,0.6922,-0.0025,1
+"SE630550-137050","Station","MILA 2018",1,0.0028,1.3875,1
+"SE665533-166447","Station","Klorofyll a",-1,0.0052,-0.3,1
+"SE663919-166636","Station","Klorofyll a",0,0.4434,-1.7538,1
+"SE642925-142350","Station","Total biovolym växtplankton",0,0.7426,-0.0105,1
+"SE642925-142350","Station","Total biovolym cyanobakterier",0,0.5112,0.0024,1
+"SE638950-140071","Station","Total biovolym växtplankton",0,0.9212,0.004,1
+"SE638950-140071","Station","Total biovolym cyanobakterier",0,0.5526,0.0012,1
+"SE637404-145229","Station","Total biovolym växtplankton",0,0.4285,0.0336,1
+"SE637404-145229","Station","Total biovolym cyanobakterier",0,0.6922,0.0096,1
+"SE632390-139625","Station","Total biovolym växtplankton",0,0.8267,-0.0222,1
+"SE632390-139625","Station","Total biovolym cyanobakterier",0,0.1889,0.0075,1
+"SE637450-148610","Station","Total biovolym växtplankton",1,0.0064,0.0356,1
+"SE637450-148610","Station","Total biovolym cyanobakterier",1,0.0022,0.0053,1
+"SE659300-127600","Station","Total biovolym växtplankton",0,1,0.0022,1
+"SE659300-127600","Station","Total biovolym cyanobakterier",1,0.0075,0.0046,1
+"SE667288-138583","Station","Total biovolym växtplankton",0,0.1889,0.0627,1
+"SE667288-138583","Station","Total biovolym cyanobakterier",0,0.3811,0.0013,1
+"SE698735-139620","Station","Klorofyll a",0,0.8039,-0.0071,0
+"SE663446-164031","Station","Klorofyll a",0,0.1118,-1,1
+"SE664281-165109","Station","Klorofyll a",-1,0.0136,-0.5,1
+"SE660730-132286","Station","Total biovolym växtplankton",0,0.7665,0.009,1
+"SE660730-132286","Station","Total biovolym cyanobakterier",0,0.1133,0.0024,1
+"SE661744-131785","Station","Total biovolym växtplankton",0,0.8431,-0.0182,1
+"SE661744-131785","Station","Total biovolym cyanobakterier",0,0.6207,-0.0039,1
+"SE661759-131460","Station","Total biovolym växtplankton",0,0.3731,-0.0156,1
+"SE661759-131460","Station","Total biovolym cyanobakterier",0,0.6922,0.0011,1
+"SE650043-150589","Station","Total biovolym växtplankton",0,0.4884,-0.0764,1
+"SE650043-150589","Station","Total biovolym cyanobakterier",-1,0.0377,-0.0865,1
+"SE633753-153280","Station","Total biovolym växtplankton",0,0.1982,0.0186,1
+"SE633753-153280","Station","Total biovolym cyanobakterier",1,1e-4,0.0013,1
+"SE635505-137435","Station","Total biovolym växtplankton",0,0.4884,-0.0498,1
+"SE635505-137435","Station","Total biovolym cyanobakterier",0,0.5526,0.004,1
+"SE634420-139890","Station","Total biovolym växtplankton",0,0.4884,0.0243,1
+"SE634420-139890","Station","Total biovolym cyanobakterier",0,0.6922,-6e-4,1
+"SE637149-150326","Station","Total biovolym växtplankton",1,8e-4,0.0673,1
+"SE637149-150326","Station","Total biovolym cyanobakterier",1,0.0041,0.0046,1
+"SE662959-167628","Station","Klorofyll a",0,0.0586,-1.4792,1
+"SE632630-135950","Station","Total biovolym växtplankton",0,0.5464,-0.0248,1
+"SE632630-135950","Station","Total biovolym cyanobakterier",0,0.3244,0.0031,1
+"SE652560-145255","Station","Total biovolym växtplankton",0,0.5526,-0.013,1
+"SE652560-145255","Station","Total biovolym cyanobakterier",0,0.06,0.0035,1
+"SE662769-166054","Station","Klorofyll a",0,0.8262,-0.0455,1
+"SE662685-164279","Station","Klorofyll a",0,0.5112,-1.7667,1
+"SE662114-166021","Station","Klorofyll a",0,0.784,-0.8333,1
+"SE660802-159822","Station","Klorofyll a",0,0.5195,-0.3233,1
+"SE633420-141240","Station","Total biovolym växtplankton",0,0.3811,0.0511,1
+"SE633420-141240","Station","Total biovolym cyanobakterier",0,0.7426,0.0011,1
+"SE635334-135239","Station","Total biovolym växtplankton",0,0.8431,0.0058,1
+"SE635334-135239","Station","Total biovolym cyanobakterier",-1,1e-4,-0.0126,1
+"SE659865-154240","Station","Total biovolym växtplankton",0,0.3223,0.1087,1
+"SE659865-154240","Station","Total biovolym cyanobakterier",0,0.8431,0.0088,1
+"SE659865-154240","Station","Klorofyll a",0,0.4874,-0.2429,1
+"SE660350-154285","Station","Total biovolym växtplankton",0,0.6922,0.0489,1
+"SE660350-154285","Station","Total biovolym cyanobakterier",0,0.8431,0.0282,1
+"SE660350-154285","Station","Klorofyll a",0,0.5464,-0.3571,1
+"SE656310-160034","Station","Klorofyll a",0,0.8548,-0.15,1
+"SE640670-140210","Station","Total biovolym växtplankton",0,0.2736,0.0884,1
+"SE640670-140210","Station","Total biovolym cyanobakterier",0,0.6807,-0,1
+"SE638240-146730","Station","Total biovolym växtplankton",0,0.5857,0.0036,1
+"SE638240-146730","Station","Total biovolym cyanobakterier",-1,0.0478,-0.0037,1
+"SE635980-148270","Station","Total biovolym växtplankton",0,0.2284,-0.109,1
+"SE635980-148270","Station","Total biovolym cyanobakterier",0,0.1005,0.0011,1
+"SE636923-144870","Station","Total biovolym växtplankton",1,0.0133,0.0599,1
+"SE636923-144870","Station","Total biovolym cyanobakterier",1,0.0133,0.0021,1
+"SE638195-144270","Station","Total biovolym växtplankton",0,0.0925,0.0701,1
+"SE638195-144270","Station","Total biovolym cyanobakterier",0,0.7665,0.0019,1
+"SE664222-166844","Station","Klorofyll a",0,0.2688,-1.3655,1
+"SE665218-134998","Station","Total biovolym växtplankton",,,,1
+"SE665197-135082","Station","Total biovolym växtplankton",0,0.1659,-0.029,1
+"SE665197-135082","Station","Total biovolym cyanobakterier",0,0.0748,0.001,1
+"SE665234-135000","Station","Total biovolym växtplankton",0,0.3731,-0.039,1
+"SE665234-135000","Station","Total biovolym cyanobakterier",0,0.1133,6e-4,1
+"SE667022-134595","Station","Total biovolym växtplankton",0,0.3731,-0.0135,1
+"SE667022-134595","Station","Total biovolym cyanobakterier",0,0.0829,7e-4,1
+"SE648790-149035","Station","Total biovolym växtplankton",-1,0.0133,-0.2659,1
+"SE648790-149035","Station","Total biovolym cyanobakterier",0,0.3223,-0.0564,1
+"SE648168-148920","Station","Klorofyll a",0,0.3601,-0.8838,1
+"SE639800-143050","Station","Total biovolym växtplankton",0,0.2997,0.3767,1
+"SE639800-143050","Station","Total biovolym cyanobakterier",0,0.5022,0.2415,1
+"SE635750-147600","Station","Total biovolym växtplankton",0,0.2284,0.0389,1
+"SE635750-147600","Station","Total biovolym cyanobakterier",1,0.0375,0.0063,1
+"SE663072-164112","Station","Klorofyll a",-1,0.0294,-2.7143,1
+"SE636000-147450","Station","Total biovolym växtplankton",0,0.5112,0.0749,1
+"SE636000-147450","Station","Total biovolym cyanobakterier",0,1,-0.0015,1
+"SE631309-134951","Station","Total biovolym växtplankton",0,0.1133,0.0222,1
+"SE631309-134951","Station","Total biovolym cyanobakterier",-1,0.0101,-0.0037,1
+"SE636365-136695","Station","Total biovolym växtplankton",0,0.235,-0.0107,1
+"SE636365-136695","Station","Total biovolym cyanobakterier",0,0.1659,5e-4,1
+"SE638920-144470","Station","Total biovolym växtplankton",0,0.0925,0.0915,1
+"SE638920-144470","Station","Total biovolym cyanobakterier",0,0.2763,0.0124,1
+"SE638280-145940","Station","Total biovolym växtplankton",0,0.9128,-0.0011,1
+"SE638280-145940","Station","Total biovolym cyanobakterier",0,0.9128,-0.0016,1
+"SE664445-164905","Station","Klorofyll a",0,0.0533,0.6182,1
+"SE661952-164005","Station","Klorofyll a",-1,0.0049,-1.3786,1
+"SE638880-143280","Station","Total biovolym växtplankton",0,0.5526,0.0277,1
+"SE638880-143280","Station","Total biovolym cyanobakterier",0,0.06,0.0016,1
+"SE638035-147130","Station","Total biovolym växtplankton",0,0.1982,0.0238,1
+"SE638035-147130","Station","Total biovolym cyanobakterier",1,0.0075,0.002,1
+"SE637910-143290","Station","Total biovolym växtplankton",0,0.06,-0.0675,1
+"SE637910-143290","Station","Total biovolym cyanobakterier",0,0.2763,0.0062,1
+"SE664824-166096","Station","Klorofyll a",0,0.0533,-1,1
+"SE698860-135948","Station","Klorofyll a",0,0.8422,-0,0
+"SE631430-136160","Station","Total biovolym växtplankton",0,0.1133,0.046,1
+"SE631430-136160","Station","Total biovolym cyanobakterier",0,0.4884,0.0018,1
+"SE657900-129060","Station","Total biovolym växtplankton",0,0.4277,0.0045,1
+"SE657900-129060","Station","Total biovolym cyanobakterier",0,0.3601,0.0013,1
+"SE655819-159740","Station","Klorofyll a",0,0.1108,-0.2778,1
+"SE636661-143710","Station","Total biovolym växtplankton",0,0.4285,0.0166,1
+"SE636661-143710","Station","Total biovolym cyanobakterier",1,0.0075,0.0055,1
+"SE666167-138016","Station","Total biovolym växtplankton",0,0.0627,0.0905,1
+"SE666167-138016","Station","Total biovolym cyanobakterier",0,0.7426,2e-4,1
+"SE661966-164781","Station","Klorofyll a",-1,0.0285,-1.525,1
+"SE635435-148595","Station","Total biovolym växtplankton",0,0.1546,0.0147,1
+"SE635435-148595","Station","Total biovolym cyanobakterier",1,0.016,0.0041,1
+"SE698561-139682","Station","Klorofyll a",0,0.4514,-0.0091,0
+"SE633610-145150","Station","Total biovolym växtplankton",0,0.1606,0.0288,1
+"SE633610-145150","Station","Total biovolym cyanobakterier",0,0.3601,0.0063,1
+"SE632680-145380","Station","Total biovolym växtplankton",0,1,0.0708,1
+"SE632680-145380","Station","Total biovolym cyanobakterier",0,1,-6e-4,1
+"SE630250-143760","Station","Total biovolym växtplankton",0,1,-0.0055,1
+"SE630250-143760","Station","Total biovolym cyanobakterier",0,0.6614,0.2108,1
+"SE630475-143615","Station","Total biovolym växtplankton",0,0.0627,-0.7411,1
+"SE630475-143615","Station","Total biovolym cyanobakterier",0,0.0798,-0.7184,1
+"SE630428-144034","Station","Total biovolym växtplankton",-1,0.0215,-0.3523,1
+"SE630428-144034","Station","Total biovolym cyanobakterier",-1,5e-4,-0.1905,1
+"SE630500-143950","Station","Total biovolym växtplankton",0,0.1253,-0.277,1
+"SE630500-143950","Station","Total biovolym cyanobakterier",-1,0.0487,-0.1874,1
+"SE628250-148550","Station","Total biovolym växtplankton",0,0.9514,0.003,1
+"SE628250-148550","Station","Total biovolym cyanobakterier",1,0.006,0.0048,1
+"SE661206-147901","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.159,-0.0412,0
+"SE661206-147901","Station","Total biovolym växtplankton",0,0.2437,0.138,0
+"SE661206-147901","Station","Bentiskt kvalitetsindex",1,0.005,0.1484,0
+"SE661206-147901","Station","Total biovolym cyanobakterier",0,0.8303,0,0
+"SE661206-147901","Station","Klorofyll a",0,0.2464,2.8429,0
+"SE661206-147901","Station","MILA 2018",0,0.9514,0.049,0
+"SE656574-164098","Station","Total biovolym växtplankton",-1,0.0294,-0.033,0
+"SE656574-164098","Station","Total biovolym cyanobakterier",0,0.5526,-0.0047,0
+"SE643072-149923","Station","Total biovolym växtplankton",0,0.9128,-0.013,1
+"SE643072-149923","Station","Total biovolym cyanobakterier",0,0.1889,-0.0075,1
+"SE639630-150515","Station","Total biovolym växtplankton",0,0.8267,0.007,1
+"SE639630-150515","Station","Total biovolym cyanobakterier",0,1,1e-4,1
+"SE636010-138605","Station","Total biovolym växtplankton",0,0.0627,0.0553,1
+"SE636010-138605","Station","Total biovolym cyanobakterier",0,0.5841,-0.0028,1
+"SE698735-139620","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9128,-0.0084,0
+"SE698735-139620","Station","Total biovolym växtplankton",0,0.3513,0.0025,0
+"SE698735-139620","Station","Bentiskt kvalitetsindex",0,0.784,-0.0023,0
+"SE698735-139620","Station","Total biovolym cyanobakterier",0,0.7748,-0,0
+"SE698735-139620","Station","MILA 2018",0,0.3811,0.4673,0
+"NW649253-149503","Station","Total biovolym växtplankton",0,0.7665,-0.0612,0
+"NW649253-149503","Station","Bentiskt kvalitetsindex",0,0.0681,-0.0417,0
+"NW649253-149503","Station","Total biovolym cyanobakterier",0,0.9212,-0.001,0
+"NW649253-149503","Station","Klorofyll a",0,0.8431,0.2042,0
+"SE656910-152165","Station","Total biovolym växtplankton",0,0.2736,-0.3152,1
+"SE656910-152165","Station","Total biovolym cyanobakterier",0,0.5112,-0.1362,1
+"SE656600-149600","Station","Total biovolym växtplankton",0,0.5841,-0.113,1
+"SE656600-149600","Station","Total biovolym cyanobakterier",0,0.3244,0.0837,1
+"SE642008-168013","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0136,-0.0883,0
+"SE642008-168013","Station","Total biovolym växtplankton",0,0.1499,0.0386,0
+"SE642008-168013","Station","Bentiskt kvalitetsindex",0,0.2291,0,0
+"SE642008-168013","Station","Total biovolym cyanobakterier",0,0.9453,0.0033,0
+"SE642008-168013","Station","MILA 2018",0,0.1253,1.2572,0
+"SE639434-150136","Station","Total biovolym växtplankton",0,1,-0.011,1
+"SE639434-150136","Station","Total biovolym cyanobakterier",0,0.5112,0.0879,1
+"SE732565-176335","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3244,0.0235,1
+"SE732565-176335","Station","Bentiskt kvalitetsindex",0,0.2293,-0,1
+"SE732565-176335","Station","MILA 2018",0,0.1005,0.5426,1
+"SE206281-501994","Station","Klorofyll a",0,0.4095,-0.1682,1
+"SE662739-135155","Station","Total biovolym växtplankton",0,0.7426,0.0058,1
+"SE662739-135155","Station","Total biovolym cyanobakterier",0,0.2975,7e-4,1
+"SE730091-165102","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",-1,0.0046,-0.0548,0
+"SE730091-165102","Station","Bentiskt kvalitetsindex",0,0.4188,0.0032,0
+"SE730091-165102","Station","MILA 2018",0,0.1376,0.6298,0
+"SE658069-139009","Station","Total biovolym växtplankton",0,0.4277,0.0179,1
+"SE658069-139009","Station","Total biovolym cyanobakterier",0,0.2001,0.0043,1
+"SE658080-139668","Station","Total biovolym växtplankton",0,0.9514,0.0144,1
+"SE658080-139668","Station","Total biovolym cyanobakterier",0,0.2464,0.0156,1
+"SE657940-140120","Station","Total biovolym växtplankton",0,0.583,0.0396,1
+"SE657940-140120","Station","Total biovolym cyanobakterier",0,0.2001,0.0578,1
+"SE712246-170866","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.8694,0.002,0
+"SE712246-170866","Station","Bentiskt kvalitetsindex",0,0.2945,-0,0
+"SE712246-170866","Station","MILA 2018",0,0.2736,-0.5345,0
+"SE641038-149534","Station","Total biovolym växtplankton",0,0.9128,9e-4,1
+"SE641038-149534","Station","Total biovolym cyanobakterier",0,0.3811,0.0028,1
+"SE700796-136901","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.9128,0.0019,0
+"SE700796-136901","Station","Total biovolym växtplankton",0,0.426,0.0052,0
+"SE700796-136901","Station","Bentiskt kvalitetsindex",0,0.3143,0.0315,0
+"SE700796-136901","Station","Total biovolym cyanobakterier",0,0.2997,-2e-4,0
+"SE700796-136901","Station","Klorofyll a",0,0.8803,-0,0
+"SE700796-136901","Station","MILA 2018",0,0.7426,-0.2048,0
+"NW674570-141911","Station","Total biovolym växtplankton",0,1,0.0012,0
+"NW674570-141911","Station","Bentiskt kvalitetsindex",0,0.3779,-0,0
+"NW674570-141911","Station","Total biovolym cyanobakterier",0,0.3223,5e-4,0
+"NW674570-141911","Station","Klorofyll a",0,0.6888,-0,0
+"SE641900-144150","Station","Total biovolym växtplankton",-1,0.0215,-0.548,1
+"SE641900-144150","Station","Total biovolym cyanobakterier",0,0.2284,-0.0956,1
+"SE634700-141385","Station","Total biovolym växtplankton",0,0.9514,0.0109,1
+"SE634700-141385","Station","Total biovolym cyanobakterier",0,0.583,0.0033,1
+"SE632000-138950","Station","Total biovolym växtplankton",0,0.3244,0.0739,1
+"SE632000-138950","Station","Total biovolym cyanobakterier",0,0.6614,0.002,1
+"SE642960-144842","Station","Total biovolym växtplankton",0,0.9128,-0.047,1
+"SE642960-144842","Station","Total biovolym cyanobakterier",0,0.5112,-0.1303,1
+"SE630490-142380","Station","Total biovolym växtplankton",0,0.1546,0.5938,1
+"SE630490-142380","Station","Total biovolym cyanobakterier",1,0.0215,0.0399,1
+"SE709218-169710","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,1,-0,0
+"SE709218-169710","Station","Bentiskt kvalitetsindex",0,0.5829,-0.0451,0
+"SE709218-169710","Station","MILA 2018",0,0.3811,-1.0934,0
+"SE640609-148673","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4919,-0.0244,0
+"SE640609-148673","Station","Total biovolym växtplankton",0,0.1889,-0.0451,0
+"SE640609-148673","Station","Bentiskt kvalitetsindex",0,0.388,0.0068,0
+"SE640609-148673","Station","Total biovolym cyanobakterier",1,0.0118,0.0068,0
+"SE640609-148673","Station","Klorofyll a",0,0.6693,-0.0914,0
+"SE640609-148673","Station","MILA 2018",0,0.4507,0.252,0
+"NW666191-142252","Station","Total biovolym växtplankton",1,0.0075,0.0225,0
+"NW666191-142252","Station","Bentiskt kvalitetsindex",0,0.9453,0.0012,0
+"NW666191-142252","Station","Total biovolym cyanobakterier",0,1,-0,0
+"NW666191-142252","Station","Klorofyll a",0,0.0821,0.0833,0
+"SE643293-146870","Station","Total biovolym växtplankton",0,0.7426,-0.005,1
+"SE643293-146870","Station","Total biovolym cyanobakterier",0,0.8267,-0.0015,1
+"SE644587-145084","Station","Total biovolym växtplankton",0,0.9514,-0.0017,1
+"SE644587-145084","Station","Total biovolym cyanobakterier",0,0.2001,0.0267,1
+"SE643475-145520","Station","Total biovolym växtplankton",0,0.6614,-0.0147,1
+"SE643475-145520","Station","Total biovolym cyanobakterier",0,0.7426,-0.0036,1
+"SE633738-142203","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.4108,-0.017,0
+"SE633738-142203","Station","Bentiskt kvalitetsindex",0,0.4399,-0,0
+"SE633738-142203","Station","MILA 2018",1,5e-4,1.8706,0
+"SE728271-157578","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2496,0.044,0
+"SE728271-157578","Station","Total biovolym växtplankton",0,0.7011,-0.0011,0
+"SE728271-157578","Station","Bentiskt kvalitetsindex",0,0.6937,-0,0
+"SE728271-157578","Station","Total biovolym cyanobakterier",-1,0.0246,-2e-4,0
+"SE728271-157578","Station","Klorofyll a",0,0.4562,0.05,0
+"SE728271-157578","Station","MILA 2018",0,1,0.0174,0
+"SE651609-140839","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5112,0.0228,0
+"SE651609-140839","Station","Total biovolym växtplankton",0,0.0925,-0.159,0
+"SE651609-140839","Station","Bentiskt kvalitetsindex",0,0.2294,0.0139,0
+"SE651609-140839","Station","Total biovolym cyanobakterier",0,0.0748,0.0118,0
+"SE651609-140839","Station","MILA 2018",0,0.4434,0.3569,0
+"SE706672-167201","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3513,-0.0282,0
+"SE706672-167201","Station","Bentiskt kvalitetsindex",0,0.3571,0,0
+"SE706672-167201","Station","MILA 2018",-1,0.0487,-0.629,0
+"SE698860-135948","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.5333,0.0554,0
+"SE698860-135948","Station","Total biovolym växtplankton",0,0.8043,6e-4,0
+"SE698860-135948","Station","Bentiskt kvalitetsindex",0,0.1499,0.0231,0
+"SE698860-135948","Station","Total biovolym cyanobakterier",0,0.6073,-0,0
+"SE698860-135948","Station","MILA 2018",0,0.5371,0.4358,0
+"SE657310-134169","Station","Total biovolym växtplankton",0,0.1195,0.178,1
+"SE657310-134169","Station","Total biovolym cyanobakterier",0,0.2129,0.0448,1
+"SE640326-143979","Station","Total biovolym växtplankton",0,0.1546,0.1043,1
+"SE640326-143979","Station","Total biovolym cyanobakterier",0,0.1546,0.0021,1
+"SE718150-168580","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.0789,0.0222,0
+"SE718150-168580","Station","Total biovolym växtplankton",0,0.1546,-0.0077,0
+"SE718150-168580","Station","Bentiskt kvalitetsindex",0,0.7426,-0.0086,0
+"SE718150-168580","Station","Total biovolym cyanobakterier",0,0.8694,0,0
+"SE718150-168580","Station","Klorofyll a",0,0.2073,-0.0667,0
+"SE718150-168580","Station","MILA 2018",0,0.2736,0.3394,0
+"SE698561-139682","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.784,0.0062,0
+"SE698561-139682","Station","Total biovolym växtplankton",0,0.8694,1e-4,0
+"SE698561-139682","Station","Bentiskt kvalitetsindex",0,0.7,-0.0071,0
+"SE698561-139682","Station","Total biovolym cyanobakterier",0,0.8173,-0,0
+"SE698561-139682","Station","MILA 2018",0,0.2736,0.4189,0
+"SE632080-151245","Station","Total biovolym växtplankton",0,0.6962,0.0346,1
+"SE632080-151245","Station","Total biovolym cyanobakterier",0,0.0617,-0.0085,1
+"SE628178-142834","Station","Total biovolym växtplankton",1,0.043,0.4202,1
+"SE628178-142834","Station","Total biovolym cyanobakterier",0,0.4363,0.07,1
+"SE663894-165821","Station","Klorofyll a",0,0.3727,-0.4423,1
+"SE655011-158700","Station","Klorofyll a",0,0.419,2.4667,1
+"NW649253-149503","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.6693,-0.0068,0
+"NW649253-149503","Station","MILA 2018",0,0.1272,0.3768,0
+"SE655335-161924","Station","Klorofyll a",0,0.0736,-0.2444,1
+"SE633790-147515","Station","Total biovolym växtplankton",0,0.4507,0.1326,1
+"SE633790-147515","Station","Total biovolym cyanobakterier",1,0.0467,0.0514,1
+"SE654293-159359","Station","Klorofyll a",0,0.1524,-0.2,1
+"SE662985-166093","Station","Klorofyll a",0,0.3601,2.4875,1
+"SE664765-165855","Station","Klorofyll a",0,0.2981,-1.72,1
+"SE730091-165102","Station","Total biovolym växtplankton",0,0.1606,0.0056,0
+"SE730091-165102","Station","Total biovolym cyanobakterier",0,0.583,-1e-4,0
+"SE730091-165102","Station","Klorofyll a",0,1,-0,0
+"NW674570-141911","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.3922,0.0045,0
+"NW674570-141911","Station","MILA 2018",0,0.0586,0.9635,0
+"SE654459-158920","Station","Klorofyll a",0,0.2129,-1.9333,1
+"NW666191-142252","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2001,0.0251,0
+"NW666191-142252","Station","MILA 2018",0,0.5022,0.7124,0
+"SE654798-158954","Station","Klorofyll a",0,0.7555,-0.18,1
+"SE633738-142203","Station","Total biovolym växtplankton",0,0.6614,-0.069,0
+"SE633738-142203","Station","Total biovolym cyanobakterier",0,0.1889,3e-4,0
+"SE662976-164357","Station","Klorofyll a",0,1,-0.0571,1
+"SE663340-163300","Station","Klorofyll a",0,0.0982,-0.3646,1
+"SE646539-150099","Station","Total biovolym växtplankton",0,1,-0.0108,1
+"SE646539-150099","Station","Total biovolym cyanobakterier",0,0.2437,0.077,1
+"SE648688-151884","Station","Total biovolym växtplankton",0,0.2437,-0.7056,1
+"SE648688-151884","Station","Total biovolym cyanobakterier",0,0.5371,-0.3995,1
+"SE653017-148572","Station","Total biovolym växtplankton",0,0.5371,0.0588,1
+"SE653017-148572","Station","Total biovolym cyanobakterier",0,0.837,-0.0022,1
+"SE644992-151974","Station","Total biovolym växtplankton",1,0.0112,1.1565,1
+"SE644992-151974","Station","Total biovolym cyanobakterier",0,0.1499,0.5266,1
+"SE651060-149500","Station","Total biovolym växtplankton",0,0.1499,-0.0703,1
+"SE651060-149500","Station","Total biovolym cyanobakterier",0,0.1148,0.0028,1
+"SE664094-166287","Station","Klorofyll a",0,0.5371,0.325,1
+"SE713180-153188","Station","Klorofyll a",1,0.0235,1.2636,1
+"SE639611-144278","Station","Total biovolym växtplankton",0,0.4363,0.1718,1
+"SE639611-144278","Station","Total biovolym cyanobakterier",0,0.8763,0.0114,1
+"SE646103-146637","Station","Total biovolym växtplankton",0,0.1195,0.663,1
+"SE646103-146637","Station","Total biovolym cyanobakterier",0,0.5334,0.1454,1
+"SE643170-149085","Station","Total biovolym växtplankton",0,0.9453,0.0575,1
+"SE643170-149085","Station","Total biovolym cyanobakterier",1,0.0335,0.0198,1
+"SE726381-152328","Station","Klorofyll a",-1,0.0188,-0.075,1
+"SE726381-152328","Station","Total biovolym växtplankton",0,0.7834,-0.0034,1
+"SE726381-152328","Station","Total biovolym cyanobakterier",0,0.837,2e-4,1
+"SE718284-148654","Station","Klorofyll a",0,0.6938,0.0333,1
+"SE718284-148654","Station","Total biovolym växtplankton",0,0.9453,-0.0011,1
+"SE718284-148654","Station","Total biovolym cyanobakterier",0,0.9453,0,1
+"SE641200-143890","Station","Total biovolym växtplankton",0,0.9453,-0.0369,1
+"SE641200-143890","Station","Total biovolym cyanobakterier",0,0.3727,-0.0028,1
+"SE646900-151250","Station","Total biovolym växtplankton",0,0.4507,0.2412,1
+"SE646900-151250","Station","Total biovolym cyanobakterier",0,0.6312,-0.3008,1
+"SE658561-162661","Station","Klorofyll a",0,0.1611,-0.6729,1
+"SE718898-170673","Station","Klorofyll a",0,0.4743,-0.34,1
+"SE657345-147335","Station","Total biovolym växtplankton",0,0.7555,0.444,1
+"SE657345-147335","Station","Total biovolym cyanobakterier",0,1,0.3417,1
+"SE657315-148215","Station","Total biovolym växtplankton",0,1,0.07,1
+"SE657315-148215","Station","Total biovolym cyanobakterier",0,0.8763,-0.1765,1
+"SE721811-171800","Station","Klorofyll a",0,0.243,0.125,1
+"SE664752-135108","Station","Total biovolym växtplankton",0,0.1195,-0.0534,1
+"SE664752-135108","Station","Total biovolym cyanobakterier",0,0.7555,4e-4,1
+"SE664752-135108","Station","Klorofyll a",0,0.5309,-0.0556,1
+"SE723383-175441","Station","Klorofyll a",0,0.858,-0.2167,1
+"SE626748-148744","Station","Total biovolym växtplankton",0,0.2831,0.2567,1
+"SE626748-148744","Station","Total biovolym cyanobakterier",0,0.5915,0.003,1
+"SE626126-148664","Station","Total biovolym växtplankton",0,0.4743,-0.1538,1
+"SE626126-148664","Station","Total biovolym cyanobakterier",0,0.5915,0.0101,1
+"SE627074-148362","Station","Total biovolym växtplankton",0,0.858,-0.0331,1
+"SE627074-148362","Station","Total biovolym cyanobakterier",0,1,0,1
+"SE628170-143420","Station","Total biovolym växtplankton",0,0.5915,-0.024,1
+"SE628170-143420","Station","Total biovolym cyanobakterier",0,1,0.0048,1
+"SE659503-154190","Station","Klorofyll a",0,0.2129,-0.46,0
+"SE651826-136762","Station","Klorofyll a",0,0.9378,0.0111,0
+"SE620953-135500","Station","Klorofyll a",0,0.5846,0.3333,1
+"SE713180-153188","Station","Total biovolym växtplankton",0,1,-0.0357,1
+"SE713180-153188","Station","Total biovolym cyanobakterier",0,0.6223,-0,1
+"SE662709-160136","Station","Klorofyll a",1,0.0293,2.09,0
+"SE641603-144848","Station","Total biovolym växtplankton",0,0.8763,0.0082,1
+"SE641603-144848","Station","Total biovolym cyanobakterier",0,0.1195,0.0066,1
+"SE659180-152170","Station","Klorofyll a",0,0.4363,-1.0571,0
+"SE659036-160984","Station","Klorofyll a",0,0.8763,-0.0333,0
+"SE659755-155697","Station","Klorofyll a",0,0.5334,-0.475,0
+"SE634447-144024","Station","Total biovolym växtplankton",0,0.0617,0.0633,1
+"SE634447-144024","Station","Total biovolym cyanobakterier",0,0.4363,0.0036,1
+"SE707669-170020","Station","Total biovolym växtplankton",0,0.8763,0.006,1
+"SE707669-170020","Station","Total biovolym cyanobakterier",0,0.4363,-0.0024,1
+"SE652877-132735","Station","Klorofyll a",0,0.1195,0.1,0
+"SE663004-160268","Station","Bentiskt kvalitetsindex",0,1,-0,0
+"SE661981-152153","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2105,-0.0597,1
+"SE661981-152153","Station","MILA 2018",0,0.1524,-1.3552,1
+"SE659072-159203","Station","Klorofyll a",0,0.4363,-0.2625,0
+"SE657562-159772","Station","Klorofyll a",0,0.2758,-0.2,0
+"SE667073-145408","Station","Generell påverkan på bottenfauna i sötvatten (ASPT)",0,0.2831,-0.047,1
+"SE667073-145408","Station","MILA 2018",0,0.5915,1.3145,1
+"SE660542-161322","Station","Klorofyll a",0,0.3473,1,0
+"SE655209-126937","Station","Klorofyll a",0,0.6944,0.0333,0
+"SE660743-157006","Station","Klorofyll a",0,0.4363,-0.5833,0
+"SE655455-136581","Station","Klorofyll a",0,0.3904,-0.0667,0
+"SE658368-157107","Station","Klorofyll a",0,0.1844,-0.8562,0
+"SE657383-139985","Station","Klorofyll a",0,0.4743,-0.55,1
+"SE657772-140061","Station","Klorofyll a",0,0.3711,0.75,1
+"SE660831-154222","Station","Klorofyll a",0,0.1611,-1.1556,0
+"SE717734-173458","Station","Total biovolym växtplankton",-1,0.0491,-0.0713,1
+"SE717734-173458","Station","Total biovolym cyanobakterier",0,0.3711,-7e-4,1
+"SE651826-136762","Station","Total biovolym växtplankton",1,0.0491,0.0217,0
+"SE651826-136762","Station","Total biovolym cyanobakterier",0,0.858,0.001,0
+"SE662709-160136","Station","Total biovolym växtplankton",0,0.4743,0.2315,0
+"SE662709-160136","Station","Total biovolym cyanobakterier",0,0.2105,0.2302,0
+"SE718898-170673","Station","Total biovolym växtplankton",0,0.858,0.037,1
+"SE718898-170673","Station","Total biovolym cyanobakterier",0,0.5915,-0.0157,1
+"SE659180-152170","Station","Total biovolym växtplankton",0,0.4743,0.1305,0
+"SE659180-152170","Station","Total biovolym cyanobakterier",0,0.858,-0.0536,0
+"SE659036-160984","Station","Total biovolym växtplankton",0,0.1074,0.048,0
+"SE659036-160984","Station","Total biovolym cyanobakterier",0,0.3711,0.0324,0
+"SE659755-155697","Station","Total biovolym växtplankton",0,0.7205,0.0745,0
+"SE659755-155697","Station","Total biovolym cyanobakterier",0,1,-0,0
+"SE652877-132735","Station","Total biovolym växtplankton",1,0.0318,0.0272,0
+"SE652877-132735","Station","Total biovolym cyanobakterier",0,0.4743,0.0027,0
+"SE721811-171800","Station","Total biovolym växtplankton",0,0.5296,0.0165,1
+"SE721811-171800","Station","Total biovolym cyanobakterier",0,0.3711,0.0014,1
+"SE657562-159772","Station","Total biovolym växtplankton",0,1,0.0023,0
+"SE657562-159772","Station","Total biovolym cyanobakterier",0,0.4743,-0.0116,0
+"SE633738-142203","Station","Klorofyll a",-1,0.0153,-1.875,0
+"SE655455-136581","Station","Total biovolym växtplankton",0,0.2831,0.0195,0
+"SE655455-136581","Station","Total biovolym cyanobakterier",0,0.5915,0.0012,0
+"SE723383-175441","Station","Total biovolym växtplankton",0,0.7205,-0.0098,1
+"SE723383-175441","Station","Total biovolym cyanobakterier",0,0.1242,1e-4,1

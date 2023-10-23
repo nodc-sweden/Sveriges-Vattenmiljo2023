@@ -1,0 +1,373 @@
+﻿"VattenID","Vattenkategori","VariabelID","Trendens signifikans","p-värde","Medianförändring per år"
+"SE638705-130519","Station","Vattendrag antal arter",,,
+"SE638705-130519","Station","Vattendrag öring",-1,0.0065,-0.8583
+"SE638705-130519","Station","Vattendrag totalmängd fisk",0,0.2478,0.8333
+"SE640085-138148","Station","Vattendrag antal arter",,,
+"SE640085-138148","Station","Vattendrag öring",-1,8e-4,-0.669
+"SE640085-138148","Station","Vattendrag totalmängd fisk",0,0.9349,-0.0137
+"SE622950-143450","Station","Vattendrag antal arter",,,
+"SE622950-143450","Station","Vattendrag lax",0,0.1382,-1.0004
+"SE622950-143450","Station","Vattendrag öring",-1,0.0015,-0.2571
+"SE622950-143450","Station","Vattendrag totalmängd fisk",0,0.8356,-0.1554
+"SE633316-146198","Station","Vattendrag antal arter",,,
+"SE633316-146198","Station","Vattendrag lax",0,0.1382,-1.0004
+"SE633316-146198","Station","Vattendrag öring",-1,0.0015,-0.2571
+"SE633316-146198","Station","Vattendrag totalmängd fisk",0,0.8356,-0.1554
+"SE705844-168354","Station","Vattendrag antal arter",,,
+"SE705844-168354","Station","Vattendrag öring",1,0.0198,0.7068
+"SE705844-168354","Station","Vattendrag totalmängd fisk",1,0.0348,1.0666
+"SE705968-168204","Station","Vattendrag antal arter",,,
+"SE705968-168204","Station","Vattendrag öring",1,0.009,1.1778
+"SE705968-168204","Station","Vattendrag totalmängd fisk",0,0.222,0.6667
+"SE695998-156845","Station","Vattendrag antal arter",,,
+"SE695998-156845","Station","Vattendrag öring",-1,6e-4,-0.4714
+"SE695998-156845","Station","Vattendrag totalmängd fisk",0,0.3005,0.1282
+"SE714074-567612","Station","Vattendrag antal arter",,,
+"SE714074-567612","Station","Vattendrag öring",1,0.031,0.0476
+"SE714074-567612","Station","Vattendrag totalmängd fisk",0,0.8659,-0.024
+"SE641911-139532","Station","Vattendrag antal arter",,,
+"SE641911-139532","Station","Vattendrag öring",1,0,2.5669
+"SE641911-139532","Station","Vattendrag totalmängd fisk",1,0,2.1585
+"SE706176-733260","Station","Vattendrag antal arter",,,
+"SE706176-733260","Station","Vattendrag öring",0,0.9506,0.0075
+"SE706176-733260","Station","Vattendrag totalmängd fisk",0,0.9136,0.0154
+"SE707116-166548","Station","Vattendrag antal arter",,,
+"SE707116-166548","Station","Vattendrag lax",1,2e-4,0.0819
+"SE707116-166548","Station","Vattendrag öring",0,0.3634,0.7778
+"SE707116-166548","Station","Vattendrag totalmängd fisk",0,0.2442,1.1375
+"SE709557-170877","Station","Vattendrag antal arter",,,
+"SE709557-170877","Station","Vattendrag öring",0,0.6352,0.1991
+"SE709557-170877","Station","Vattendrag totalmängd fisk",0,0.9056,0.051
+"SE627958-134477","Station","Vattendrag antal arter",,,
+"SE627958-134477","Station","Vattendrag öring",-1,0,-0.5846
+"SE627958-134477","Station","Vattendrag totalmängd fisk",-1,0.001,-0.9125
+"SE627954-133794","Station","Vattendrag antal arter",,,
+"SE627954-133794","Station","Vattendrag lax",0,0.5061,-0.2819
+"SE627954-133794","Station","Vattendrag öring",0,0.6152,0.1374
+"SE627954-133794","Station","Vattendrag totalmängd fisk",0,0.884,0.1476
+"SE712500-171798","Station","Vattendrag antal arter",,,
+"SE712500-171798","Station","Vattendrag öring",1,9e-4,0.4244
+"SE712500-171798","Station","Vattendrag totalmängd fisk",1,0.0139,0.6963
+"SE714959-171709","Station","Vattendrag antal arter",,,
+"SE714959-171709","Station","Vattendrag öring",-1,0.0065,-0.7773
+"SE714959-171709","Station","Vattendrag totalmängd fisk",0,0.1261,-0.619
+"SE654022-124861","Station","Vattendrag antal arter",,,
+"SE654022-124861","Station","Vattendrag öring",-1,0,-0.8073
+"SE654022-124861","Station","Vattendrag totalmängd fisk",-1,0,-0.9392
+"SE629573-132958","Station","Vattendrag antal arter",,,
+"SE629573-132958","Station","Vattendrag lax",1,0.0491,0.1424
+"SE629573-132958","Station","Vattendrag öring",0,0.0883,0.425
+"SE629573-132958","Station","Vattendrag totalmängd fisk",1,1e-4,2.4962
+"SE707521-169817","Station","Vattendrag antal arter",,,
+"SE707521-169817","Station","Vattendrag öring",1,0,1.539
+"SE707521-169817","Station","Vattendrag totalmängd fisk",1,9e-4,1.606
+"SE705844-168540","Station","Vattendrag antal arter",,,
+"SE705844-168540","Station","Vattendrag öring",1,0.042,1.1
+"SE705844-168540","Station","Vattendrag totalmängd fisk",1,0.016,1.4286
+"SE710168-173165","Station","Vattendrag antal arter",,,
+"SE710168-173165","Station","Vattendrag öring",1,0.0228,0.9758
+"SE710168-173165","Station","Vattendrag totalmängd fisk",1,4e-4,1.9095
+"SE710995-172915","Station","Vattendrag antal arter",,,
+"SE710995-172915","Station","Vattendrag öring",1,0.0228,0.9758
+"SE710995-172915","Station","Vattendrag totalmängd fisk",1,4e-4,1.9095
+"SE706714-166899","Station","Vattendrag antal arter",,,
+"SE706714-166899","Station","Vattendrag öring",0,0.2095,0.7673
+"SE706714-166899","Station","Vattendrag totalmängd fisk",0,0.2209,0.7549
+"SE692688-153260","Station","Vattendrag antal arter",,,
+"SE692688-153260","Station","Vattendrag öring",0,0.3226,-0.3892
+"SE692688-153260","Station","Vattendrag totalmängd fisk",0,0.1583,-0.4987
+"SE712500-171798","Station","Vattendrag lax",1,2e-4,0.1667
+"SE629147-133368","Station","Vattendrag antal arter",,,
+"SE629147-133368","Station","Vattendrag öring",-1,0,-1.2665
+"SE629147-133368","Station","Vattendrag totalmängd fisk",-1,3e-4,-1.3018
+"SE643756-140257","Station","Vattendrag antal arter",,,
+"SE643756-140257","Station","Vattendrag öring",0,0.0763,-2.5375
+"SE643756-140257","Station","Vattendrag totalmängd fisk",0,0.4785,-1.175
+"SE626827-132577","Station","Vattendrag antal arter",,,
+"SE626827-132577","Station","Vattendrag lax",-1,0,-3.0254
+"SE626827-132577","Station","Vattendrag öring",0,0.3819,-0.1708
+"SE626827-132577","Station","Vattendrag totalmängd fisk",0,0.1007,-1.8556
+"SE713710-174015","Station","Vattendrag antal arter",,,
+"SE713710-174015","Station","Vattendrag öring",1,0.0409,0.8238
+"SE713710-174015","Station","Vattendrag totalmängd fisk",1,0.0062,1.5183
+"SE707289-723897","Station","Vattendrag antal arter",,,
+"SE707289-723897","Station","Vattendrag öring",1,0.0244,0.625
+"SE707289-723897","Station","Vattendrag totalmängd fisk",0,0.285,0.6119
+"SE724122-173305","Station","Vattendrag antal arter",,,
+"SE724122-173305","Station","Vattendrag öring",1,0.002,0.6353
+"SE724122-173305","Station","Vattendrag totalmängd fisk",0,0.8948,-0.0926
+"SE706281-167258","Station","Vattendrag antal arter",,,
+"SE706281-167258","Station","Vattendrag öring",1,1e-4,1.3893
+"SE706281-167258","Station","Vattendrag totalmängd fisk",1,1e-4,1.4241
+"SE706714-166899","Station","Vattendrag lax",0,0.074,0.0787
+"SE635088-131909","Station","Vattendrag antal arter",,,
+"SE635088-131909","Station","Vattendrag lax",0,0.0804,1.3056
+"SE635088-131909","Station","Vattendrag öring",0,0.8584,0.0212
+"SE635088-131909","Station","Vattendrag totalmängd fisk",1,0.0048,2.62
+"SE723058-173218","Station","Vattendrag antal arter",,,
+"SE723058-173218","Station","Vattendrag öring",1,1e-4,0.9681
+"SE723058-173218","Station","Vattendrag totalmängd fisk",1,0.0072,0.8542
+"SE633155-131301","Station","Vattendrag antal arter",,,
+"SE633155-131301","Station","Vattendrag lax",-1,6e-4,-0.795
+"SE633155-131301","Station","Vattendrag öring",0,0.4759,-0.2977
+"SE633155-131301","Station","Vattendrag totalmängd fisk",0,0.0811,-2.0967
+"SE639185-130062","Station","Vattendrag antal arter",,,
+"SE639185-130062","Station","Vattendrag lax",-1,8e-4,-2.4498
+"SE639185-130062","Station","Vattendrag totalmängd fisk",-1,0,-3.1187
+"SE704792-167352","Station","Vattendrag antal arter",,,
+"SE704792-167352","Station","Vattendrag öring",1,0.0077,0.7527
+"SE704792-167352","Station","Vattendrag totalmängd fisk",1,0.0077,0.7527
+"SE709730-170528","Station","Vattendrag antal arter",,,
+"SE709730-170528","Station","Vattendrag öring",0,0.5878,-0.3825
+"SE709730-170528","Station","Vattendrag totalmängd fisk",0,0.9335,-0.1786
+"SE710512-171642","Station","Vattendrag antal arter",,,
+"SE710512-171642","Station","Vattendrag öring",0,0.4283,0.0633
+"SE710512-171642","Station","Vattendrag totalmängd fisk",1,0.0335,1.315
+"SE656155-161871","Station","Vattendrag antal arter",,,
+"SE656155-161871","Station","Vattendrag öring",0,0.2517,-0.842
+"SE656155-161871","Station","Vattendrag totalmängd fisk",0,0.0856,-2.9513
+"SE724122-173305","Station","Vattendrag lax",1,0.0429,0.0395
+"SE721610-173758","Station","Vattendrag antal arter",,,
+"SE721610-173758","Station","Vattendrag öring",1,0.0194,0.3278
+"SE721610-173758","Station","Vattendrag totalmängd fisk",1,0.0051,0.5125
+"SE683537-155138","Station","Vattendrag antal arter",,,
+"SE683537-155138","Station","Vattendrag öring",0,0.9842,0.0086
+"SE683537-155138","Station","Vattendrag totalmängd fisk",0,0.9213,0.0651
+"SE663532-523976","Station","Vattendrag antal arter",,,
+"SE663532-523976","Station","Vattendrag öring",1,0.0282,0.1339
+"SE663532-523976","Station","Vattendrag totalmängd fisk",1,0.0344,0.1271
+"SE720854-149018","Station","Vattendrag antal arter",,,
+"SE720854-149018","Station","Vattendrag öring",0,0.6277,-0.3633
+"SE720854-149018","Station","Vattendrag totalmängd fisk",0,0.378,-0.4062
+"SE638561-141289","Station","Vattendrag antal arter",,,
+"SE638561-141289","Station","Vattendrag öring",-1,0.0023,-0.5625
+"SE638561-141289","Station","Vattendrag totalmängd fisk",-1,0.002,-1.0167
+"SE639937-131012","Station","Vattendrag antal arter",,,
+"SE639937-131012","Station","Vattendrag öring",0,0.778,0.1333
+"SE639937-131012","Station","Vattendrag totalmängd fisk",0,0.31,0.887
+"SE638705-130519","Station","Vattendrag lax",0,0.1558,-0.6125
+"SE625442-141314","Station","Vattendrag antal arter",,,
+"SE625442-141314","Station","Vattendrag öring",0,0.3813,0.1667
+"SE625442-141314","Station","Vattendrag totalmängd fisk",1,0.0271,0.8
+"SE697717-139085","Station","Vattendrag antal arter",,,
+"SE697717-139085","Station","Vattendrag öring",0,0.321,-0.0519
+"SE697717-139085","Station","Vattendrag totalmängd fisk",-1,0.0029,-0.1725
+"SE707031-165920","Station","Vattendrag antal arter",,,
+"SE707031-165920","Station","Vattendrag lax",1,0.0058,0.2227
+"SE707031-165920","Station","Vattendrag öring",0,0.186,0.3294
+"SE707031-165920","Station","Vattendrag totalmängd fisk",0,0.0641,1.341
+"SE715498-171424","Station","Vattendrag antal arter",,,
+"SE715498-171424","Station","Vattendrag öring",0,0.4596,-0.275
+"SE715498-171424","Station","Vattendrag totalmängd fisk",1,0.0419,1.0324
+"SE697231-157849","Station","Vattendrag antal arter",,,
+"SE697231-157849","Station","Vattendrag öring",1,5e-4,1.185
+"SE697231-157849","Station","Vattendrag totalmängd fisk",0,0.9824,-0.0244
+"NW655707-161731","Station","Vattendrag antal arter",,,
+"NW655707-161731","Station","Vattendrag öring",-1,8e-4,-4.9214
+"NW655707-161731","Station","Vattendrag totalmängd fisk",-1,1e-4,-4.9393
+"SE621495-134055","Station","Vattendrag antal arter",,,
+"SE621495-134055","Station","Vattendrag öring",0,0.0965,-0.6102
+"SE621495-134055","Station","Vattendrag totalmängd fisk",0,0.2242,-0.477
+"SE673813-153174","Station","Vattendrag antal arter",,,
+"SE673813-153174","Station","Vattendrag öring",0,0.0551,-0.2422
+"SE673813-153174","Station","Vattendrag totalmängd fisk",0,0.3899,-0.2364
+"SE707204-161537","Station","Vattendrag antal arter",,,
+"SE707204-161537","Station","Vattendrag öring",0,0.0641,0.6549
+"SE707204-161537","Station","Vattendrag totalmängd fisk",0,0.0741,0.631
+"SE706837-167066","Station","Vattendrag antal arter",,,
+"SE706837-167066","Station","Vattendrag öring",0,0.0721,-0.347
+"SE706837-167066","Station","Vattendrag totalmängd fisk",0,0.0798,-0.2737
+"SE700012-140354","Station","Vattendrag antal arter",,,
+"SE700012-140354","Station","Vattendrag öring",0,0.4137,0.3617
+"SE700012-140354","Station","Vattendrag totalmängd fisk",0,0.4409,0.3667
+"SE684404-578511","Station","Vattendrag antal arter",,,
+"SE684404-578511","Station","Vattendrag öring",0,0.6571,0.0119
+"SE684404-578511","Station","Vattendrag totalmängd fisk",0,0.9814,-0.0021
+"NW624824-133504","Station","Vattendrag antal arter",,,
+"NW624824-133504","Station","Vattendrag öring",0,0.2389,-0.7181
+"NW624824-133504","Station","Vattendrag totalmängd fisk",0,0.2906,-0.6653
+"SE711891-170953","Station","Vattendrag antal arter",,,
+"SE711891-170953","Station","Vattendrag öring",0,0.0552,0.6008
+"SE711891-170953","Station","Vattendrag totalmängd fisk",0,0.6238,0.3765
+"SE710168-173165","Station","Vattendrag lax",1,0.032,0.7868
+"SE710995-172915","Station","Vattendrag lax",1,0.032,0.7868
+"SE651076-124118","Station","Vattendrag antal arter",,,
+"SE651076-124118","Station","Vattendrag öring",0,0.9159,0.1167
+"SE651076-124118","Station","Vattendrag totalmängd fisk",0,0.2244,1.4167
+"SE664297-136937","Station","Vattendrag antal arter",,,
+"SE664297-136937","Station","Vattendrag öring",0,0.5661,0.1375
+"SE664297-136937","Station","Vattendrag totalmängd fisk",0,0.6506,0.1436
+"SE631375-379389","Station","Vattendrag antal arter",,,
+"SE631375-379389","Station","Vattendrag öring",0,0.3283,0.0758
+"SE631375-379389","Station","Vattendrag totalmängd fisk",0,0.3417,0.1039
+"SE741419-169012","Station","Vattendrag antal arter",,,
+"SE741419-169012","Station","Vattendrag öring",0,0.4986,-0.0433
+"SE741419-169012","Station","Vattendrag totalmängd fisk",0,0.9775,0.0067
+"NW731935-150695","Station","Vattendrag antal arter",,,
+"NW731935-150695","Station","Vattendrag öring",1,1e-4,1.349
+"NW731935-150695","Station","Vattendrag totalmängd fisk",1,0.0021,1.0595
+"SE617710-138599","Station","Vattendrag antal arter",,,
+"SE617710-138599","Station","Vattendrag öring",0,0.0627,-1.4814
+"SE617710-138599","Station","Vattendrag totalmängd fisk",-1,0.0484,-1.9687
+"SE709639-164787","Station","Vattendrag antal arter",,,
+"SE709639-164787","Station","Vattendrag lax",0,0.0852,1.3229
+"SE709639-164787","Station","Vattendrag öring",0,0.7858,0.0731
+"SE709639-164787","Station","Vattendrag totalmängd fisk",0,0.9759,0.0292
+"SE683278-138787","Station","Vattendrag antal arter",,,
+"SE683278-138787","Station","Vattendrag öring",0,0.6969,0.045
+"SE683278-138787","Station","Vattendrag totalmängd fisk",0,0.4173,0.2308
+"SE659670-142700","Station","Vattendrag antal arter",,,
+"SE659670-142700","Station","Vattendrag öring",1,0.0278,0.6905
+"SE659670-142700","Station","Vattendrag totalmängd fisk",0,0.778,-0.3026
+"SE722382-174108","Station","Vattendrag antal arter",,,
+"SE722382-174108","Station","Vattendrag lax",0,0.2342,-0.9183
+"SE722382-174108","Station","Vattendrag öring",1,0.001,0.6385
+"SE722382-174108","Station","Vattendrag totalmängd fisk",0,0.7796,0.3495
+"SE651076-124118","Station","Vattendrag lax",-1,0.0106,-0.1458
+"SE623379-142057","Station","Vattendrag antal arter",,,
+"SE623379-142057","Station","Vattendrag öring",0,0.2843,0.2542
+"SE623379-142057","Station","Vattendrag totalmängd fisk",1,0.0041,6.3542
+"SE660713-165636","Station","Vattendrag antal arter",,,
+"SE660713-165636","Station","Vattendrag öring",1,0.0201,3.8925
+"SE660713-165636","Station","Vattendrag totalmängd fisk",1,0.0372,3.7411
+"SE671022-138484","Station","Vattendrag antal arter",,,
+"SE671022-138484","Station","Vattendrag öring",-1,0.0095,-0.7632
+"SE671022-138484","Station","Vattendrag totalmängd fisk",0,0.4338,-0.7018
+"SE705471-167698","Station","Vattendrag antal arter",,,
+"SE705471-167698","Station","Vattendrag öring",0,0.23,0.8458
+"SE705471-167698","Station","Vattendrag totalmängd fisk",0,0.2561,0.8458
+"SE641249-139894","Station","Vattendrag antal arter",,,
+"SE641249-139894","Station","Vattendrag öring",0,0.2255,-0.775
+"SE641249-139894","Station","Vattendrag totalmängd fisk",0,0.2717,-0.8423
+"SE628951-132620","Station","Vattendrag antal arter",,,
+"SE628951-132620","Station","Vattendrag öring",0,0.2889,-1.225
+"SE628951-132620","Station","Vattendrag totalmängd fisk",0,0.1727,-1.6654
+"SE699389-161675","Station","Vattendrag antal arter",,,
+"SE699389-161675","Station","Vattendrag öring",0,0.2464,1.3557
+"SE699389-161675","Station","Vattendrag totalmängd fisk",1,0.0441,3.732
+"SE713732-171552","Station","Vattendrag antal arter",,,
+"SE713732-171552","Station","Vattendrag öring",0,0.6208,0.3083
+"SE713732-171552","Station","Vattendrag totalmängd fisk",0,0.3434,-1.1162
+"SE639185-130062","Station","Vattendrag öring",0,0.5841,0.1167
+"SE639819-139887","Station","Vattendrag antal arter",,,
+"SE639819-139887","Station","Vattendrag öring",1,0.0034,3.7447
+"SE639819-139887","Station","Vattendrag totalmängd fisk",1,0.0026,4.98
+"SE716064-171647","Station","Vattendrag antal arter",,,
+"SE716064-171647","Station","Vattendrag öring",1,0.0217,1.4784
+"SE716064-171647","Station","Vattendrag totalmängd fisk",0,0.2241,0.9619
+"SE722583-155287","Station","Vattendrag antal arter",,,
+"SE722583-155287","Station","Vattendrag öring",0,0.3247,-0.4417
+"SE722583-155287","Station","Vattendrag totalmängd fisk",0,0.2889,-0.5071
+"SE639042-138349","Station","Vattendrag antal arter",,,
+"SE639042-138349","Station","Vattendrag öring",0,0.1495,0.0667
+"SE639042-138349","Station","Vattendrag totalmängd fisk",-1,0.0051,-0.41
+"SE673303-133869","Station","Vattendrag antal arter",,,
+"SE673303-133869","Station","Vattendrag öring",0,0.8046,0.0111
+"SE673303-133869","Station","Vattendrag totalmängd fisk",0,0.7415,0.0258
+"SE722828-175735","Station","Vattendrag antal arter",,,
+"SE722828-175735","Station","Vattendrag lax",0,0.6207,-0.3485
+"SE722828-175735","Station","Vattendrag totalmängd fisk",0,0.4884,2.1167
+"SE688271-138240","Station","Vattendrag antal arter",,,
+"SE688271-138240","Station","Vattendrag öring",0,0.1628,-0.4392
+"SE688271-138240","Station","Vattendrag totalmängd fisk",0,0.1151,-0.5046
+"SE642902-139413","Station","Vattendrag antal arter",,,
+"SE642902-139413","Station","Vattendrag öring",1,0.0151,3.4478
+"SE642902-139413","Station","Vattendrag totalmängd fisk",1,0.012,3.6036
+"SE642520-139531","Station","Vattendrag antal arter",,,
+"SE642520-139531","Station","Vattendrag öring",1,1e-4,6.0544
+"SE642520-139531","Station","Vattendrag totalmängd fisk",1,1e-4,6.6917
+"SE639719-133565","Station","Vattendrag antal arter",,,
+"SE639719-133565","Station","Vattendrag öring",0,0.3031,-0.4935
+"SE639719-133565","Station","Vattendrag totalmängd fisk",0,0.7731,0.5365
+"NW684168-154489","Station","Vattendrag antal arter",,,
+"NW684168-154489","Station","Vattendrag öring",0,0.4838,-0.5435
+"NW684168-154489","Station","Vattendrag totalmängd fisk",0,0.9016,-0.2188
+"SE633962-130068","Station","Vattendrag antal arter",,,
+"SE633962-130068","Station","Vattendrag lax",0,0.3004,0.6549
+"SE633962-130068","Station","Vattendrag öring",0,0.5886,0.7029
+"SE633962-130068","Station","Vattendrag totalmängd fisk",0,0.4995,0.7583
+"SE753460-165285","Station","Vattendrag antal arter",,,
+"SE753460-165285","Station","Vattendrag öring",1,1e-4,0.7019
+"SE753460-165285","Station","Vattendrag totalmängd fisk",1,0,0.7367
+"SE728070-165120","Station","Vattendrag antal arter",,,
+"SE728070-165120","Station","Vattendrag öring",0,0.6207,0.0433
+"SE728070-165120","Station","Vattendrag totalmängd fisk",0,0.6922,0.0417
+"SE666881-151821","Station","Vattendrag antal arter",,,
+"SE666881-151821","Station","Vattendrag öring",0,0.2604,0.9718
+"SE666881-151821","Station","Vattendrag totalmängd fisk",0,0.2241,0.9858
+"SE678180-145408","Station","Vattendrag antal arter",,,
+"SE678180-145408","Station","Vattendrag öring",0,0.3727,-0.2625
+"SE678180-145408","Station","Vattendrag totalmängd fisk",0,1,-0.1906
+"SE688035-137041","Station","Vattendrag antal arter",,,
+"SE688035-137041","Station","Vattendrag öring",0,0.1376,-0.4889
+"SE688035-137041","Station","Vattendrag totalmängd fisk",0,0.1982,-0.2729
+"SE708380-145455","Station","Vattendrag antal arter",,,
+"SE708380-145455","Station","Vattendrag öring",0,0.3004,-0.1867
+"SE708380-145455","Station","Vattendrag totalmängd fisk",0,0.1373,-0.2553
+"SE708485-154920","Station","Vattendrag antal arter",,,
+"SE708485-154920","Station","Vattendrag öring",0,0.6204,-0.1533
+"SE708485-154920","Station","Vattendrag totalmängd fisk",0,0.9641,0.0171
+"SE753778-181417","Station","Vattendrag antal arter",,,
+"SE753778-181417","Station","Vattendrag lax",1,0.001,0.4042
+"SE753778-181417","Station","Vattendrag öring",0,0.1373,0.1356
+"SE753778-181417","Station","Vattendrag totalmängd fisk",1,1e-4,1.0004
+"SE703626-153615","Station","Vattendrag antal arter",,,
+"SE703626-153615","Station","Vattendrag öring",0,0.5281,0.2828
+"SE703626-153615","Station","Vattendrag totalmängd fisk",0,1,-0.0248
+"SE723232-161455","Station","Vattendrag antal arter",,,
+"SE723232-161455","Station","Vattendrag lax",-1,0.0217,-2.0396
+"SE723232-161455","Station","Vattendrag öring",0,0.2241,0.3738
+"SE723232-161455","Station","Vattendrag totalmängd fisk",-1,0.0217,-1.7466
+"SE694385-154692","Station","Vattendrag antal arter",,,
+"SE694385-154692","Station","Vattendrag öring",0,0.1148,-1.1083
+"SE694385-154692","Station","Vattendrag totalmängd fisk",-1,0.0164,-2.1078
+"SE678609-137505","Station","Vattendrag antal arter",,,
+"SE678609-137505","Station","Vattendrag öring",0,0.0957,-0.601
+"SE678609-137505","Station","Vattendrag totalmängd fisk",0,0.1151,-1.0525
+"SE721051-149504","Station","Vattendrag antal arter",,,
+"SE721051-149504","Station","Vattendrag öring",-1,0.0068,-1.1915
+"SE721051-149504","Station","Vattendrag totalmängd fisk",-1,0.0103,-1.1915
+"SE639020-148650","Station","Vattendrag antal arter",,,
+"SE639020-148650","Station","Vattendrag öring",0,0.4995,-0.1256
+"SE639020-148650","Station","Vattendrag totalmängd fisk",0,1,-0.0165
+"SE724097-151160","Station","Vattendrag antal arter",,,
+"SE724097-151160","Station","Vattendrag öring",-1,0.0377,-0.3367
+"SE724097-151160","Station","Vattendrag totalmängd fisk",-1,0.0228,-0.5333
+"SE726075-144043","Station","Vattendrag antal arter",,,
+"SE726075-144043","Station","Vattendrag öring",0,0.1659,-0.21
+"SE726075-144043","Station","Vattendrag totalmängd fisk",0,0.1659,-0.21
+"SE737675-158280","Station","Vattendrag antal arter",,,
+"SE737675-158280","Station","Vattendrag öring",0,1,0
+"SE737675-158280","Station","Vattendrag totalmängd fisk",0,0.3923,-0.2071
+"SE651360-153835","Station","Vattendrag antal arter",,,
+"SE651360-153835","Station","Vattendrag öring",-1,0.0274,-2.0762
+"SE651360-153835","Station","Vattendrag totalmängd fisk",0,0.3923,-1.685
+"SE673809-153401","Station","Vattendrag antal arter",,,
+"SE673809-153401","Station","Vattendrag öring",0,0.2763,-0.0917
+"SE673809-153401","Station","Vattendrag totalmängd fisk",0,0.06,1.6679
+"SE641953-137406","Station","Vattendrag antal arter",,,
+"SE641953-137406","Station","Vattendrag öring",-1,0.0294,-2
+"SE641953-137406","Station","Vattendrag totalmängd fisk",0,0.1659,4.8083
+"SE699780-139553","Station","Vattendrag antal arter",,,
+"SE699780-139553","Station","Vattendrag öring",0,0.0798,0.7778
+"SE699780-139553","Station","Vattendrag totalmängd fisk",0,0.0798,0.7778
+"SE673809-153401","Station","Vattendrag antal arter",,,
+"SE673809-153401","Station","Vattendrag öring",0,0.2763,-0.0917
+"SE673809-153401","Station","Vattendrag totalmängd fisk",0,0.06,1.6679
+"SE617710-138599","Station","Vattendrag lax",0,0.3232,0.0095
+"SE707289-723897","Station","Vattendrag lax",-1,0.0028,-0.6845
+"SE618096-133078","Station","Vattendrag antal arter",,,
+"SE618096-133078","Station","Vattendrag öring",0,0.9514,0.2694
+"SE618096-133078","Station","Vattendrag totalmängd fisk",1,0.0124,6.5631
+"SE638864-137003","Station","Vattendrag antal arter",,,
+"SE638864-137003","Station","Vattendrag öring",1,3e-4,3.6333
+"SE638864-137003","Station","Vattendrag totalmängd fisk",1,0.0031,7.275
+"SE722828-175735","Station","Vattendrag öring",0,0.6962,-0.0667
+"SE625353-133426","Station","Vattendrag antal arter",,,
+"SE625353-133426","Station","Vattendrag lax",0,0.4507,-3.4825
+"SE625353-133426","Station","Vattendrag öring",0,0.5371,1.5225
+"SE625353-133426","Station","Vattendrag totalmängd fisk",0,0.6312,-3.5333
+"SE627544-133894","Station","Vattendrag antal arter",,,
+"SE627544-133894","Station","Vattendrag lax",0,0.7555,-1.2786
+"SE627544-133894","Station","Vattendrag öring",0,1,1.275
+"SE627544-133894","Station","Vattendrag totalmängd fisk",0,1,-0.8667

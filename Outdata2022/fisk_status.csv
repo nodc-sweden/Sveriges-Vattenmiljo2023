@@ -1,0 +1,182 @@
+﻿"VattenID","Vattenkategori","VariabelID","Trendens signifikans","p-värde","Medianförändring per år"
+"SE655275-153234","Station","Insjöfisk abborre",0,0.5262,0.0837
+"SE655275-153234","Station","Insjöfisk antal arter",,,
+"SE655275-153234","Station","Insjöfisk gädda",0,0.8725,-0
+"SE655275-153234","Station","Insjöfisk mört",0,0.3692,0.2973
+"SE655275-153234","Station","Insjöfisk totalmängd",0,0.2908,0.3304
+"SE642489-151724","Station","Insjöfisk abborre",0,0.2117,0.06
+"SE642489-151724","Station","Insjöfisk antal arter",,,
+"SE642489-151724","Station","Insjöfisk gädda",0,0.0567,0.0027
+"SE642489-151724","Station","Insjöfisk mört",0,0.5323,0.02
+"SE642489-151724","Station","Insjöfisk totalmängd",0,0.8166,0.0076
+"NW652500-143567","Station","Insjöfisk abborre",0,0.544,0.0838
+"NW652500-143567","Station","Insjöfisk antal arter",,,
+"NW652500-143567","Station","Insjöfisk gädda",-1,0.0139,-0.0068
+"NW652500-143567","Station","Insjöfisk mört",0,0.5925,0.0224
+"NW652500-143567","Station","Insjöfisk totalmängd",0,0.1989,0.215
+"SE640364-129240","Station","Insjöfisk abborre",0,0.2158,0.0572
+"SE640364-129240","Station","Insjöfisk antal arter",,,
+"SE640364-129240","Station","Insjöfisk gädda",0,0.1539,-0.0014
+"SE640364-129240","Station","Insjöfisk mört",0,0.1176,-0.0895
+"SE640364-129240","Station","Insjöfisk totalmängd",0,0.9441,-0.0081
+"SE758208-161749","Station","Insjöfisk antal arter",,,
+"SE758208-161749","Station","Insjöfisk röding",1,0.0086,0.046
+"SE758208-161749","Station","Insjöfisk totalmängd",1,0.0086,0.046
+"SE680235-141799","Station","Insjöfisk antal arter",,,
+"SE680235-141799","Station","Insjöfisk röding",-1,0.0154,-0.0275
+"SE680235-141799","Station","Insjöfisk totalmängd",0,0.2603,-0.1467
+"NW627437-149509","Station","Insjöfisk abborre",1,0.0119,0.1052
+"NW627437-149509","Station","Insjöfisk antal arter",,,
+"NW627437-149509","Station","Insjöfisk gädda",0,0.8863,0
+"NW627437-149509","Station","Insjöfisk mört",0,1,0
+"NW627437-149509","Station","Insjöfisk totalmängd",1,0.014,0.2063
+"NW653647-125036","Station","Insjöfisk abborre",-1,4e-4,-0.9739
+"NW653647-125036","Station","Insjöfisk antal arter",,,
+"NW653647-125036","Station","Insjöfisk totalmängd",-1,4e-4,-0.9582
+"SE633025-142267","Station","Insjöfisk abborre",0,0.2088,0.2524
+"SE633025-142267","Station","Insjöfisk antal arter",,,
+"SE633025-142267","Station","Insjöfisk gädda",1,0.0209,0.003
+"SE633025-142267","Station","Insjöfisk mört",0,0.4199,-0.0549
+"SE633025-142267","Station","Insjöfisk totalmängd",0,0.3387,0.15
+"NW645343-128665","Station","Insjöfisk abborre",0,0.6115,-0.0182
+"NW645343-128665","Station","Insjöfisk antal arter",,,
+"NW645343-128665","Station","Insjöfisk gädda",0,1,-0
+"NW645343-128665","Station","Insjöfisk mört",0,0.5536,-0.0767
+"NW645343-128665","Station","Insjöfisk totalmängd",0,0.6928,-0.0335
+"NW633246-141963","Station","Insjöfisk abborre",0,0.2862,0.1263
+"NW633246-141963","Station","Insjöfisk antal arter",,,
+"NW633246-141963","Station","Insjöfisk gädda",0,0.9504,0
+"NW633246-141963","Station","Insjöfisk mört",0,0.7098,-0.0324
+"NW633246-141963","Station","Insjöfisk totalmängd",0,1,0.0029
+"SE744629-167999","Station","Insjöfisk abborre",0,0.3022,-0.6539
+"SE744629-167999","Station","Insjöfisk antal arter",,,
+"SE744629-167999","Station","Insjöfisk gädda",0,0.259,0.0068
+"SE744629-167999","Station","Insjöfisk mört",1,0.0036,0.3245
+"SE744629-167999","Station","Insjöfisk totalmängd",0,0.9253,-0.0953
+"NW683582-154935","Station","Insjöfisk abborre",-1,0.0019,-0.2906
+"NW683582-154935","Station","Insjöfisk antal arter",,,
+"NW683582-154935","Station","Insjöfisk gädda",0,0.4053,-0.0028
+"NW683582-154935","Station","Insjöfisk mört",0,0.1075,0
+"NW683582-154935","Station","Insjöfisk totalmängd",-1,0.0019,-0.2778
+"SE663532-148571","Station","Insjöfisk abborre",0,0.1486,0.1216
+"SE663532-148571","Station","Insjöfisk antal arter",,,
+"SE663532-148571","Station","Insjöfisk gädda",0,0.2401,0
+"SE663532-148571","Station","Insjöfisk mört",0,0.5186,0
+"SE663532-148571","Station","Insjöfisk totalmängd",0,0.1595,0.1223
+"SE708619-162132","Station","Insjöfisk abborre",1,0.0073,0.1813
+"SE708619-162132","Station","Insjöfisk antal arter",,,
+"SE708619-162132","Station","Insjöfisk gädda",-1,0.0012,-0.005
+"SE708619-162132","Station","Insjöfisk mört",0,0.3201,-0.0781
+"SE708619-162132","Station","Insjöfisk totalmängd",0,0.8659,-0.0601
+"NW652888-125811","Station","Insjöfisk abborre",0,0.6936,0.0324
+"NW652888-125811","Station","Insjöfisk antal arter",,,
+"NW652888-125811","Station","Insjöfisk gädda",0,0.6334,0
+"NW652888-125811","Station","Insjöfisk mört",0,0.6936,0.0311
+"NW652888-125811","Station","Insjöfisk totalmängd",0,0.6125,0.0642
+"SE638317-138010","Station","Insjöfisk abborre",0,0.2974,0.0797
+"SE638317-138010","Station","Insjöfisk antal arter",,,
+"SE638317-138010","Station","Insjöfisk gädda",0,0.7995,0
+"SE638317-138010","Station","Insjöfisk mört",0,0.2537,-0.0503
+"SE638317-138010","Station","Insjöfisk totalmängd",0,0.9013,-0.0181
+"SE656515-164330","Station","Insjöfisk abborre",1,0.0172,0.0739
+"SE656515-164330","Station","Insjöfisk antal arter",,,
+"SE656515-164330","Station","Insjöfisk gädda",0,0.7459,0
+"SE656515-164330","Station","Insjöfisk mört",-1,4e-4,-0.3586
+"SE656515-164330","Station","Insjöfisk totalmängd",-1,0.0082,-0.335
+"SE683673-154083","Station","Insjöfisk abborre",0,0.1595,0.1861
+"SE683673-154083","Station","Insjöfisk antal arter",,,
+"SE683673-154083","Station","Insjöfisk gädda",0,0.8801,0
+"SE683673-154083","Station","Insjöfisk mört",-1,2e-4,-0.1388
+"SE683673-154083","Station","Insjöfisk totalmängd",0,0.7215,-0.0339
+"SE655605-158820","Station","Insjöfisk abborre",0,0.4199,0.0794
+"SE655605-158820","Station","Insjöfisk antal arter",,,
+"SE655605-158820","Station","Insjöfisk gädda",0,0.7887,0
+"SE655605-158820","Station","Insjöfisk mört",0,0.2088,-0.078
+"SE655605-158820","Station","Insjöfisk totalmängd",0,0.9253,-0.0223
+"SE628606-133205","Station","Insjöfisk abborre",0,0.0811,0.2823
+"SE628606-133205","Station","Insjöfisk antal arter",,,
+"SE628606-133205","Station","Insjöfisk gädda",-1,0.0042,-0.0077
+"SE628606-133205","Station","Insjöfisk mört",0,0.5115,0.0797
+"SE628606-133205","Station","Insjöfisk totalmängd",0,0.3022,0.2795
+"SE670275-146052","Station","Insjöfisk abborre",0,0.4719,0.1303
+"SE670275-146052","Station","Insjöfisk antal arter",,,
+"SE670275-146052","Station","Insjöfisk mört",1,0.0285,
+"SE670275-146052","Station","Insjöfisk totalmängd",0,0.2059,-0.167
+"NW664611-148550","Station","Insjöfisk abborre",0,0.2862,-0.3364
+"NW664611-148550","Station","Insjöfisk antal arter",,,
+"NW664611-148550","Station","Insjöfisk röding",0,0.0662,-0.0236
+"NW664611-148550","Station","Insjöfisk totalmängd",0,0.2242,-0.3734
+"SE664197-149337","Station","Insjöfisk abborre",1,0.0072,0.3281
+"SE664197-149337","Station","Insjöfisk antal arter",,,
+"SE664197-149337","Station","Insjöfisk gädda",0,0.327,0.0016
+"SE664197-149337","Station","Insjöfisk mört",0,0.1558,0.1189
+"SE664197-149337","Station","Insjöfisk totalmängd",1,0.032,0.4456
+"SE708512-152086","Station","Insjöfisk abborre",0,0.88,-0.0148
+"SE708512-152086","Station","Insjöfisk antal arter",,,
+"SE708512-152086","Station","Insjöfisk gädda",0,0.6718,0.0017
+"SE708512-152086","Station","Insjöfisk mört",0,0.526,-0.0278
+"SE708512-152086","Station","Insjöfisk totalmängd",0,0.4874,-0.1096
+"SE657387-162326","Station","Insjöfisk abborre",0,0.4173,-1.5254
+"SE657387-162326","Station","Insjöfisk antal arter",,,
+"SE657387-162326","Station","Insjöfisk gädda",-1,0.0027,-0.0284
+"SE657387-162326","Station","Insjöfisk mört",-1,0.0071,-9.1757
+"SE657387-162326","Station","Insjöfisk totalmängd",-1,0.0179,-10.9292
+"SE658086-130264","Station","Insjöfisk abborre",0,0.1119,0.0954
+"SE658086-130264","Station","Insjöfisk antal arter",,,
+"SE658086-130264","Station","Insjöfisk gädda",-1,0.001,-0.0089
+"SE658086-130264","Station","Insjöfisk mört",0,0.0691,0.1052
+"SE658086-130264","Station","Insjöfisk totalmängd",0,0.0644,0.3249
+"SE656640-164224","Station","Insjöfisk abborre",0,0.5283,0.1041
+"SE656640-164224","Station","Insjöfisk antal arter",,,
+"SE656640-164224","Station","Insjöfisk gädda",0,0.894,0
+"SE656640-164224","Station","Insjöfisk mört",-1,0,-1.161
+"SE656640-164224","Station","Insjöfisk totalmängd",-1,0.0054,-0.8667
+"SE662682-132860","Station","Insjöfisk abborre",0,0.8219,0.1
+"SE662682-132860","Station","Insjöfisk antal arter",,,
+"SE662682-132860","Station","Insjöfisk totalmängd",0,0.8926,0.073
+"SE657886-162585","Station","Insjöfisk abborre",0,0.5445,0.5485
+"SE657886-162585","Station","Insjöfisk antal arter",,,
+"SE657886-162585","Station","Insjöfisk gädda",0,0.1813,-0
+"SE657886-162585","Station","Insjöfisk mört",0,0.5439,0.25
+"SE657886-162585","Station","Insjöfisk totalmängd",0,0.8796,-0.2911
+"SE657226-163399","Station","Insjöfisk abborre",1,0.0246,0.9587
+"SE657226-163399","Station","Insjöfisk antal arter",,,
+"SE657226-163399","Station","Insjöfisk gädda",0,0.293,-0
+"SE657226-163399","Station","Insjöfisk mört",0,0.1546,-0.5921
+"SE657226-163399","Station","Insjöfisk totalmängd",0,0.8267,-0.204
+"SE656574-164098","Station","Insjöfisk abborre",0,0.7398,0.0763
+"SE656574-164098","Station","Insjöfisk antal arter",,,
+"SE656574-164098","Station","Insjöfisk gädda",0,0.8547,0
+"SE656574-164098","Station","Insjöfisk totalmängd",0,0.7858,0.0626
+"SE706083-132287","Station","Insjöfisk antal arter",,,
+"SE706083-132287","Station","Insjöfisk röding",0,0.1202,0.0512
+"SE706083-132287","Station","Insjöfisk totalmängd",0,0.1031,0.092
+"SE620062-135224","Station","Insjöfisk abborre",0,0.2763,4.5044
+"SE620062-135224","Station","Insjöfisk antal arter",,,
+"SE620062-135224","Station","Insjöfisk gädda",0,0.9545,-0
+"SE620062-135224","Station","Insjöfisk mört",0,0.2763,-1.3214
+"SE620062-135224","Station","Insjöfisk totalmängd",0,0.3731,3.6944
+"SE649314-149514","Station","Insjöfisk abborre",1,0.0133,0.4473
+"SE649314-149514","Station","Insjöfisk antal arter",,,
+"SE649314-149514","Station","Insjöfisk gädda",0,0.833,0
+"SE649314-149514","Station","Insjöfisk mört",1,0.0382,0.5863
+"SE649314-149514","Station","Insjöfisk totalmängd",1,0.0034,1.0514
+"SE674570-141911","Station","Insjöfisk abborre",0,0.6204,0.13
+"SE674570-141911","Station","Insjöfisk antal arter",,,
+"SE674570-141911","Station","Insjöfisk röding",1,0.0428,0.0497
+"SE674570-141911","Station","Insjöfisk totalmängd",0,0.3923,0.2278
+"NW666191-142252","Station","Insjöfisk abborre",0,0.2604,-0.4233
+"NW666191-142252","Station","Insjöfisk antal arter",,,
+"NW666191-142252","Station","Insjöfisk gädda",0,0.8123,0
+"NW666191-142252","Station","Insjöfisk mört",1,0.0217,1.4557
+"NW666191-142252","Station","Insjöfisk totalmängd",0,0.2604,0.8088
+"SE622731-136920","Station","Insjöfisk abborre",1,0.0335,2.7237
+"SE622731-136920","Station","Insjöfisk antal arter",,,
+"SE622731-136920","Station","Insjöfisk gädda",0,0.1007,0.0046
+"SE622731-136920","Station","Insjöfisk mört",1,0.0112,1.8581
+"SE622731-136920","Station","Insjöfisk totalmängd",0,0.0641,4.4013
+"SE619626-135565","Station","Insjöfisk abborre",1,0.0335,5.1772
+"SE619626-135565","Station","Insjöfisk antal arter",,,
+"SE619626-135565","Station","Insjöfisk gädda",0,0.2006,0
+"SE619626-135565","Station","Insjöfisk mört",0,0.6312,0.5353
+"SE619626-135565","Station","Insjöfisk totalmängd",1,0.0236,6.487

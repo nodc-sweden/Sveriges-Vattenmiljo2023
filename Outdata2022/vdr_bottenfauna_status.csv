@@ -1,0 +1,296 @@
+﻿"VattenID","MS_CD","Stationskoordinat E/Y","Stationskoordinat N/X","Vattenkategori","VariabelID","Trendens signifikans","p-värde","Medianförändring per år"
+"SE739283-163835","WA60052782",673913,7392516,"Station","Individtäthet alla bottendjur",0,0.7351,-3.0412
+"SE739283-163835","WA60052782",673913,7392516,"Station","Individtäthet blötdjur",0,0.6295,-0
+"SE739283-163835","WA60052782",673913,7392516,"Station","Individtäthet leddjur - insekter",0,0.7351,-3.3846
+"SE739283-163835","WA60052782",673913,7392516,"Station","Individtäthet ringmaskar",1,0.0275,0.13
+"SE696000-156850","WA55967934",609594,6958958,"Station","Individtäthet alla bottendjur",0,0.5376,9.7
+"SE696000-156850","WA55967934",609594,6958958,"Station","Individtäthet blötdjur",0,0.6365,0
+"SE696000-156850","WA55967934",609594,6958958,"Station","Individtäthet leddjur - insekter",0,0.5813,8.2917
+"SE696000-156850","WA55967934",609594,6958958,"Station","Individtäthet ringmaskar",1,0.0124,1.4317
+"SE700012-140354","WA38611588",444226,6996523,"Station","Individtäthet alla bottendjur",0,0.2342,-15.625
+"SE700012-140354","WA38611588",444226,6996523,"Station","Individtäthet blötdjur",0,1,-0
+"SE700012-140354","WA38611588",444226,6996523,"Station","Individtäthet leddjur - insekter",0,0.2342,-14.7778
+"SE700012-140354","WA38611588",444226,6996523,"Station","Individtäthet ringmaskar",1,0.0101,0.6667
+"SE718265-171875","WA95930698",756984,7183432,"Station","Individtäthet alla bottendjur",0,0.1558,10.8778
+"SE718265-171875","WA95930698",756984,7183432,"Station","Individtäthet blötdjur",0,0.165,0
+"SE718265-171875","WA95930698",756984,7183432,"Station","Individtäthet leddjur - insekter",0,0.1558,10.4817
+"SE718265-171875","WA95930698",756984,7183432,"Station","Individtäthet ringmaskar",0,0.2901,0.2071
+"SE627958-134477","WA56955874",395597,6270925,"Station","Individtäthet alla bottendjur",0,0.3468,20.3997
+"SE627958-134477","WA56955874",395597,6270925,"Station","Individtäthet blötdjur",1,1e-4,2.8778
+"SE627958-134477","WA56955874",395597,6270925,"Station","Individtäthet leddjur - insekter",0,0.4173,16.9324
+"SE627958-134477","WA56955874",395597,6270925,"Station","Individtäthet ringmaskar",1,0.0113,4.059
+"SE638561-141289","WA62510992",459056,6380306,"Station","Individtäthet alla bottendjur",1,0.0021,113.6917
+"SE638561-141289","WA62510992",459056,6380306,"Station","Individtäthet blötdjur",0,0.8203,0.9033
+"SE638561-141289","WA62510992",459056,6380306,"Station","Individtäthet leddjur - insekter",1,0.0032,100.4241
+"SE638561-141289","WA62510992",459056,6380306,"Station","Individtäthet leddjur - kräftdjur",1,0.0457,1.1667
+"SE638561-141289","WA62510992",459056,6380306,"Station","Individtäthet ringmaskar",1,0,9.2821
+"SE630960-131620","WA55301346",365332,6305831,"Station","Individtäthet alla bottendjur",0,0.381,18.6967
+"SE630960-131620","WA55301346",365332,6305831,"Station","Individtäthet blötdjur",0,0.8456,0.5333
+"SE630960-131620","WA55301346",365332,6305831,"Station","Individtäthet leddjur - insekter",0,0.1192,18.6667
+"SE630960-131620","WA55301346",365332,6305831,"Station","Individtäthet ringmaskar",0,0.23,3.1
+"SE683537-155138","WA64539435",592749,6834409,"Station","Individtäthet alla bottendjur",0,0.2561,42.9572
+"SE683537-155138","WA64539435",592749,6834409,"Station","Individtäthet blötdjur",0,0.5114,-0.0661
+"SE683537-155138","WA64539435",592749,6834409,"Station","Individtäthet leddjur - insekter",0,0.2058,41.5702
+"SE683537-155138","WA64539435",592749,6834409,"Station","Individtäthet leddjur - kräftdjur",0,1,-0
+"SE683537-155138","WA64539435",592749,6834409,"Station","Individtäthet ringmaskar",0,0.6492,0.55
+"SE663532-523976",,525485,6635190,"Station","Individtäthet alla bottendjur",0,0.6265,10.5208
+"SE663532-523976",,525485,6635190,"Station","Individtäthet blötdjur",0,0.0684,0.2804
+"SE663532-523976",,525485,6635190,"Station","Individtäthet leddjur - insekter",0,0.7703,7.0833
+"SE663532-523976",,525485,6635190,"Station","Individtäthet leddjur - kräftdjur",0,0.3629,0.4533
+"SE663532-523976",,525485,6635190,"Station","Individtäthet ringmaskar",0,0.6948,0.1437
+"SE628975-133250","WA19412340",381855,6286186,"Station","Individtäthet alla bottendjur",0,0.5289,-51.4286
+"SE628975-133250","WA19412340",381855,6286186,"Station","Individtäthet blötdjur",0,0.5971,0.1719
+"SE628975-133250","WA19412340",381855,6286186,"Station","Individtäthet leddjur - insekter",0,0.6243,-38.8
+"SE628975-133250","WA19412340",381855,6286186,"Station","Individtäthet leddjur - kräftdjur",0,0.4415,-5.0556
+"SE628975-133250","WA19412340",381855,6286186,"Station","Individtäthet ringmaskar",1,0.0143,7.2893
+"SE654022-124861","WA54920650",293756,6536656,"Station","Individtäthet alla bottendjur",0,0.4555,27.3905
+"SE654022-124861","WA54920650",293756,6536656,"Station","Individtäthet blötdjur",0,0.5157,0.2746
+"SE654022-124861","WA54920650",293756,6536656,"Station","Individtäthet leddjur - insekter",0,0.4957,24.1397
+"SE654022-124861","WA54920650",293756,6536656,"Station","Individtäthet ringmaskar",0,0.3987,1.3833
+"SE707204-161537","WA13229699",655369,7071459,"Station","Individtäthet alla bottendjur",0,0.1119,29.3333
+"SE707204-161537","WA13229699",655369,7071459,"Station","Individtäthet blötdjur",0,0.6732,-3.2879
+"SE707204-161537","WA13229699",655369,7071459,"Station","Individtäthet leddjur - insekter",0,0.1119,30.5917
+"SE707204-161537","WA13229699",655369,7071459,"Station","Individtäthet ringmaskar",0,0.1824,0.8542
+"SE625195-141220","WA87719053",461950,6249344,"Station","Individtäthet alla bottendjur",0,0.098,92.1486
+"SE625195-141220","WA87719053",461950,6249344,"Station","Individtäthet blötdjur",0,0.0796,26.3462
+"SE625195-141220","WA87719053",461950,6249344,"Station","Individtäthet leddjur - insekter",0,0.23,47.3926
+"SE625195-141220","WA87719053",461950,6249344,"Station","Individtäthet ringmaskar",1,8e-4,20.4139
+"SE651076-124118","WA36556832",287970,6505955,"Station","Individtäthet alla bottendjur",0,0.9225,1.3107
+"SE651076-124118","WA36556832",287970,6505955,"Station","Individtäthet blötdjur",0,0.5585,0.1607
+"SE651076-124118","WA36556832",287970,6505955,"Station","Individtäthet leddjur - insekter",0,1,-0.0343
+"SE651076-124118","WA36556832",287970,6505955,"Station","Individtäthet ringmaskar",1,0.015,1.6125
+"SE627958-134477","WA56955874",395597,6270925,"Station","Individtäthet leddjur - kräftdjur",0,0.3004,-1.5
+"SE642969-145547","WA88641020",503097,6427502,"Station","Individtäthet alla bottendjur",0,1,-0.5333
+"SE642969-145547","WA88641020",503097,6427502,"Station","Individtäthet blötdjur",0,0.8064,0.1455
+"SE642969-145547","WA88641020",503097,6427502,"Station","Individtäthet leddjur - insekter",0,0.7264,-1.2933
+"SE642969-145547","WA88641020",503097,6427502,"Station","Individtäthet leddjur - kräftdjur",0,0.8887,-0.3
+"SE642969-145547","WA88641020",503097,6427502,"Station","Individtäthet ringmaskar",1,0.046,0.2571
+"SE633316-146198","WA36456490",510749,6331097,"Station","Individtäthet alla bottendjur",0,0.1116,20.2667
+"SE633316-146198","WA36456490",510749,6331097,"Station","Individtäthet blötdjur",1,0,0.8
+"SE633316-146198","WA36456490",510749,6331097,"Station","Individtäthet leddjur - insekter",0,0.2889,12.44
+"SE633316-146198","WA36456490",510749,6331097,"Station","Individtäthet leddjur - kräftdjur",0,0.2558,0.75
+"SE633316-146198","WA36456490",510749,6331097,"Station","Individtäthet ringmaskar",1,0.0339,0.875
+"SE643455-140114","WA44293011",448738,6431712,"Station","Individtäthet alla bottendjur",0,0.4173,5.197
+"SE643455-140114","WA44293011",448738,6431712,"Station","Individtäthet blötdjur",0,0.1627,0.0367
+"SE643455-140114","WA44293011",448738,6431712,"Station","Individtäthet leddjur - insekter",0,0.4555,4.708
+"SE643455-140114","WA44293011",448738,6431712,"Station","Individtäthet leddjur - kräftdjur",1,0.035,0.4111
+"SE643455-140114","WA44293011",448738,6431712,"Station","Individtäthet ringmaskar",0,0.559,-0.045
+"SE651076-124118","WA36556832",287970,6505955,"Station","Individtäthet leddjur - kräftdjur",0,0.6181,0.0118
+"SE697717-139085","WA11914890",431604,6974774,"Station","Individtäthet alla bottendjur",-1,0.0034,-41.75
+"SE697717-139085","WA11914890",431604,6974774,"Station","Individtäthet blötdjur",0,0.1617,-0.1202
+"SE697717-139085","WA11914890",431604,6974774,"Station","Individtäthet leddjur - insekter",-1,0.0051,-42.5667
+"SE697717-139085","WA11914890",431604,6974774,"Station","Individtäthet ringmaskar",0,0.2008,1.7841
+"SE684404-578511","WA62859200",577014,6845631,"Station","Individtäthet alla bottendjur",0,0.0529,-35.4782
+"SE684404-578511","WA62859200",577014,6845631,"Station","Individtäthet blötdjur",-1,0.0257,-1.5192
+"SE684404-578511","WA62859200",577014,6845631,"Station","Individtäthet leddjur - insekter",0,0.0638,-32.8889
+"SE684404-578511","WA62859200",577014,6845631,"Station","Individtäthet ringmaskar",0,0.6801,-0.2361
+"SE697231-157849","WA39575376",620746,6970545,"Station","Individtäthet alla bottendjur",0,0.1082,-48.1042
+"SE697231-157849","WA39575376",620746,6970545,"Station","Individtäthet blötdjur",0,0.0959,0.125
+"SE697231-157849","WA39575376",620746,6970545,"Station","Individtäthet leddjur - insekter",0,0.1082,-47.8958
+"SE697231-157849","WA39575376",620746,6970545,"Station","Individtäthet ringmaskar",0,0.5343,0.25
+"SE631375-379389","WA50192169",382117,6314824,"Station","Individtäthet alla bottendjur",-1,0.0435,-32.2917
+"SE631375-379389","WA50192169",382117,6314824,"Station","Individtäthet blötdjur",0,0.4992,0
+"SE631375-379389","WA50192169",382117,6314824,"Station","Individtäthet leddjur - insekter",-1,0.0357,-28.6429
+"SE631375-379389","WA50192169",382117,6314824,"Station","Individtäthet leddjur - kräftdjur",0,1,0
+"SE631375-379389","WA50192169",382117,6314824,"Station","Individtäthet ringmaskar",0,0.483,-0.9167
+"SE673813-153174","WA86962872",577507,6736766,"Station","Individtäthet alla bottendjur",0,0.5366,-16.8611
+"SE673813-153174","WA86962872",577507,6736766,"Station","Individtäthet blötdjur",0,0.4805,0.1667
+"SE673813-153174","WA86962872",577507,6736766,"Station","Individtäthet leddjur - insekter",0,0.458,-17.9286
+"SE673813-153174","WA86962872",577507,6736766,"Station","Individtäthet leddjur - kräftdjur",0,0.3437,-0.3
+"SE673813-153174","WA86962872",577507,6736766,"Station","Individtäthet ringmaskar",0,0.4573,0.3333
+"SE625195-141220","WA87719053",461950,6249344,"Station","Individtäthet leddjur - kräftdjur",0,0.2322,2.5079
+"SE688175-137882","WA21788276",420985,6878341,"Station","Individtäthet alla bottendjur",-1,7e-4,-81.6111
+"SE688175-137882","WA21788276",420985,6878341,"Station","Individtäthet blötdjur",-1,0.0034,-7.875
+"SE688175-137882","WA21788276",420985,6878341,"Station","Individtäthet leddjur - insekter",-1,0.0019,-71.1667
+"SE688175-137882","WA21788276",420985,6878341,"Station","Individtäthet ringmaskar",-1,0.034,-2.7841
+"SE664297-136937","WA63487998",415412,6639738,"Station","Individtäthet alla bottendjur",0,0.6204,-9.0929
+"SE664297-136937","WA63487998",415412,6639738,"Station","Individtäthet blötdjur",0,0.9637,0
+"SE664297-136937","WA63487998",415412,6639738,"Station","Individtäthet leddjur - insekter",0,0.6853,-7.1667
+"SE664297-136937","WA63487998",415412,6639738,"Station","Individtäthet leddjur - kräftdjur",0,0.5087,-0.2857
+"SE664297-136937","WA63487998",415412,6639738,"Station","Individtäthet ringmaskar",-1,0.0237,-1.9444
+"SE688271-138240","WA71072371",425046,6879482,"Station","Individtäthet alla bottendjur",-1,0.006,-32.2976
+"SE688271-138240","WA71072371",425046,6879482,"Station","Individtäthet blötdjur",0,0.3533,-0.0909
+"SE688271-138240","WA71072371",425046,6879482,"Station","Individtäthet leddjur - insekter",-1,0.0046,-30.5
+"SE688271-138240","WA71072371",425046,6879482,"Station","Individtäthet ringmaskar",0,0.2061,-0.3875
+"SE684404-578511","WA62859200",577014,6845631,"Station","Individtäthet leddjur - kräftdjur",0,0.237,-0.0909
+"SE706176-733260","WA62616626",733742,7060750,"Station","Individtäthet alla bottendjur",0,0.7526,-8.2143
+"SE706176-733260","WA62616626",733742,7060750,"Station","Individtäthet blötdjur",0,0.3279,0.025
+"SE706176-733260","WA62616626",733742,7060750,"Station","Individtäthet leddjur - insekter",0,0.5584,-15.85
+"SE706176-733260","WA62616626",733742,7060750,"Station","Individtäthet leddjur - kräftdjur",0,0.5281,1.75
+"SE706176-733260","WA62616626",733742,7060750,"Station","Individtäthet ringmaskar",-1,0.0123,-0.8625
+"SE704792-167352","WA30761275",713922,7046652,"Station","Individtäthet alla bottendjur",0,0.0957,12.875
+"SE704792-167352","WA30761275",713922,7046652,"Station","Individtäthet blötdjur",0,0.9234,0
+"SE704792-167352","WA30761275",713922,7046652,"Station","Individtäthet leddjur - insekter",0,0.1373,12.4167
+"SE704792-167352","WA30761275",713922,7046652,"Station","Individtäthet ringmaskar",0,0.2061,0.9286
+"SE639042-138349","WA78784216",423955,6381638,"Station","Individtäthet alla bottendjur",0,0.1373,-20.4429
+"SE639042-138349","WA78784216",423955,6381638,"Station","Individtäthet blötdjur",-1,0.0423,-8.8722
+"SE639042-138349","WA78784216",423955,6381638,"Station","Individtäthet leddjur - insekter",0,0.6204,-8.75
+"SE639042-138349","WA78784216",423955,6381638,"Station","Individtäthet leddjur - kräftdjur",0,0.6171,-0.1339
+"SE639042-138349","WA78784216",423955,6381638,"Station","Individtäthet ringmaskar",-1,0.0101,-4
+"SE673303-133869","WA97449813",386086,6729678,"Station","Individtäthet alla bottendjur",0,0.7526,-2.1458
+"SE673303-133869","WA97449813",386086,6729678,"Station","Individtäthet blötdjur",0,1,0
+"SE673303-133869","WA97449813",386086,6729678,"Station","Individtäthet leddjur - insekter",0,0.8926,-0.9667
+"SE673303-133869","WA97449813",386086,6729678,"Station","Individtäthet ringmaskar",0,0.1705,-0.3542
+"SE683983-154323","WA77143658",585829,6838522,"Station","Individtäthet alla bottendjur",-1,0.0101,-198.3
+"SE683983-154323","WA77143658",585829,6838522,"Station","Individtäthet blötdjur",-1,0.003,-4
+"SE683983-154323","WA77143658",585829,6838522,"Station","Individtäthet leddjur - insekter",-1,0.0101,-193.6
+"SE683983-154323","WA77143658",585829,6838522,"Station","Individtäthet ringmaskar",0,0.7635,-0
+"SE684091-154384",,586575,6839681,"Station","Individtäthet alla bottendjur",-1,0.0294,-66.5714
+"SE684091-154384",,586575,6839681,"Station","Individtäthet blötdjur",0,0.3731,2.6667
+"SE684091-154384",,586575,6839681,"Station","Individtäthet leddjur - insekter",-1,0.0228,-66.25
+"SE684091-154384",,586575,6839681,"Station","Individtäthet leddjur - kräftdjur",0,0.5275,-0.3333
+"SE684091-154384",,586575,6839681,"Station","Individtäthet ringmaskar",0,0.8431,-0.2222
+"SE684262-154542",,587984,6841338,"Station","Individtäthet alla bottendjur",-1,0.0175,-88.8
+"SE684262-154542",,587984,6841338,"Station","Individtäthet blötdjur",0,0.9131,-0
+"SE684262-154542",,587984,6841338,"Station","Individtäthet leddjur - insekter",-1,0.0175,-81.4
+"SE684262-154542",,587984,6841338,"Station","Individtäthet ringmaskar",0,0.8043,-0.3333
+"SE728070-165120","WA66448021",688201,7280589,"Station","Individtäthet alla bottendjur",0,0.3223,-21.1
+"SE728070-165120","WA66448021",688201,7280589,"Station","Individtäthet blötdjur",0,1,-0
+"SE728070-165120","WA66448021",688201,7280589,"Station","Individtäthet leddjur - insekter",0,0.3223,-18.45
+"SE728070-165120","WA66448021",688201,7280589,"Station","Individtäthet ringmaskar",0,0.5195,-0.0667
+"SE626878-134788","WA83666955",397471,6265410,"Station","Individtäthet alla bottendjur",0,0.1005,18.2667
+"SE626878-134788","WA83666955",397471,6265410,"Station","Individtäthet blötdjur",0,0.2248,0.0154
+"SE626878-134788","WA83666955",397471,6265410,"Station","Individtäthet leddjur - insekter",0,0.1253,13.75
+"SE626878-134788","WA83666955",397471,6265410,"Station","Individtäthet ringmaskar",1,0.0425,3.1273
+"SE666881-151821","WA11915510",562922,6667267,"Station","Individtäthet alla bottendjur",-1,0.0294,-45.0769
+"SE666881-151821","WA11915510",562922,6667267,"Station","Individtäthet blötdjur",0,0.1245,-0.46
+"SE666881-151821","WA11915510",562922,6667267,"Station","Individtäthet leddjur - insekter",-1,0.0294,-42.8667
+"SE666881-151821","WA11915510",562922,6667267,"Station","Individtäthet leddjur - kräftdjur",0,0.766,-0.0629
+"SE666881-151821","WA11915510",562922,6667267,"Station","Individtäthet ringmaskar",0,0.7665,-0.05
+"SE641475-147365","WA86777326",521446,6412786,"Station","Individtäthet alla bottendjur",0,0.0748,48.05
+"SE641475-147365","WA86777326",521446,6412786,"Station","Individtäthet blötdjur",0,0.181,0.9467
+"SE641475-147365","WA86777326",521446,6412786,"Station","Individtäthet leddjur - insekter",0,0.0748,42.7778
+"SE641475-147365","WA86777326",521446,6412786,"Station","Individtäthet leddjur - kräftdjur",0,0.5395,0.03
+"SE641475-147365","WA86777326",521446,6412786,"Station","Individtäthet ringmaskar",0,0.3731,1.05
+"SE632137-147160","WA45416248",520504,6319426,"Station","Individtäthet alla bottendjur",1,0.001,65.4
+"SE632137-147160","WA45416248",520504,6319426,"Station","Individtäthet blötdjur",0,0.1085,0.1
+"SE632137-147160","WA45416248",520504,6319426,"Station","Individtäthet leddjur - insekter",1,0.001,53.4
+"SE632137-147160","WA45416248",520504,6319426,"Station","Individtäthet leddjur - kräftdjur",1,6e-4,2.6667
+"SE632137-147160","WA45416248",520504,6319426,"Station","Individtäthet ringmaskar",1,0.0031,5.0286
+"SE631625-133602","WA61549092",385060,6312710,"Station","Individtäthet alla bottendjur",0,0.1889,13.9714
+"SE631625-133602","WA61549092",385060,6312710,"Station","Individtäthet blötdjur",0,0.8138,-0
+"SE631625-133602","WA61549092",385060,6312710,"Station","Individtäthet leddjur - insekter",0,0.3244,14.6571
+"SE631625-133602","WA61549092",385060,6312710,"Station","Individtäthet ringmaskar",0,0.1889,0.7833
+"SE720990-147270","WA37926239",510680,7207536,"Station","Individtäthet alla bottendjur",0,0.8267,-1.9
+"SE720990-147270","WA37926239",510680,7207536,"Station","Individtäthet blötdjur",0,0.5788,-0
+"SE720990-147270","WA37926239",510680,7207536,"Station","Individtäthet leddjur - insekter",0,0.7426,-1.92
+"SE720990-147270","WA37926239",510680,7207536,"Station","Individtäthet ringmaskar",0,0.4434,0.3167
+"SE640085-138148","WA12737498",429490,6397796,"Station","Individtäthet alla bottendjur",0,1,0.3575
+"SE640085-138148","WA12737498",429490,6397796,"Station","Individtäthet blötdjur",0,0.2901,0.02
+"SE640085-138148","WA12737498",429490,6397796,"Station","Individtäthet leddjur - insekter",0,0.8431,-1.1425
+"SE640085-138148","WA12737498",429490,6397796,"Station","Individtäthet ringmaskar",0,0.8431,0.11
+"SE710354-155465","WA24742612",593943,7102266,"Station","Individtäthet alla bottendjur",0,0.1253,37.31
+"SE710354-155465","WA24742612",593943,7102266,"Station","Individtäthet blötdjur",0,1,-0
+"SE710354-155465","WA24742612",593943,7102266,"Station","Individtäthet leddjur - insekter",0,0.1253,31.6
+"SE710354-155465","WA24742612",593943,7102266,"Station","Individtäthet ringmaskar",0,0.1388,0.75
+"SE708380-145455","WA75124922",494139,7081270,"Station","Individtäthet alla bottendjur",1,0.0294,26.6
+"SE708380-145455","WA75124922",494139,7081270,"Station","Individtäthet blötdjur",0,0.0925,-0.5
+"SE708380-145455","WA75124922",494139,7081270,"Station","Individtäthet leddjur - insekter",0,0.06,24.75
+"SE708380-145455","WA75124922",494139,7081270,"Station","Individtäthet ringmaskar",0,0.4573,1.1636
+"SE708485-154920","WA98025719",588732,7083514,"Station","Individtäthet alla bottendjur",0,0.2763,19
+"SE708485-154920","WA98025719",588732,7083514,"Station","Individtäthet blötdjur",0,0.3731,-0.225
+"SE708485-154920","WA98025719",588732,7083514,"Station","Individtäthet leddjur - insekter",0,0.3223,13.34
+"SE708485-154920","WA98025719",588732,7083514,"Station","Individtäthet ringmaskar",0,0.1982,1
+"SE753778-181417","WA72266995",847800,7539708,"Station","Individtäthet alla bottendjur",0,0.6922,-13.2891
+"SE753778-181417","WA72266995",847800,7539708,"Station","Individtäthet blötdjur",0,0.9207,-0
+"SE753778-181417","WA72266995",847800,7539708,"Station","Individtäthet leddjur - insekter",0,0.6922,-13.1091
+"SE753778-181417","WA72266995",847800,7539708,"Station","Individtäthet ringmaskar",0,0.6922,0.1338
+"SE735526-183905","WA97950526",875045,7357546,"Station","Individtäthet alla bottendjur",0,0.3244,-25.915
+"SE735526-183905","WA97950526",875045,7357546,"Station","Individtäthet blötdjur",0,1,0.0667
+"SE735526-183905","WA97950526",875045,7357546,"Station","Individtäthet leddjur - insekter",0,0.3244,-27.96
+"SE735526-183905","WA97950526",875045,7357546,"Station","Individtäthet leddjur - kräftdjur",-1,0.0487,-1.48
+"SE735526-183905","WA97950526",875045,7357546,"Station","Individtäthet ringmaskar",0,0.3244,0.875
+"SE703626-153615","WA38909960",576300,7034780,"Station","Individtäthet alla bottendjur",0,0.4285,12.2333
+"SE703626-153615","WA38909960",576300,7034780,"Station","Individtäthet blötdjur",-1,0.0062,-0.06
+"SE703626-153615","WA38909960",576300,7034780,"Station","Individtäthet leddjur - insekter",0,0.5526,8.38
+"SE703626-153615","WA38909960",576300,7034780,"Station","Individtäthet leddjur - kräftdjur",1,0.0294,3.05
+"SE703626-153615","WA38909960",576300,7034780,"Station","Individtäthet ringmaskar",1,0.0422,1.6
+"SE730224-165025","WA60567507",686975,7302110,"Station","Individtäthet alla bottendjur",0,0.2001,-7.4
+"SE730224-165025","WA60567507",686975,7302110,"Station","Individtäthet blötdjur",0,1,0
+"SE730224-165025","WA60567507",686975,7302110,"Station","Individtäthet leddjur - insekter",0,0.2464,-9.225
+"SE730224-165025","WA60567507",686975,7302110,"Station","Individtäthet ringmaskar",0,0.541,0.1417
+"SE675032-135400","WA43483826",397801,6746724,"Station","Individtäthet alla bottendjur",-1,0.0425,-12.24
+"SE675032-135400","WA43483826",397801,6746724,"Station","Individtäthet blötdjur",1,0.0455,
+"SE675032-135400","WA43483826",397801,6746724,"Station","Individtäthet leddjur - insekter",-1,0.0375,-11.4
+"SE675032-135400","WA43483826",397801,6746724,"Station","Individtäthet ringmaskar",0,0.1876,-0.1846
+"SE694231-133350","WA99367298",374935,6938340,"Station","Individtäthet alla bottendjur",0,0.1659,-11.0167
+"SE694231-133350","WA99367298",374935,6938340,"Station","Individtäthet blötdjur",-1,0.0133,-1.3
+"SE694231-133350","WA99367298",374935,6938340,"Station","Individtäthet leddjur - insekter",0,0.1376,-9.28
+"SE694231-133350","WA99367298",374935,6938340,"Station","Individtäthet ringmaskar",0,0.8427,0.1429
+"SE660713-165636","WA79044816",701773,6607290,"Station","Individtäthet alla bottendjur",0,0.0925,-75.8222
+"SE660713-165636","WA79044816",701773,6607290,"Station","Individtäthet blötdjur",0,0.0829,-9.25
+"SE660713-165636","WA79044816",701773,6607290,"Station","Individtäthet leddjur - insekter",0,0.1376,-65.875
+"SE660713-165636","WA79044816",701773,6607290,"Station","Individtäthet leddjur - kräftdjur",0,0.1659,-1.5333
+"SE660713-165636","WA79044816",701773,6607290,"Station","Individtäthet ringmaskar",0,0.2545,0.7111
+"SE650920-143244",,479126,6506696,"Station","Individtäthet alla bottendjur",0,0.0627,56.96
+"SE650920-143244",,479126,6506696,"Station","Individtäthet blötdjur",0,0.6198,-0
+"SE650920-143244",,479126,6506696,"Station","Individtäthet leddjur - insekter",0,0.0627,55.98
+"SE650920-143244",,479126,6506696,"Station","Individtäthet ringmaskar",0,0.227,0.6
+"SE723232-161455","WA23593659",652183,7231757,"Station","Individtäthet alla bottendjur",1,0.0377,10.76
+"SE723232-161455","WA23593659",652183,7231757,"Station","Individtäthet blötdjur",0,0.2155,0.1636
+"SE723232-161455","WA23593659",652183,7231757,"Station","Individtäthet leddjur - insekter",0,0.0829,9.0364
+"SE723232-161455","WA23593659",652183,7231757,"Station","Individtäthet ringmaskar",1,0.0228,1.4667
+"SE688000-137230","WA72532462",414488,6876502,"Station","Individtäthet alla bottendjur",0,1,-4.1429
+"SE688000-137230","WA72532462",414488,6876502,"Station","Individtäthet blötdjur",0,0.1195,-0
+"SE688000-137230","WA72532462",414488,6876502,"Station","Individtäthet leddjur - insekter",0,1,2
+"SE688000-137230","WA72532462",414488,6876502,"Station","Individtäthet ringmaskar",1,0.027,0.5
+"SE633070-131710",,365982,6326928,"Station","Individtäthet alla bottendjur",1,0.0375,26.7778
+"SE633070-131710",,365982,6326928,"Station","Individtäthet blötdjur",0,0.2129,-0
+"SE633070-131710",,365982,6326928,"Station","Individtäthet leddjur - insekter",1,0.0375,25.3
+"SE633070-131710",,365982,6326928,"Station","Individtäthet ringmaskar",1,0.0281,0.5714
+"SE665649-161397","WA73538296",658796,6656120,"Station","Individtäthet alla bottendjur",0,0.3244,25.08
+"SE665649-161397","WA73538296",658796,6656120,"Station","Individtäthet blötdjur",0,0.5841,0.8
+"SE665649-161397","WA73538296",658796,6656120,"Station","Individtäthet leddjur - insekter",0,0.9128,3.4
+"SE665649-161397","WA73538296",658796,6656120,"Station","Individtäthet leddjur - kräftdjur",0,0.5841,1.5833
+"SE665649-161397","WA73538296",658796,6656120,"Station","Individtäthet ringmaskar",0,0.1253,1.52
+"SE639020-148650","WA45704566",534582,6388400,"Station","Individtäthet alla bottendjur",0,0.6207,-12.95
+"SE639020-148650","WA45704566",534582,6388400,"Station","Individtäthet blötdjur",0,0.0879,-0.0025
+"SE639020-148650","WA45704566",534582,6388400,"Station","Individtäthet leddjur - insekter",0,0.6207,-10.2857
+"SE639020-148650","WA45704566",534582,6388400,"Station","Individtäthet leddjur - kräftdjur",0,0.7665,0.0714
+"SE639020-148650","WA45704566",534582,6388400,"Station","Individtäthet ringmaskar",0,0.8043,-1.2
+"SE724097-151160","WA12679259",549165,7239088,"Station","Individtäthet alla bottendjur",0,0.06,78.7
+"SE724097-151160","WA12679259",549165,7239088,"Station","Individtäthet blötdjur",0,0.06,1.1818
+"SE724097-151160","WA12679259",549165,7239088,"Station","Individtäthet leddjur - insekter",1,0.0478,72.625
+"SE724097-151160","WA12679259",549165,7239088,"Station","Individtäthet ringmaskar",0,0.3223,1.6545
+"SE690530-152405","WA15165797",565845,6903726,"Station","Individtäthet alla bottendjur",0,1,-0.7
+"SE690530-152405","WA15165797",565845,6903726,"Station","Individtäthet blötdjur",0,0.8694,0.0333
+"SE690530-152405","WA15165797",565845,6903726,"Station","Individtäthet leddjur - insekter",0,0.8267,2.75
+"SE690530-152405","WA15165797",565845,6903726,"Station","Individtäthet ringmaskar",1,0.0246,1.1
+"SE704792-167352","WA30761275",713922,7046652,"Station","Individtäthet leddjur - kräftdjur",1,0.0281,0.303
+"SE713297-169256","WA27120760",731429,7133714,"Station","Individtäthet alla bottendjur",0,0.7426,-2.2
+"SE713297-169256","WA27120760",731429,7133714,"Station","Individtäthet blötdjur",0,0.8152,-0
+"SE713297-169256","WA27120760",731429,7133714,"Station","Individtäthet leddjur - insekter",0,0.6614,-3.2
+"SE713297-169256","WA27120760",731429,7133714,"Station","Individtäthet ringmaskar",0,0.2073,0.5333
+"SE617027-137477","WA78517976",425495,6167274,"Station","Individtäthet alla bottendjur",0,0.4434,27.6467
+"SE617027-137477","WA78517976",425495,6167274,"Station","Individtäthet blötdjur",-1,0.0375,-7.5714
+"SE617027-137477","WA78517976",425495,6167274,"Station","Individtäthet leddjur - insekter",0,1,0.5691
+"SE617027-137477","WA78517976",425495,6167274,"Station","Individtäthet leddjur - kräftdjur",0,0.6614,13.113
+"SE617027-137477","WA78517976",425495,6167274,"Station","Individtäthet ringmaskar",0,0.5112,0.8571
+"SE726075-144043","WA32889936",477777,7257948,"Station","Individtäthet alla bottendjur",0,0.06,11.9714
+"SE726075-144043","WA32889936",477777,7257948,"Station","Individtäthet blötdjur",0,0.1923,0.0909
+"SE726075-144043","WA32889936",477777,7257948,"Station","Individtäthet leddjur - insekter",0,0.1376,9.2857
+"SE726075-144043","WA32889936",477777,7257948,"Station","Individtäthet ringmaskar",0,0.235,1.6857
+"00206365",,446952,6175320,"Station","Individtäthet alla bottendjur",0,0.3731,-20.2714
+"00206365",,446952,6175320,"Station","Individtäthet blötdjur",0,0.766,0.2222
+"00206365",,446952,6175320,"Station","Individtäthet leddjur - insekter",0,0.1659,-19.2769
+"00206365",,446952,6175320,"Station","Individtäthet leddjur - kräftdjur",-1,0.0075,-7.1027
+"00206365",,446952,6175320,"Station","Individtäthet ringmaskar",1,0.0331,8.7667
+"SE737675-158280","WA56061050",618591,7375724,"Station","Individtäthet alla bottendjur",0,0.9212,-1.0667
+"SE737675-158280","WA56061050",618591,7375724,"Station","Individtäthet blötdjur",0,0.0652,0.2144
+"SE737675-158280","WA56061050",618591,7375724,"Station","Individtäthet leddjur - insekter",0,0.8431,-3.28
+"SE737675-158280","WA56061050",618591,7375724,"Station","Individtäthet ringmaskar",0,0.0829,1
+"SE635805-154005","WA35243626",588490,6356900,"Station","Individtäthet alla bottendjur",0,0.5526,-30.85
+"SE635805-154005","WA35243626",588490,6356900,"Station","Individtäthet blötdjur",0,0.1659,-8.8667
+"SE635805-154005","WA35243626",588490,6356900,"Station","Individtäthet leddjur - insekter",0,0.7665,-15.6
+"SE635805-154005","WA35243626",588490,6356900,"Station","Individtäthet leddjur - kräftdjur",0,0.784,-0.376
+"SE635805-154005","WA35243626",588490,6356900,"Station","Individtäthet ringmaskar",0,0.1507,3.6
+"SE651360-153835","WA39935042",584934,6512366,"Station","Individtäthet alla bottendjur",0,0.1005,87.25
+"SE651360-153835","WA39935042",584934,6512366,"Station","Individtäthet blötdjur",0,0.5112,3.5833
+"SE651360-153835","WA39935042",584934,6512366,"Station","Individtäthet leddjur - insekter",0,0.1005,62.9
+"SE651360-153835","WA39935042",584934,6512366,"Station","Individtäthet leddjur - kräftdjur",1,0.016,5.2857
+"SE651360-153835","WA39935042",584934,6512366,"Station","Individtäthet ringmaskar",0,0.1242,2.0727
+"SE631625-133602","WA61549092",385060,6312710,"Station","Individtäthet leddjur - kräftdjur",0,0.1061,0.0873
+"SE683560-154758","WA68445149",590204,6834360,"Station","Individtäthet alla bottendjur",0,0.5915,-28.6667
+"SE683560-154758","WA68445149",590204,6834360,"Station","Individtäthet blötdjur",0,0.2626,-0
+"SE683560-154758","WA68445149",590204,6834360,"Station","Individtäthet leddjur - insekter",0,0.5915,-26.1667
+"SE683560-154758","WA68445149",590204,6834360,"Station","Individtäthet ringmaskar",0,0.7183,0.1667
