@@ -23,16 +23,16 @@ periods <- function(data,
     mutate(period = cumsum(c(1, diff(!!variable_enquo) >= threshold+1))) %>%
     group_by(period, .add=T) %>%
     mutate(n_year_period = !!variable_enquo %>% unique %>% length())
-
+  
   if(!is_empty(groups_vec)){out <- out %>% group_by(!!!groups_vec)}else{out <- out %>% ungroup}
-
+  
   if(!is.na(filter_less_than)){out <- out %>%
     filter(n_year_period >= filter_less_than) %>%
     mutate(period = cumsum(c(1, diff(!!variable_enquo) >= threshold+1)))
   }
   
-
-
+  
+  
   return(out)
 }
 
@@ -87,7 +87,7 @@ import_slu_mvm_data_excel <- function(filename, numeric_var = NA, bad_quality_na
   #numeric var: the first column with measured numeric variables
   replace_less_than_var <- function(values, bad_quality_na){ # function for replacing values at the detection limit with half values
     values_parsed <- values %>% as.character() %>% parse_number(locale = locale(decimal_mark = ","))
-
+    
     which_intervals <- which(substring(values,1,1) == "[")
     which_less_than <- which(substring(values,1,1) == "<")
     ## Testa att ersätta alla värden under  högsta detektionsgränsen med halva högsta detektionsgränesn
@@ -95,7 +95,7 @@ import_slu_mvm_data_excel <- function(filename, numeric_var = NA, bad_quality_na
     if (length(which_less_than) > 0) {
       values_less_than_half <- values[which_less_than] %>% gsub(",", ".", .) %>% gsub("<","",.) %>% as.numeric()
       values_parsed[which_less_than] <- values_less_than_half/2}
-
+    
     if (bad_quality_na == TRUE) {values_parsed[which_intervals] <- NA}
     else{
       values_intervals <- values[which_intervals] %>%
@@ -104,25 +104,24 @@ import_slu_mvm_data_excel <- function(filename, numeric_var = NA, bad_quality_na
         gsub(",",".", .) %>%
         as.numeric()
       values_parsed[which_intervals] <- values_intervals}
-
+    
     return(values_parsed)
   }
   if (is.na(numeric_var) == T) {stop("Supply the column index of first measured numeric variable")}
-out <- suppressWarnings(read_excel(filename, sheet = sheet,guess_max = 50000))
-out <-
-  out %>% 
-  mutate(across(c(numeric_var:ncol(out)),
-            replace_less_than_var,
-            bad_quality_na = bad_quality_na))
-out <-
-  out %>%
-  mutate(across(c(1:(numeric_var - 1)),
-                (function(x) {
-                              x %>%
-                                as.character() %>%
-                                parse_guess(locale = locale(decimal_mark = ","))
+  out <- suppressWarnings(read_excel(filename, sheet = sheet,guess_max = 50000))
+  out <-
+    out %>% 
+    mutate(across(c(numeric_var:ncol(out)),
+                  replace_less_than_var,
+                  bad_quality_na = bad_quality_na))
+  out <-
+    out %>%
+    mutate(across(c(1:(numeric_var - 1)),
+                  (function(x) {
+                    x %>%
+                      as.character() %>%
+                      parse_guess(locale = locale(decimal_mark = ","))
                   })
-        ))
+    ))
 }
-
 

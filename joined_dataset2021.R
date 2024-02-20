@@ -10,22 +10,22 @@ if (exists("joined_dataset") == FALSE) {
            Regionala = if_else(path %in% c("RMÖ","SRK"), 1, 0),
            data = map2(data, Regionala, ~.x %>% mutate(Regionala = .y,
                                                        #`Vattenzon(P,L,SP)`=`Vattenzon(P,L,SP)`%>%as.character()
-                                                       ))) %>%
-     pull(data) %>%
+           ))) %>%
+    pull(data) %>%
     reduce(full_join) %>%
     dplyr::select(1:30, Regionala, everything()) %>%
     filter(!(`EU id` =="SE665234-135000" |  `EU id` ==  "SE665197-135082")) %>%   #ta bort stationer från övre Fryken
     mutate(`EU id` = case_when(`EU id` == "SE667022-134595" ~ "SE665218-134998",
                                TRUE ~ `EU id`),
            Övervakningsstation=case_when(is.na(Övervakningsstation)~Övervakningsstation,
-                                  TRUE~Övervakningsstation),
+                                         TRUE~Övervakningsstation),
            Övervakningsstation = case_when(Övervakningsstation == "Övre Fryken, 50 m söder om fiskodling" ~ "Övre Fryken",
                                            Övervakningsstation =="Övre Fryken, Torsby" ~"Övre Fryken",
-                                    TRUE ~ Övervakningsstation),
+                                           TRUE ~ Övervakningsstation),
            `Stationskoordinat N/X`= case_when (`Stationskoordinat N/X`== 6666576 ~ 6648600,
                                                TRUE ~ `Stationskoordinat N/X`),
            `Stationskoordinat E/Y` =case_when (`Stationskoordinat E/Y`== 390739 ~394983,
-                                                  TRUE ~ `Stationskoordinat E/Y`))  ->
+                                               TRUE ~ `Stationskoordinat E/Y`))  ->
     indexberakningar
   
   
@@ -62,11 +62,11 @@ if (exists("joined_dataset") == FALSE) {
     rowwise %>%
     mutate(Biovolym2 = sum(c_across(`Xanthophyceae (mm3/l)`:`Övriga Växtplankton (mm3/l)`), na.rm=TRUE)%>% round(3),
            Övervakningsstation=case_when(is.na(Övervakningsstation)~Övervakningsstation,
-                                  TRUE~Övervakningsstation)) ->
+                                         TRUE~Övervakningsstation)) ->
     vaxtplankton
-
+  
   #Incombatible types vid "reduce(full_join)"
-tibble(dir="Indata2022/Sjöar/Vattenkemi/") %>%
+  tibble(dir="Indata2022/Sjöar/Vattenkemi/") %>%
     mutate(files = map(dir, ~list.files(here(.x)))) %>%
     unnest(files) %>%
     transmute(path = paste0(dir, files)) %>%
@@ -83,10 +83,10 @@ tibble(dir="Indata2022/Sjöar/Vattenkemi/") %>%
     mutate(`EU id` = case_when(`EU id` == "SE667022-134595" ~ "SE665218-134998", 
                                TRUE ~ `EU id`))%>%
     mutate(Övervakningsstation=case_when(is.na(Övervakningsstation)~Övervakningsstation,
-                                  TRUE~Övervakningsstation),
-      Övervakningsstation = case_when(Övervakningsstation == "Övre Fryken, 50 m söder om fiskodling" ~ "Övre Fryken",
-                             Övervakningsstation =="Övre Fryken, Torsby" ~"Övre Fryken", 
-                             TRUE ~ Övervakningsstation))->
+                                         TRUE~Övervakningsstation),
+           Övervakningsstation = case_when(Övervakningsstation == "Övre Fryken, 50 m söder om fiskodling" ~ "Övre Fryken",
+                                           Övervakningsstation =="Övre Fryken, Torsby" ~"Övre Fryken", 
+                                           TRUE ~ Övervakningsstation))->
     vattenkemi
   
   
@@ -163,3 +163,12 @@ if(exists("vaxtplankton")==T){rm(vaxtplankton)}
 #if(exists("Vattenkemi_data")==T){rm(Vattenkemi_data)}
 #if(exists("IKEU_Vattenkemi")==T){rm(IKEU_Vattenkemi)}
 if(exists("vattenkemi")==T){rm(vattenkemi)}
+
+
+#setwd('C:/R/Sveriges-Vattenmiljo2023-main')
+
+
+#write.table(joined_dataset, "Tabeller/joined_dataset.txt",
+#            sep="\t",
+#            row.names=FALSE,
+#            fileEncoding = "utf-8")
