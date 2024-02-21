@@ -163,12 +163,3 @@ if(exists("vaxtplankton")==T){rm(vaxtplankton)}
 #if(exists("Vattenkemi_data")==T){rm(Vattenkemi_data)}
 #if(exists("IKEU_Vattenkemi")==T){rm(IKEU_Vattenkemi)}
 if(exists("vattenkemi")==T){rm(vattenkemi)}
-
-
-#setwd('C:/R/Sveriges-Vattenmiljo2023-main')
-
-
-#write.table(joined_dataset, "Tabeller/joined_dataset.txt",
-#            sep="\t",
-#            row.names=FALSE,
-#            fileEncoding = "utf-8")
