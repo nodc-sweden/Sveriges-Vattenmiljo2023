@@ -1,6 +1,16 @@
 ---
 title: "Mann Kendall"
-date: "2024-02-28"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+params: 
+  filename: "PTOT_monthly.txt"
+knit: (function(inputFile, encoding) {
+                      rmarkdown::render(inputFile,
+                      encoding=encoding, 
+                      output_file="reports/Mann-Kendall-NODC.pdf") })
+---
+
+---
+subtitle: `r tools::file_path_sans_ext(params$filename)`
 ---
 
 # Dataåtkomst
@@ -29,19 +39,19 @@ Serier med mindre än 10 år av data tas bort. Enstaka mätpunkter med mer än 3
 
 # Trendanalys
 
-```{r include=FALSE}
+```{r source_functions, include=FALSE}
 #Initial inladdning av paket och egenskrivna funktioner
 source("shared_functions-NODC.R", encoding = "UTF-8")
 ```
 
 
 
-```{r}
+```{r read_data}
 #NODC testdata
 
 #setwd('C:/R/Sveriges-Vattenmiljo2023')
 
-filename <- ("PTOT_monthly.txt")
+filename <- params$filename
 
 testdata <- read.table(file.path("Indata2022", filename),
                      sep = "\t",
@@ -64,7 +74,7 @@ rename_data <- testdata %>%
 
 
 
-```{r}
+```{r run_model}
 ## NODC testdata
 
 rename_data %>% 
@@ -96,7 +106,7 @@ rename_data %>%
 
 
 
-```{r include=FALSE}
+```{r wrangle_data, include=FALSE}
 #group_by(Provplats_ID, `Stationskoordinat N/X`, `Stationskoordinat E/Y`, variable, Regionala)# %>%
 #  summarise(n_years = min(n_years)) %>% View
 vplank_index_data_mh%>%
@@ -117,7 +127,7 @@ vplank_index_data_mh%>%
 
 
 
-```{r include=FALSE}
+```{r wrangle_trends, include=FALSE}
 trends_vplank_index_mh %>% 
   filter(type=="value") %>% 
   nest(data = c(-Provplats_ID,-STATN, -variable)) %>% 
@@ -140,12 +150,12 @@ trends_vplank_index_mh %>%
 
 
 
-```{r}
+```{r make_tables}
 #NODC print stuff
 
 #vplank_index_data
 #vaxtplankton_mannkendall
-
+knitr::kable(vaxtplankton_mannkendall)
 
 write.table(vaxtplankton_mannkendall, 
              paste0("Outdata2022/mann_kendall_",sub("_[^_]*$", "", filename),".csv"),
@@ -169,32 +179,32 @@ För samtliga variabler ser processen ut som följer:
 
 
 
-### IPS, ACID
+<!-- ### IPS, ACID -->
 
-```{r echo=FALSE, fig.height=20, fig.width=20, message=FALSE, warning=FALSE, out.extra='angle=90'}
+<!-- ```{r echo=FALSE, fig.height=20, fig.width=20, message=FALSE, warning=FALSE, out.extra='angle=90'} -->
 
-for(i in 1:length(unique(trends_vplank_index_mh$STATN))) {
+<!-- for(i in 1:length(unique(trends_vplank_index_mh$STATN))) { -->
 
-plot1 <-  trends_vplank_index_mh %>%
-   filter(STATN==unique(trends_vplank_index_mh$STATN)[i])%>%
-  filter(variable=="mean") %>%
-  ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) +
-  geom_line() +
-  facet_wrap(~STATN #+paste(`Stationskoordinat N/X`,`Stationskoordinat E/Y`)
-             , scales = "free_y")+
-   scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
-                        labels = c("Medelvärden", "Trendvärden"))+
-  scale_color_manual(values = c("value" = "blue", "trend" = "red"),
-                        labels = c("Medelvärden", "Trendvärden"))+
-#  geom_point(data = trends %>%
-# filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+
-  labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår")
+<!-- plot1 <-  trends_vplank_index_mh %>% -->
+<!--    filter(STATN==unique(trends_vplank_index_mh$STATN)[i])%>% -->
+<!--   filter(variable=="mean") %>% -->
+<!--   ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) + -->
+<!--   geom_line() + -->
+<!--   facet_wrap(~STATN #+paste(`Stationskoordinat N/X`,`Stationskoordinat E/Y`) -->
+<!--              , scales = "free_y")+ -->
+<!--    scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"), -->
+<!--                         labels = c("Medelvärden", "Trendvärden"))+ -->
+<!--   scale_color_manual(values = c("value" = "blue", "trend" = "red"), -->
+<!--                         labels = c("Medelvärden", "Trendvärden"))+ -->
+<!-- #  geom_point(data = trends %>% -->
+<!-- # filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+ -->
+<!--   labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår") -->
 
-ggsave(paste0("plots/mann_kendall_", sub("_[^_]*$", "", filename),
-                   "_",unique(trends_vplank_index_mh$STATN)[i],".png"), plot1)
+<!-- ggsave(paste0("plots/mann_kendall_", sub("_[^_]*$", "", filename), -->
+<!--                    "_",unique(trends_vplank_index_mh$STATN)[i],".png"), plot1) -->
 
-}
-```
+<!-- } -->
+<!-- ``` -->
 
 
 
