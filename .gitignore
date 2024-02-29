@@ -4,3 +4,4 @@
 .Ruserdata
 
 reports/*.pdf
+plots/*.png

@@ -179,32 +179,34 @@ För samtliga variabler ser processen ut som följer:
 
 
 
-<!-- ### IPS, ACID -->
+### IPS, ACID
 
-<!-- ```{r echo=FALSE, fig.height=20, fig.width=20, message=FALSE, warning=FALSE, out.extra='angle=90'} -->
+```{r plots echo=FALSE, fig.height=20, fig.width=20, message=FALSE, warning=FALSE, out.extra='angle=90'}
 
-<!-- for(i in 1:length(unique(trends_vplank_index_mh$STATN))) { -->
-
-<!-- plot1 <-  trends_vplank_index_mh %>% -->
-<!--    filter(STATN==unique(trends_vplank_index_mh$STATN)[i])%>% -->
-<!--   filter(variable=="mean") %>% -->
-<!--   ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) + -->
-<!--   geom_line() + -->
-<!--   facet_wrap(~STATN #+paste(`Stationskoordinat N/X`,`Stationskoordinat E/Y`) -->
-<!--              , scales = "free_y")+ -->
-<!--    scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"), -->
-<!--                         labels = c("Medelvärden", "Trendvärden"))+ -->
-<!--   scale_color_manual(values = c("value" = "blue", "trend" = "red"), -->
-<!--                         labels = c("Medelvärden", "Trendvärden"))+ -->
-<!-- #  geom_point(data = trends %>% -->
-<!-- # filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+ -->
-<!--   labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår") -->
-
-<!-- ggsave(paste0("plots/mann_kendall_", sub("_[^_]*$", "", filename), -->
-<!--                    "_",unique(trends_vplank_index_mh$STATN)[i],".png"), plot1) -->
-
-<!-- } -->
-<!-- ``` -->
+for(i in 1:length(unique(trends_vplank_index_mh$STATN))) {
+  
+  plot1 <-  trends_vplank_index_mh %>%
+    filter(STATN==unique(trends_vplank_index_mh$STATN)[i])%>%
+    filter(variable=="mean") %>%
+    ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) +
+    geom_line() +
+    facet_wrap(~STATN #+paste(`Stationskoordinat N/X`,`Stationskoordinat E/Y`)
+               , scales = "free_y")+
+    scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
+                          labels = c("Medelvärden", "Trendvärden"))+
+    scale_color_manual(values = c("value" = "blue", "trend" = "red"),
+                       labels = c("Medelvärden", "Trendvärden"))+
+    #  geom_point(data = trends %>%
+    # filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+
+    labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår")
+  
+  print(plot)
+  
+  ggsave(paste0("plots/mann_kendall_", sub("_[^_]*$", "", filename),
+                "_",unique(trends_vplank_index_mh$STATN)[i],".png"), plot1)
+  
+}
+```
 
 
 
