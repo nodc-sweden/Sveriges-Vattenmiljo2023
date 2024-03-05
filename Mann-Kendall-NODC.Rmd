@@ -2,11 +2,14 @@
 title: "Mann Kendall"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 params: 
-  filename: "PTOT_monthly.txt"
+  filename: "O2_H2S_yearly.txt"
+  time_res: "yearly" # monthly or yearly
+  depth_interval: "surface" #"bottom" or "surface". NO visit possible!
+output: html_document
 knit: (function(inputFile, encoding) {
                       rmarkdown::render(inputFile,
                       encoding=encoding, 
-                      output_file="reports/Mann-Kendall-NODC.pdf") })
+                      output_file="reports/Mann-Kendall-NODC.html") })
 ---
 
 ---
@@ -59,6 +62,36 @@ testdata <- read.table(file.path("Indata2022", filename),
                      header = TRUE,
                      na.strings = "NA")
 
+
+if (params$depth_interval == "surface") {
+  testdata <- testdata %>%
+    filter(Depth_interval == "0-10 m")
+} else {
+  testdata <- testdata %>%
+    filter(Depth_interval != "0-10 m") 
+}
+
+
+
+ for (i in 1:nrow(testdata)) {
+   if (params$time_res == "yearly") {
+     testdata$MONTH <- "01"
+ #    testdata$DAY <- "15"
+   }
+ }
+
+# for (i in 1:nrow(testdata)) {
+#   if (params$time_res == "monthly") {
+#     testdata$DAY <- "15"
+#   }
+# }
+
+
+# for (i in 1:nrow(testdata)) {
+#   if (params$time_res == "visit") {
+#     testdata$DAY <- day(testdata$SDATE)
+#   }
+# }
 
 
 rename_data <- testdata %>% 
@@ -158,7 +191,13 @@ trends_vplank_index_mh %>%
 knitr::kable(vaxtplankton_mannkendall)
 
 write.table(vaxtplankton_mannkendall, 
-             paste0("Outdata2022/mann_kendall_",sub("_[^_]*$", "", filename),".csv"),
+             paste0("Outdata2022/mann_kendall_",
+                    params$time_res,
+                    "_",
+                    sub("_[^_]*$", "", filename),
+                    "_",
+                    params$depth_interval,
+                    ".csv"),
              sep=",",
              row.names=FALSE,
              fileEncoding = "utf-8")
@@ -181,7 +220,7 @@ För samtliga variabler ser processen ut som följer:
 
 ### IPS, ACID
 
-```{r plots echo=FALSE, fig.height=20, fig.width=20, message=FALSE, warning=FALSE, out.extra='angle=90'}
+```{r plots, echo=FALSE, message=FALSE, warning=FALSE}
 
 for(i in 1:length(unique(trends_vplank_index_mh$STATN))) {
   
@@ -193,17 +232,25 @@ for(i in 1:length(unique(trends_vplank_index_mh$STATN))) {
     facet_wrap(~STATN #+paste(`Stationskoordinat N/X`,`Stationskoordinat E/Y`)
                , scales = "free_y")+
     scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
-                          labels = c("Medelvärden", "Trendvärden"))+
+                          labels = c("Trendvärden", "Värden"))+
     scale_color_manual(values = c("value" = "blue", "trend" = "red"),
-                       labels = c("Medelvärden", "Trendvärden"))+
+                      labels = c("Trendvärden", "Värden"))+
     #  geom_point(data = trends %>%
     # filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+
     labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår")
   
-  print(plot)
+  print(plot1)
   
-  ggsave(paste0("plots/mann_kendall_", sub("_[^_]*$", "", filename),
-                "_",unique(trends_vplank_index_mh$STATN)[i],".png"), plot1)
+  ggsave(paste0("plots/mann_kendall_", 
+                params$time_res,
+                "_",
+                sub("_[^_]*$", "", filename),
+                "_",
+                unique(trends_vplank_index_mh$STATN)[i],
+                "_",
+                params$depth_interval,
+                ".png"), 
+         plot1)
   
 }
 ```
