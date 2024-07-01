@@ -2,9 +2,10 @@
 title: "Mann Kendall"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 params: 
-  filename: "O2_H2S_yearly.txt"
+  filename: "trenderHAV.csv"
   time_res: "yearly" # monthly or yearly
   depth_interval: "surface" #"bottom" or "surface". NO visit possible!
+  period: "Hela perioden" # Either "Hela perioden", 6 or 12
 output: html_document
 knit: (function(inputFile, encoding) {
                       rmarkdown::render(inputFile,
@@ -58,27 +59,27 @@ filename <- params$filename
 
 testdata <- read.table(file.path("Indata2022", filename),
                      sep = "\t",
-                     fileEncoding = "latin1",
+                     fileEncoding = "UTF-8",
                      header = TRUE,
                      na.strings = "NA")
 
 
-if (params$depth_interval == "surface") {
-  testdata <- testdata %>%
-    filter(Depth_interval == "0-10 m")
-} else {
-  testdata <- testdata %>%
-    filter(Depth_interval != "0-10 m") 
-}
-
-
-
- for (i in 1:nrow(testdata)) {
-   if (params$time_res == "yearly") {
-     testdata$MONTH <- "01"
- #    testdata$DAY <- "15"
-   }
- }
+# if (params$depth_interval == "surface") {
+#   testdata <- testdata %>%
+#     filter(Depth_interval == "0-10 m")
+# } else {
+#   testdata <- testdata %>%
+#     filter(Depth_interval != "0-10 m") 
+# }
+# 
+# 
+# 
+ # for (i in 1:nrow(testdata)) {
+ #   if (params$time_res == "yearly") {
+ #     testdata$MONTH <- "01"
+ # #    testdata$DAY <- "15"
+ #   }
+ # }
 
 # for (i in 1:nrow(testdata)) {
 #   if (params$time_res == "monthly") {
@@ -92,14 +93,16 @@ if (params$depth_interval == "surface") {
 #     testdata$DAY <- day(testdata$SDATE)
 #   }
 # }
-
+testdata$MONTH <- "01"
 
 rename_data <- testdata %>% 
   rename(Provplats_ID = REG_ID,
          Provtagningsår = YEAR,
-         Provtagningsmånad = MONTH
+         Provtagningsmånad = MONTH,
+         Trendvariabel = variable
          ) %>%
-  mutate(STATN=gsub("/","-", STATN))
+  mutate(STATN=gsub("/","-", STATN)) %>%
+  filter(!is.na(year_mean))
 
 ```
 
@@ -109,15 +112,23 @@ rename_data <- testdata %>%
 
 ```{r run_model}
 ## NODC testdata
+vars <- unique(rename_data$Trendvariabel)
 
-rename_data %>% 
+vplank_index_data_mh <- data.frame()
+
+for (var in seq_along(vars)) {
+  
+  rename_data_temp <- rename_data %>%
+    filter(Trendvariabel == vars[var])
+  
+  rename_data_temp %>% 
   dplyr::select(1:
          Provtagningsår, 
          Provtagningsmånad,
-         mean,
+         year_mean,
          STATN
          )  %>%
-  gather(variable, value, mean, na.rm = T) %>%
+  gather(variable, value, year_mean, na.rm = T) %>%
   drop_na(value) %>% # remove rows with NAs
 #   dplyr::filter(variable == "mean") %>%
 ## Provtag endast Juli-Augusti ##         
@@ -126,44 +137,71 @@ rename_data %>%
 ##  #select autumn values for indiced
   group_by(Provplats_ID, STATN, Provtagningsår, variable) %>% 
   summarise(value = value %>% mean(), # calculate yearly mean
-            n = n()) %>% 
+            n = n(),
+            .groups = "drop") %>% 
   ungroup() %>% 
   distinct() %>% 
   group_by(Provplats_ID, STATN, variable) %>% 
  periods(variable =Provtagningsår, filter_less_than = 10, max_year=NA) %>% ### Periods är en funktion från shared_functions.R
   mutate(n_years=n(), max_year = max(Provtagningsår)) %>%
-#  filter(max_year >= 2015) %>% 
-  ungroup() ->vplank_index_data_mh
+ filter(Provtagningsår >= max_year - ifelse(params$period == "Hela perioden", max_year, as.integer(params$period))) %>%
+  ungroup() %>%
+    mutate(variable = vars[var])->trend
+  
+  vplank_index_data_mh <- rbind(vplank_index_data_mh, trend)
+}
+
 ```
 
 
 
 
 ```{r wrangle_data, include=FALSE}
-#group_by(Provplats_ID, `Stationskoordinat N/X`, `Stationskoordinat E/Y`, variable, Regionala)# %>%
-#  summarise(n_years = min(n_years)) %>% View
-vplank_index_data_mh%>%
-  nest(data=c(-Provplats_ID, -STATN, -variable))%>% 
-#    nest(data=c(-Provplats_ID, -variable))%>% 
-  mutate(fit = future_map(data, ~if(var(.x$value)==0){glm(formula=value~Provtagningsår, data=.x)}else{
-                           # gam(formula = value ~ s(Provtagningsår, k=unique(.x$n_years-2)),
-                              gam(formula = value ~ s(Provtagningsår, k=unique(floor(.x$n_years/2))),
-                              data=.x, 
-                              method="REML", select=T,                        )}, .progress=T),
-          trend = map2(fit, data, ~ predict(object = .x, newdata = .y, type="response")),
-          resid = map(fit, ~resid(.x, type="pearson"))) %>% 
-  unnest(c(data, trend, resid)) %>% 
-  gather(type, value, value, trend) ->
-  trends_vplank_index_mh
+
+vplank_index_data_mh <- vplank_index_data_mh %>%
+  rename(Trendvariabel = variable)
+
+trends_vplank_index_mh <- data.frame()
+
+for (var in seq_along(vars)) {
+  vplank_index_data_temp <- vplank_index_data_mh %>%
+    filter(Trendvariabel == vars[var])
+  
+  #group_by(Provplats_ID, `Stationskoordinat N/X`, `Stationskoordinat E/Y`, variable, Regionala)# %>%
+  #  summarise(n_years = min(n_years)) %>% View
+  vplank_index_data_temp%>%
+    nest(data=c(-Provplats_ID, -STATN, -Trendvariabel))%>% 
+    #    nest(data=c(-Provplats_ID, -variable))%>% 
+    mutate(fit = future_map(data, ~if(var(.x$value)==0){glm(formula=value~Provtagningsår, data=.x)}else{
+      # gam(formula = value ~ s(Provtagningsår, k=unique(.x$n_years-2)),
+      gam(formula = value ~ s(Provtagningsår, k=unique(floor(.x$n_years/2))),
+          data=.x, 
+          method="REML", select=T,                        )}, .progress=T),
+      trend = map2(fit, data, ~ predict(object = .x, newdata = .y, type="response")),
+      resid = map(fit, ~resid(.x, type="pearson"))) %>% 
+    unnest(c(data, trend, resid)) %>% 
+    gather(type, value, value, trend) ->
+    trends_vplank_index_mh_temp
+  
+  trends_vplank_index_mh <- rbind(trends_vplank_index_mh, trends_vplank_index_mh_temp)
+  }
+
 ```
 
 
 
 
 ```{r wrangle_trends, include=FALSE}
-trends_vplank_index_mh %>% 
+vaxtplankton_mannkendall <- data.frame()
+
+for (var in seq_along(vars)) {
+  trends_vplank_index_mh_temp <- trends_vplank_index_mh %>%
+    filter(Trendvariabel == vars[var])
+    
+    
+  trends_vplank_index_mh_temp %>% 
   filter(type=="value") %>% 
-  nest(data = c(-Provplats_ID,-STATN, -variable)) %>% 
+  nest(data = c(-Provplats_ID,-STATN, -Trendvariabel)) %>% 
 #    nest(data = c(-Provplats_ID, -`EU id`, -`MS_CD C3`, -`Stationskoordinat N/X`, -`Stationskoordinat E/Y`,-Regionala,-variable)) %>% 
   mutate(fit = map(data, possibly(~rkt(date=as.data.frame(.x)$Provtagningsår, 
                                        y=as.data.frame(.x)$value), otherwise=NA_real_)),
@@ -176,9 +214,13 @@ trends_vplank_index_mh %>%
          Theil_Sens_slope_MK = Theil_Sens_slope_MK %>% round(4), 
          Kendall_tau = Kendall_tau %>% round(4)) %>% 
   replace_na(list(sig_stars="****")) %>%
-  rename(Provplats_namn = STATN) %>%
-  mutate(variable=sub("_[^_]*$", "", filename)) -> #ta variabelnamn från filnamn
-  vaxtplankton_mannkendall
+  rename(Provplats_namn = STATN) ->
+  # mutate(variable=sub("_[^_]*$", "", filename)) -> #ta variabelnamn från filnamn
+  vaxtplankton_mannkendall_temp
+  
+  vaxtplankton_mannkendall <- rbind(vaxtplankton_mannkendall, vaxtplankton_mannkendall_temp)
+}
+
 ```
 
 
@@ -186,17 +228,21 @@ trends_vplank_index_mh %>%
 ```{r make_tables}
 #NODC print stuff
 
+vaxtplankton_mannkendall <- vaxtplankton_mannkendall %>%
+    rename(`Provplats ID (Stationsregistret)` = Provplats_ID,
+         Mätvariable = Trendvariabel,
+         `Trend` = Kendall_tau,
+         `p-värde` = p_value) %>%
+  mutate(Period = params$period) %>%
+  select(-Kendalls_score, -Theil_Sens_slope_MK, -sig_stars)
+
 #vplank_index_data
 #vaxtplankton_mannkendall
 knitr::kable(vaxtplankton_mannkendall)
 
 write.table(vaxtplankton_mannkendall, 
              paste0("Outdata2022/mann_kendall_",
-                    params$time_res,
-                    "_",
-                    sub("_[^_]*$", "", filename),
-                    "_",
-                    params$depth_interval,
+                    params$period,
                     ".csv"),
              sep=",",
              row.names=FALSE,
