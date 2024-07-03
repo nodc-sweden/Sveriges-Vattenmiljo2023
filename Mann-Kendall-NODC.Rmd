@@ -5,7 +5,7 @@ params:
   filename: "trenderHAV.csv"
   time_res: "yearly" # monthly or yearly
   depth_interval: "surface" #"bottom" or "surface". NO visit possible!
-  period: "Hela perioden" # Either "Hela perioden", 6 or 12
+  period: 6 # Either "Hela perioden", 6 or 12
 output: html_document
 knit: (function(inputFile, encoding) {
                       rmarkdown::render(inputFile,
@@ -58,10 +58,10 @@ source("shared_functions-NODC.R", encoding = "UTF-8")
 filename <- params$filename
 
 testdata <- read.table(file.path("Indata2022", filename),
-                     sep = "\t",
-                     fileEncoding = "UTF-8",
-                     header = TRUE,
-                     na.strings = "NA")
+                       sep = "\t",
+                       fileEncoding = "UTF-8",
+                       header = TRUE,
+                       na.strings = "NA")
 
 
 # if (params$depth_interval == "surface") {
@@ -74,12 +74,12 @@ testdata <- read.table(file.path("Indata2022", filename),
 # 
 # 
 # 
- # for (i in 1:nrow(testdata)) {
- #   if (params$time_res == "yearly") {
- #     testdata$MONTH <- "01"
- # #    testdata$DAY <- "15"
- #   }
- # }
+# for (i in 1:nrow(testdata)) {
+#   if (params$time_res == "yearly") {
+#     testdata$MONTH <- "01"
+# #    testdata$DAY <- "15"
+#   }
+# }
 
 # for (i in 1:nrow(testdata)) {
 #   if (params$time_res == "monthly") {
@@ -100,9 +100,15 @@ rename_data <- testdata %>%
          Provtagningsår = YEAR,
          Provtagningsmånad = MONTH,
          Trendvariabel = variable
-         ) %>%
+  ) %>%
+  filter(!Provtagningsår == 2024) %>%
   mutate(STATN=gsub("/","-", STATN)) %>%
-  filter(!is.na(year_mean))
+  filter(!is.na(year_mean)) %>%
+  group_by(Trendvariabel) %>%
+  mutate(n_years=length(unique(Provtagningsår)), max_year = max(Provtagningsår)) %>%
+  filter(Provtagningsår >= max_year - ifelse(params$period == "Hela perioden", max_year, as.integer(params$period-1))) %>%
+  mutate(n_years=length(unique(Provtagningsår))) %>%
+  ungroup()
 
 ```
 
@@ -122,30 +128,30 @@ for (var in seq_along(vars)) {
     filter(Trendvariabel == vars[var])
   
   rename_data_temp %>% 
-  dplyr::select(1:
-         Provtagningsår, 
-         Provtagningsmånad,
-         year_mean,
-         STATN
-         )  %>%
-  gather(variable, value, year_mean, na.rm = T) %>%
-  drop_na(value) %>% # remove rows with NAs
-#   dplyr::filter(variable == "mean") %>%
-## Provtag endast Juli-Augusti ##         
-##         & Provtagningsmånad %in% c(7,8)) | # select values from July and August 
-##          (variable %in%  c("BQI", "IPS", "ACID", "ASPT", "MILA 2018") & Provtagningsmånad %in% c(9,10,11)))%>%
-##  #select autumn values for indiced
-  group_by(Provplats_ID, STATN, Provtagningsår, variable) %>% 
-  summarise(value = value %>% mean(), # calculate yearly mean
-            n = n(),
-            .groups = "drop") %>% 
-  ungroup() %>% 
-  distinct() %>% 
-  group_by(Provplats_ID, STATN, variable) %>% 
- periods(variable =Provtagningsår, filter_less_than = 10, max_year=NA) %>% ### Periods är en funktion från shared_functions.R
-  mutate(n_years=n(), max_year = max(Provtagningsår)) %>%
- filter(Provtagningsår >= max_year - ifelse(params$period == "Hela perioden", max_year, as.integer(params$period))) %>%
-  ungroup() %>%
+    dplyr::select(1:
+                    Provtagningsår, 
+                  Provtagningsmånad,
+                  year_mean,
+                  STATN
+    )  %>%
+    gather(variable, value, year_mean, na.rm = T) %>%
+    drop_na(value) %>% # remove rows with NAs
+    #   dplyr::filter(variable == "mean") %>%
+    ## Provtag endast Juli-Augusti ##         
+    ##         & Provtagningsmånad %in% c(7,8)) | # select values from July and August 
+    ##          (variable %in%  c("BQI", "IPS", "ACID", "ASPT", "MILA 2018") & Provtagningsmånad %in% c(9,10,11)))%>%
+    ##  #select autumn values for indiced
+    group_by(Provplats_ID, STATN, Provtagningsår, variable) %>% 
+    summarise(value = value %>% mean(), # calculate yearly mean
+              n = n(),
+              .groups = "drop") %>% 
+    ungroup() %>% 
+    distinct() %>% 
+    group_by(Provplats_ID, STATN, variable) %>% 
+    periods(variable =Provtagningsår, filter_less_than = ifelse(params$period == "Hela perioden", 10, params$period-1), max_year=NA) %>% ### Periods är en funktion från shared_functions.R
+    mutate(n_years=n(), max_year = max(Provtagningsår)) %>%
+    filter(Provtagningsår >= max_year - ifelse(params$period == "Hela perioden", max_year, as.integer(params$period))) %>%
+    ungroup() %>%
     mutate(variable = vars[var])->trend
   
   vplank_index_data_mh <- rbind(vplank_index_data_mh, trend)
@@ -184,7 +190,7 @@ for (var in seq_along(vars)) {
     trends_vplank_index_mh_temp
   
   trends_vplank_index_mh <- rbind(trends_vplank_index_mh, trends_vplank_index_mh_temp)
-  }
+}
 
 ```
 
@@ -197,26 +203,26 @@ vaxtplankton_mannkendall <- data.frame()
 for (var in seq_along(vars)) {
   trends_vplank_index_mh_temp <- trends_vplank_index_mh %>%
     filter(Trendvariabel == vars[var])
-    
-    
+  
+  
   trends_vplank_index_mh_temp %>% 
-  filter(type=="value") %>% 
-  nest(data = c(-Provplats_ID,-STATN, -Trendvariabel)) %>% 
-#    nest(data = c(-Provplats_ID, -`EU id`, -`MS_CD C3`, -`Stationskoordinat N/X`, -`Stationskoordinat E/Y`,-Regionala,-variable)) %>% 
-  mutate(fit = map(data, possibly(~rkt(date=as.data.frame(.x)$Provtagningsår, 
-                                       y=as.data.frame(.x)$value), otherwise=NA_real_)),
-         tidy = map(fit, possibly(~rkt_out(.x), otherwise=NA_real_))) %>% 
-  unnest(tidy) %>% 
-  dplyr::select(-data, -fit) %>% 
-  mutate(sig_stars=cut(p_value, breaks=c(1, 0.05,0.01,0.001,0.0001,0), 
-                       labels=c("ns","*","**","***","****") %>% rev, ordered_result = T),
-         p_value = p_value %>% round(4),
-         Theil_Sens_slope_MK = Theil_Sens_slope_MK %>% round(4), 
-         Kendall_tau = Kendall_tau %>% round(4)) %>% 
-  replace_na(list(sig_stars="****")) %>%
-  rename(Provplats_namn = STATN) ->
-  # mutate(variable=sub("_[^_]*$", "", filename)) -> #ta variabelnamn från filnamn
-  vaxtplankton_mannkendall_temp
+    filter(type=="value") %>% 
+    nest(data = c(-Provplats_ID,-STATN, -Trendvariabel)) %>% 
+    #    nest(data = c(-Provplats_ID, -`EU id`, -`MS_CD C3`, -`Stationskoordinat N/X`, -`Stationskoordinat E/Y`,-Regionala,-variable)) %>% 
+    mutate(fit = map(data, possibly(~rkt(date=as.data.frame(.x)$Provtagningsår, 
+                                         y=as.data.frame(.x)$value), otherwise=NA_real_)),
+           tidy = map(fit, possibly(~rkt_out(.x), otherwise=NA_real_))) %>% 
+    unnest(tidy) %>% 
+    dplyr::select(-data, -fit) %>% 
+    mutate(sig_stars=cut(p_value, breaks=c(1, 0.05,0.01,0.001,0.0001,0), 
+                         labels=c("ns","*","**","***","****") %>% rev, ordered_result = T),
+           p_value = p_value %>% round(4),
+           Theil_Sens_slope_MK = Theil_Sens_slope_MK %>% round(4), 
+           Kendall_tau = Kendall_tau %>% round(4)) %>% 
+    replace_na(list(sig_stars="****")) %>%
+    rename(Provplats_namn = STATN) ->
+    # mutate(variable=sub("_[^_]*$", "", filename)) -> #ta variabelnamn från filnamn
+    vaxtplankton_mannkendall_temp
   
   vaxtplankton_mannkendall <- rbind(vaxtplankton_mannkendall, vaxtplankton_mannkendall_temp)
 }
@@ -229,38 +235,40 @@ for (var in seq_along(vars)) {
 #NODC print stuff
 
 vaxtplankton_mannkendall <- vaxtplankton_mannkendall %>%
-    rename(`Provplats ID (Stationsregistret)` = Provplats_ID,
-         Mätvariable = Trendvariabel,
-         `Trend` = Kendall_tau,
+  rename(`Provplats ID (Stationsregistret)` = Provplats_ID,
+         Mätvariabel = Trendvariabel,
+         # `Trend` = Kendall_tau,
          `p-värde` = p_value) %>%
-  mutate(Period = params$period) %>%
-  select(-Kendalls_score, -Theil_Sens_slope_MK, -sig_stars)
+  mutate(Period = params$period,
+         Trend = ifelse(`p-värde` > 0.05, "netural", ifelse(Kendall_tau < 0, "minskande", "ökande")),) %>%
+  select(-Kendalls_score, -Kendall_tau, -Provplats_namn, -Theil_Sens_slope_MK, -sig_stars) %>%
+  relocate(Trend, .after = "Mätvariabel")
 
 #vplank_index_data
 #vaxtplankton_mannkendall
 knitr::kable(vaxtplankton_mannkendall)
 
 write.table(vaxtplankton_mannkendall, 
-             paste0("Outdata2022/mann_kendall_",
-                    params$period,
-                    ".csv"),
-             sep=",",
-             row.names=FALSE,
-             fileEncoding = "utf-8")
+            paste0("Outdata2022/mann_kendall_",
+                   params$period,
+                   ".csv"),
+            sep=",",
+            row.names=FALSE,
+            fileEncoding = "utf-8")
 ```
 För samtliga variabler ser processen ut som följer:
 
- * Värden från juli och augusti filtreras ut
- * Eventuell variabelspecifik filtrering (se klorofyll)
- * Medelvärdesberäkning för varje år för varje station
- * Beräkning av antal inom varje år för varje station
- * Beräkning av antal år för station
- * Bortfiltrering av enstaka mätpunkter som befinner sig mer än 3 år ifrån någon annan mätpunkt i tid
- * Bortfiltrering av stationer med färre än 10 årsmedelvärden
- * (Varje delperiod ska ha >=10 års värden)
- * En robust additiv modell anpassas för varje stations återstående årsmedelvärden för att skatta trend över tid
- * Årsmedelvärden och trenden plottas ihop med outlierbedömning (standardiserad residual större än 2)
- 
+* Värden från juli och augusti filtreras ut
+* Eventuell variabelspecifik filtrering (se klorofyll)
+* Medelvärdesberäkning för varje år för varje station
+* Beräkning av antal inom varje år för varje station
+* Beräkning av antal år för station
+* Bortfiltrering av enstaka mätpunkter som befinner sig mer än 3 år ifrån någon annan mätpunkt i tid
+* Bortfiltrering av stationer med färre än 10 årsmedelvärden
+* (Varje delperiod ska ha >=10 års värden)
+* En robust additiv modell anpassas för varje stations återstående årsmedelvärden för att skatta trend över tid
+* Årsmedelvärden och trenden plottas ihop med outlierbedömning (standardiserad residual större än 2)
+
 
 
 
@@ -280,7 +288,7 @@ for(i in 1:length(unique(trends_vplank_index_mh$STATN))) {
     scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
                           labels = c("Trendvärden", "Värden"))+
     scale_color_manual(values = c("value" = "blue", "trend" = "red"),
-                      labels = c("Trendvärden", "Värden"))+
+                       labels = c("Trendvärden", "Värden"))+
     #  geom_point(data = trends %>%
     # filter(variable=="Biovolym (mm3/l)",outlier==T), aes(group=NULL, color=NULL), color="red")+
     labs(y="Mätvärden", color="Tidsserie",linetype = "Tidsserie", x="Provtagningsår")
