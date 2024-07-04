@@ -2,10 +2,10 @@
 title: "Mann Kendall"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 params: 
-  filename: "trenderHAV.csv"
+  filename: "trenderHAV.txt"
   time_res: "yearly" # monthly or yearly
   depth_interval: "surface" #"bottom" or "surface". NO visit possible!
-  period: 6 # Either "Hela perioden", 6 or 12
+  period: 12 # Either "Hela perioden", 6 or 12
 output: html_document
 knit: (function(inputFile, encoding) {
                       rmarkdown::render(inputFile,
@@ -99,11 +99,11 @@ rename_data <- testdata %>%
   rename(Provplats_ID = REG_ID,
          Provtagningsår = YEAR,
          Provtagningsmånad = MONTH,
-         Trendvariabel = variable
+         Trendvariabel = Mätvariabel
   ) %>%
   filter(!Provtagningsår == 2024) %>%
   mutate(STATN=gsub("/","-", STATN)) %>%
-  filter(!is.na(year_mean)) %>%
+  filter(!is.na(value)) %>%
   group_by(Trendvariabel) %>%
   mutate(n_years=length(unique(Provtagningsår)), max_year = max(Provtagningsår)) %>%
   filter(Provtagningsår >= max_year - ifelse(params$period == "Hela perioden", max_year, as.integer(params$period-1))) %>%
@@ -131,10 +131,10 @@ for (var in seq_along(vars)) {
     dplyr::select(1:
                     Provtagningsår, 
                   Provtagningsmånad,
-                  year_mean,
+                  value,
                   STATN
     )  %>%
-    gather(variable, value, year_mean, na.rm = T) %>%
+    gather(variable, value, value, na.rm = T) %>%
     drop_na(value) %>% # remove rows with NAs
     #   dplyr::filter(variable == "mean") %>%
     ## Provtag endast Juli-Augusti ##         
