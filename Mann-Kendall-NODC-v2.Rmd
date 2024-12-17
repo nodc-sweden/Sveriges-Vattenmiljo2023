@@ -1,0 +1,418 @@
+---
+title: "Mann Kendall"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+params: 
+  filename: "trenderHAV.txt"
+#  time_res: "yearly" # monthly or yearly
+#  depth_interval: "surface" #"bottom" or "surface". NO visit possible!
+  period: "Hela perioden" # Either "Hela perioden", 6 or 12
+output: html_document
+knit: (function(inputFile, encoding) {
+                      rmarkdown::render(inputFile,
+                      encoding=encoding, 
+                      output_file="reports/Mann-Kendall-NODC.html") })
+---
+
+---
+subtitle: `r tools::file_path_sans_ext(params$filename)`
+---
+
+
+# Trendanalys
+
+```{r source_functions, include=FALSE}
+#Initial inladdning av paket och egenskrivna funktioner
+source("shared_functions-NODC.R", encoding = "UTF-8")
+```
+
+
+
+```{r read_data}
+#NODC data_in
+
+filename <- params$filename
+
+data_in <- read.table(file.path("Indata2022", filename),
+                       sep = "\t",
+                       fileEncoding = "UTF-8",
+                       header = TRUE,
+                       na.strings = "NA")
+
+
+# if (params$depth_interval == "surface") {
+#   data_in <- data_in %>%
+#     filter(Depth_interval == "0-10 m")
+# } else {
+#   data_in <- data_in %>%
+#     filter(Depth_interval != "0-10 m") 
+# }
+# 
+# 
+# 
+# for (i in 1:nrow(data_in)) {
+#   if (params$time_res == "yearly") {
+#     data_in$MONTH <- "01"
+# #    data_in$DAY <- "15"
+#   }
+# }
+
+# for (i in 1:nrow(data_in)) {
+#   if (params$time_res == "monthly") {
+#     data_in$DAY <- "15"
+#   }
+# }
+
+
+# for (i in 1:nrow(data_in)) {
+#   if (params$time_res == "visit") {
+#     data_in$DAY <- day(data_in$SDATE)
+#   }
+# }
+data_in$MONTH <- "01"
+
+rename_data <- data_in %>% 
+  rename(Provplats_ID = REG_ID,
+         Provtagningsår = YEAR,
+         Provtagningsmånad = MONTH,
+         Trendvariabel = Mätvariabel
+  ) %>%
+  filter(!Provtagningsår == 2024) %>%
+  mutate(STATN=gsub("/","-", STATN)) %>%
+  filter(!is.na(value)) %>%
+  group_by(Trendvariabel) %>%
+  mutate(n_years=length(unique(Provtagningsår)), max_year = max(Provtagningsår)) %>%
+  
+  filter(Provtagningsår >= max_year - ifelse(
+    params$period == "Hela perioden", 
+    max_year, 
+    as.integer(params$period)-1
+    )) %>% 
+  
+  mutate(n_years=length(unique(Provtagningsår))) %>%
+  ungroup()
+
+```
+
+
+
+
+
+```{r run_model}
+## NODC data_in
+vars <- unique(rename_data$Trendvariabel)
+
+index_data <- data.frame()
+
+for (var in seq_along(vars)) {
+  
+  rename_data_temp <- rename_data %>%
+    filter(Trendvariabel == vars[var])
+  
+  rename_data_temp %>% 
+    dplyr::select(
+      1:Provtagningsår, 
+      Provtagningsmånad,
+      value,
+      STATN
+    )  %>%
+    gather(variable, value, value, na.rm = TRUE) %>%
+    drop_na(value) %>% 
+    #   dplyr::filter(variable == "mean") %>%
+    ## Provtag endast Juli-Augusti ##         
+    ##         & Provtagningsmånad %in% c(7,8)) | # select values from July and August 
+    ##          (variable %in%  c("BQI", "IPS", "ACID", "ASPT", "MILA 2018") & Provtagningsmånad %in% c(9,10,11)))%>%
+    ##  #select autumn values for indiced
+    group_by(Provplats_ID, STATN, Provtagningsår, variable) %>% 
+    summarise(value = mean(value), # calculate yearly mean
+              n = n(),
+              .groups = "drop") %>% 
+    ungroup() %>% 
+    distinct() %>% 
+    group_by(Provplats_ID, STATN, variable) %>% 
+    
+    # Periods är en funktion från shared_functions.R
+    periods(
+      variable = Provtagningsår, 
+      filter_less_than = ifelse(params$period == "Hela perioden", 10, as.numeric(params$period) - 1), 
+      max_year=NA) %>% 
+    
+    mutate(n_years=n(), 
+           max_year = max(Provtagningsår)
+           ) %>%
+    filter(Provtagningsår >= max_year - ifelse(
+      params$period == "Hela perioden", 
+      max_year, 
+      as.numeric(params$period))) %>%
+    ungroup() %>%
+    mutate(variable = vars[var])->
+    trend
+  
+  index_data <- rbind(index_data, trend)
+}
+
+```
+
+
+
+
+```{r wrangle_data, include=FALSE}
+
+index_data <- index_data %>%
+  rename(Trendvariabel = variable)
+
+trends_index <- data.frame()
+
+for (var in seq_along(vars)) {
+  index_data_temp <- index_data %>%
+    filter(Trendvariabel == vars[var])
+  
+  #group_by(Provplats_ID, `Stationskoordinat N/X`, `Stationskoordinat E/Y`, variable, Regionala)# %>%
+  #  summarise(n_years = min(n_years)) %>% View
+  index_data_temp%>%
+    nest(data=c(-Provplats_ID, -STATN, -Trendvariabel))%>% 
+    #    nest(data=c(-Provplats_ID, -variable))%>% 
+    mutate(fit = future_map(data, ~if(var(.x$value)==0){glm(formula=value~Provtagningsår, data=.x)}else{
+      # gam(formula = value ~ s(Provtagningsår, k=unique(.x$n_years-2)),
+      gam(formula = value ~ s(Provtagningsår, k=unique(floor(.x$n_years/2))),
+          data=.x, 
+          method="REML", select=T,                        )}, .progress=T),
+      trend = map2(fit, data, ~ predict(object = .x, newdata = .y, type="response")),
+      resid = map(fit, ~resid(.x, type="pearson"))) %>% 
+    unnest(c(data, trend, resid)) %>% 
+    gather(type, value, value, trend) ->
+    trends_index_temp
+  
+  trends_index <- rbind(trends_index, trends_index_temp)
+}
+
+```
+
+
+
+
+```{r wrangle_trends, include=FALSE}
+mannkendall <- data.frame()
+
+for (var in seq_along(vars)) {
+  trends_index_temp <- trends_index %>%
+    filter(Trendvariabel == vars[var])
+  
+  
+  trends_index_temp %>% 
+    filter(type=="value") %>% 
+    nest(data = c(-Provplats_ID,-STATN, -Trendvariabel)) %>% 
+    #    nest(data = c(-Provplats_ID, -`EU id`, -`MS_CD C3`, -`Stationskoordinat N/X`, -`Stationskoordinat E/Y`,-Regionala,-variable)) %>% 
+    mutate(fit = map(data, possibly(~rkt(date=as.data.frame(.x)$Provtagningsår, 
+                                         y=as.data.frame(.x)$value), otherwise=NA_real_)),
+           tidy = map(fit, possibly(~rkt_out(.x), otherwise=NA_real_))) %>% 
+    unnest(tidy) %>% 
+    dplyr::select(-data, -fit) %>% 
+    mutate(sig_stars=cut(p_value, breaks=c(1, 0.05,0.01,0.001,0.0001,0), 
+                         labels=c("ns","*","**","***","****") %>% rev, ordered_result = T),
+           p_value = p_value %>% round(4),
+           Theil_Sens_slope_MK = Theil_Sens_slope_MK %>% round(4), 
+           Kendall_tau = Kendall_tau %>% round(4)) %>% 
+    replace_na(list(sig_stars="****")) %>%
+    rename(Provplats_namn = STATN) ->
+    # mutate(variable=sub("_[^_]*$", "", filename)) -> #ta variabelnamn från filnamn
+    mannkendall_temp
+  
+  mannkendall <- rbind(mannkendall, mannkendall_temp)
+}
+
+```
+
+
+
+```{r make_tables}
+#NODC print stuff
+
+mannkendall <- mannkendall %>%
+  rename(`Provplats ID (Stationsregistret)` = Provplats_ID,
+         Mätvariabel = Trendvariabel,
+         # `Trend` = Kendall_tau,
+         `p-värde` = p_value) %>%
+  mutate(Period = params$period,
+         Trend = ifelse(`p-värde` > 0.05, "netural", ifelse(Kendall_tau < 0, "minskande", "ökande")),) %>%
+  select(-Kendalls_score, -Kendall_tau, -Provplats_namn, -Theil_Sens_slope_MK, -sig_stars) %>%
+  relocate(Trend, .after = "Mätvariabel")
+
+#index_data
+#mannkendall
+knitr::kable(mannkendall)
+
+write.table(mannkendall, 
+            paste0("Outdata2022/mann_kendall_",
+                   params$period,
+                   ".csv"),
+            sep=",",
+            row.names=FALSE,
+            fileEncoding = "utf-8")
+```
+
+
+
+
+```{r}
+### PLOT en_variabel_ett_havsområde ###
+
+# Add Region
+trends_index <- trends_index %>%
+  mutate(Region = case_when(
+    STATN %in% c("F9 - A13", "MS4 - C14") ~ "Bottniska viken",
+    STATN %in% c("BY15 GOTLANDSDJ", "BY2 ARKONA", "BY31 LANDSORTSDJ", 
+                 "BY32 NORRKÖPINGSDJ", "BY5 BORNHOLMSDJ") ~ "Egentliga Östersjön",
+    STATN %in% c("ANHOLT E", "Å13", "Å17", "FLADEN") ~ "Kattegat-Skagerrak",
+    TRUE ~ "Other"  # fallback for unmatched STATN
+  ))
+
+unique_trendvariabel <- unique(trends_index$Trendvariabel)
+
+# Loop over each Trendvariabel
+for (trendvar in unique_trendvariabel) {
+  
+  plot_data <- trends_index %>%
+    filter(Trendvariabel == trendvar)
+  
+  if (nrow(plot_data) == 0) next
+  
+  unique_regions <- unique(plot_data$Region)
+  
+  for (region in unique_regions) {
+
+    region_data <- plot_data %>%
+      filter(Region == region)
+    
+    # Plot
+    plot <- ggplot(region_data, aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) +
+      geom_line() +
+      facet_wrap(~STATN, scales = "fixed") +  # Use fixed scales for the Y-axis
+      scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
+                            labels = c("Mann Kendall-trend", "Värden")) +
+      scale_color_manual(values = c("value" = "blue", "trend" = "red"),
+                         labels = c("Mann Kendall-trend", "Värden")) +
+      labs(
+        title = paste(trendvar, "i", region),
+        y = "Mätvärden",
+        color = "Tidsserie",
+        linetype = "Tidsserie",
+        x = "Provtagningsår"
+      ) +
+      theme_bw()  
+    
+    # Save
+    ggsave(
+      filename = paste0("plots/en_variabel_ett_havsområde/mann_kendall_", 
+                        gsub(" ", "_", region), "_",
+                        gsub(" ", "_", trendvar), "_",
+                        params$period,
+                        ".png"),
+      plot = plot,
+      width = 14,  
+      height = 8   
+    )
+  }
+}
+```
+
+
+```{r}
+
+### PLOT en_variabel_en_station ###
+
+
+unique_statn <- unique(trends_index$STATN)
+unique_trendvariabel <- unique(trends_index$Trendvariabel)
+
+# Loop over each STATN and Trendvariabel
+for (statn in unique_statn) {
+  for (trendvar in unique_trendvariabel) {
+    
+    plot_data <- trends_index %>%
+      filter(STATN == statn, Trendvariabel == trendvar)
+    
+    if (nrow(plot_data) == 0) next
+    
+    # Plot
+    plot1 <- plot_data %>%
+      ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) +
+      geom_line() +
+      facet_wrap(~STATN, scales = "free_y") +
+      scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
+                            labels = c("Mann Kendall-trend", "Värden")) +
+      scale_color_manual(values = c("value" = "blue", "trend" = "red"),
+                         labels = c("Mann Kendall-trend", "Värden")) +
+      labs(title = paste(trendvar), y = "Mätvärden", color = "Tidsserie", linetype = "Tidsserie", x = "Provtagningsår")
+    
+
+    print(plot1)
+    
+    # Save
+    ggsave(
+      filename = paste0("plots/en_variabel_en_station/mann_kendall_", 
+                        statn, "_",
+                        trendvar, "_",
+                        params$period,
+                        ".png"),
+      plot = plot1
+    )
+  }
+}
+```
+
+
+```{r plots, echo=FALSE, message=FALSE, warning=FALSE}
+
+### PLOT en_station_alla_variabel ###
+
+
+unique_statn <- unique(trends_index$STATN)
+unique_trendvariabel <- unique(trends_index$Trendvariabel)
+
+# Loop over each STATN and Trendvariabel
+for (statn in unique_statn) {
+  
+  plot_data_statn <- trends_index %>%
+    filter(STATN == statn)
+  
+  if (nrow(plot_data_statn) == 0) next
+  
+  # Plot
+  plot1 <- plot_data_statn %>%
+    ggplot(aes(x = Provtagningsår, y = value, group = type, linetype = type, color = type)) +
+    geom_line() +
+    facet_wrap(~Trendvariabel, scales = "free_y") + 
+    scale_linetype_manual(values = c("value" = "dashed", "trend" = "solid"),
+                          labels = c("Mann Kendall-trend", "Värden")) +
+    scale_color_manual(values = c("value" = "blue", "trend" = "red"),
+                       labels = c("Mann Kendall-trend", "Värden")) +
+    labs(
+      title = paste(statn), 
+      y = "Mätvärden", 
+      color = "Tidsserie", 
+      linetype = "Tidsserie", 
+      x = "Provtagningsår"
+    ) +
+    theme_bw()  
+  
+
+  print(plot1)
+  
+  # Save
+  ggsave(
+    filename = paste0("plots/en_station_alla_variabel/mann_kendall_", 
+                      statn, "_",
+                      params$period, ".png"),
+    plot = plot1,
+    width = 14,  
+    height = 8  
+  )
+}
+
+```
+
+
+
+
+
+

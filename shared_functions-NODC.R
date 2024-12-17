@@ -83,7 +83,7 @@ periods <- function(data,
 #  out
 #}
 
-import_slu_mvm_data_excel <- function(filename, numeric_var = NA, bad_quality_na = TRUE, sheet = 2){ # function for importing excel files into R
+import_data_excel <- function(filename, numeric_var = NA, bad_quality_na = TRUE, sheet = 2){ # function for importing excel files into R
   #numeric var: the first column with measured numeric variables
   replace_less_than_var <- function(values, bad_quality_na){ # function for replacing values at the detection limit with half values
     values_parsed <- values %>% as.character() %>% parse_number(locale = locale(decimal_mark = ","))
